@@ -1,5 +1,5 @@
 
-//Implementation of LCS(https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+// Implementation of LCS(https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 // Takes two arrays of strings and returns their longest common subsequence
 // LCS({"A", "B", "C", "D"}, {"D", "C", "D", "A"}) = {"C", "D"}
 
@@ -52,12 +52,43 @@ private fun calculateResultLCS(
             --lenText2
         }
     }
-    if (answerArray.contentEquals(arrayOf("a", "b"))) {
-        println("all is ok")
-    }
     return answerArray
 }
 
+// Getting sequence of commands to convert text1 into text2
+// Returns array of indexes and +, -(+ to add, - to remove)
+// Indexes starts from 1
+fun getCommands(text1: Array<String>, text2: Array<String>): MutableList<Int> {
+    val lcs = lcs(text1, text2)
+
+    val indexes = MutableList<Int>(0) {0}
+    var it1 = 0 // iterator on the first text
+    var it2 = 0 // iterator on the second text
+    var common = 0 //iterator on the LCS
+    while((it1 < text1.count() || it2 < text2.count()) && common < lcs.count()) {
+        if (it1 < text1.count() && it2 < text2.count() && text1[it1] == text2[it2]) {
+            ++it1
+            ++it2
+            ++common
+            continue
+        }
+        if (it1 == text1.count() || text1[it1] == lcs[common]) {
+            indexes.add(it2 + 1)
+            it2++
+        } else {
+            indexes.add(-it1 - 1)
+            it1++
+        }
+    }
+    for (i in it1 until text1.count()) {
+        indexes.add(-i - 1)
+    }
+    for (i in it2 until text2.count()) {
+        indexes.add(i + 1)
+    }
+    return indexes
+}
+
 fun main(args: Array<String>) {
-    TODO()
+    println(lcs(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
 }

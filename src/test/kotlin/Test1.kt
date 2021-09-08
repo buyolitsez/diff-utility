@@ -1,13 +1,20 @@
 import kotlin.test.*
 
-internal class Test1 {
+internal class testGetCommands {
     @Test
-    fun test1() {
-        assert(true)
+    fun testGroup1() {
+        assertContentEquals(listOf(-1, 1, -3, -6, 6), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
+        assertContentEquals(listOf(5, -7, 8, -9, 10, 11, 12, 13), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
+        assertContentEquals(listOf(), getCommands(arrayOf("a", "b", "c", "d", "e"), arrayOf("a", "b", "c", "d", "e")))
+    }
+
+    @Test
+    fun testGroup2() {
+        assertContentEquals(listOf(1, -2, -3, 3, -5, 5), getCommands(arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"), arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")))
     }
 }
 
-internal class TestLCS {
+internal class testLCS {
     @Test
     fun testGroup1() {
         assertContentEquals(arrayOf("a", "b"), lcs(arrayOf("a", "b"), arrayOf("a", "b")))
