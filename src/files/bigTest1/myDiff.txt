@@ -1,0 +1,19422 @@
+1,5c1
+< eed
+< ade
+< cdc
+< dbb
+< bed
+---
+> cec
+7,12c3,45
+< edb
+< ebe
+< ebe
+< eea
+< bcd
+< aaa
+---
+> dca
+> bba
+> acc
+> acc
+> ccd
+> ccb
+> cbd
+> aba
+> ebc
+> ccc
+> eca
+> dcc
+> ced
+> eee
+> bda
+> cda
+> eee
+> cbc
+> dbc
+> aeb
+> ada
+> dcb
+> adc
+> ddc
+> aad
+> bbd
+> aae
+> aec
+> bcc
+> ecb
+> bca
+> eec
+> cbd
+> dec
+> bdd
+> acd
+> ada
+> eac
+> aeb
+> abe
+> abc
+> aed
+> abe
+14,17c47,49
+< ddd
+< beb
+< cda
+< cba
+---
+> dcd
+> ead
+> ace
+19c51
+< bad
+---
+> aca
+21,28d52
+< ebd
+< eaa
+< dcd
+< cca
+< aad
+< beb
+< bac
+< eed
+30c54,67
+< ded
+---
+> cec
+> bdb
+> ada
+> bcb
+> ceb
+> dec
+> cbe
+> bcd
+> bcb
+> ede
+> cae
+> bce
+> eda
+> ceb
+32,34d68
+< dab
+< bac
+< cab
+35a70,71
+> aae
+> ede
+37c73,80
+< cda
+---
+> adc
+> bec
+> ddd
+> cbb
+> dcc
+> abd
+> bcc
+> dcc
+39,52c82,91
+< eee
+< ace
+< add
+< cda
+< eed
+< bdb
+< cde
+< bae
+< aee
+< caa
+< bee
+< eae
+< ccc
+< bee
+---
+> eeb
+> dad
+> eda
+> aad
+> cac
+> ece
+> bbd
+> aab
+> ecb
+> ebb
+54,60c93,94
+< dab
+< cbe
+< bbe
+< baa
+< cad
+< bdb
+< cda
+---
+> eec
+> cec
+62,64c96,97
+< cca
+< ddb
+< dad
+---
+> dbb
+> adb
+66,72c99,113
+< ecc
+< cee
+< dab
+< edd
+< eac
+< abc
+< dce
+---
+> ade
+> ece
+> add
+> bad
+> bba
+> cab
+> ebc
+> cbb
+> dee
+> bec
+> ecd
+> dea
+> dcb
+> deb
+> eeb
+73a115,116
+> ecb
+> dca
+75c118,127
+< aab
+---
+> acd
+> ccc
+> deb
+> aec
+> ebe
+> dbc
+> beb
+> cec
+> ccb
+> bea
+77,78c129,135
+< bbb
+< ccc
+---
+> bde
+> bdc
+> cab
+> dbc
+> ead
+> bca
+> adb
+80c137,140
+< bcd
+---
+> cab
+> ded
+> bdd
+> aae
+82,85c142,144
+< daa
+< dbc
+< caa
+< eed
+---
+> aba
+> ddd
+> ead
+87,92d145
+< dac
+< adc
+< ecd
+< caa
+< deb
+< dab
+94,105c147,148
+< bed
+< dee
+< eee
+< eea
+< cad
+< cad
+< bbe
+< bbe
+< dba
+< bda
+< adb
+< cca
+---
+> cda
+> dca
+107,119c150,161
+< bae
+< aeb
+< aab
+< aba
+< abc
+< cba
+< ebc
+< aab
+< deb
+< bae
+< abe
+< aae
+< aed
+---
+> ead
+> ebd
+> cbd
+> ebb
+> aca
+> bcb
+> eda
+> add
+> ecc
+> bce
+> ccc
+> ceb
+121,123c163,172
+< bec
+< aba
+< aea
+---
+> cee
+> eed
+> eeb
+> ecb
+> ccd
+> aca
+> eeb
+> dac
+> acc
+> ded
+125,129c174,182
+< cac
+< aab
+< ecb
+< aba
+< ebe
+---
+> dae
+> aae
+> bcb
+> ebc
+> eec
+> eba
+> bda
+> dbe
+> abb
+131,138c184,186
+< eba
+< aab
+< ace
+< dec
+< dec
+< dba
+< daa
+< dda
+---
+> dee
+> acd
+> bae
+140,143d187
+< ecd
+< aba
+< eed
+< caa
+144a189,197
+> ddd
+> edc
+> eca
+> dab
+> ebd
+> cdb
+> eae
+> abd
+> abe
+145a199,220
+> aaa
+> edc
+> beb
+> aae
+> ede
+> bdb
+> ddc
+> ebe
+> dae
+> abd
+> ddb
+> aec
+> cec
+> dae
+> ddc
+> abb
+> aee
+> bdc
+> cec
+> dea
+> cac
+> edc
+147,152c222,225
+< ceb
+< dad
+< cec
+< eae
+< cad
+< dda
+---
+> aeb
+> ade
+> cbb
+> bcb
+154,158c227,235
+< ccd
+< bed
+< aac
+< dce
+< cbd
+---
+> ace
+> ddb
+> ddd
+> ebe
+> bea
+> cdd
+> cba
+> aab
+> ebd
+160,161c237,238
+< bdc
+< bae
+---
+> ebd
+> edb
+163c240,251
+< cbb
+---
+> ecc
+> bed
+> bbd
+> dab
+> bcd
+> ebd
+> eae
+> caa
+> bed
+> dab
+> ede
+> dad
+165,174c253
+< aec
+< bdd
+< bec
+< dbc
+< abd
+< dbc
+< ebb
+< dba
+< daa
+< ccd
+---
+> ded
+176,179c255,261
+< cce
+< adc
+< ceb
+< cda
+---
+> dab
+> eca
+> eec
+> dab
+> bae
+> acd
+> ced
+181,185d262
+< ddb
+< bca
+< aee
+< bdb
+< bde
+187,193c264,271
+< dac
+< ebc
+< adc
+< ccc
+< eac
+< acc
+< cba
+---
+> eed
+> eea
+> ebe
+> ddc
+> aea
+> ebe
+> cce
+> cac
+194a273,299
+> ced
+> aec
+> eea
+> bec
+> cad
+> ede
+> dea
+> ecb
+> cbc
+> eee
+> deb
+> edd
+> aab
+> bbd
+> cca
+> eec
+> cab
+> aea
+> ade
+> abe
+> cbd
+> bab
+> bed
+> cbd
+> ded
+> ddb
+> cbc
+195a301,303
+> ece
+> eec
+> acb
+197,199c305,320
+< cec
+< adc
+< bec
+---
+> bcd
+> bbb
+> dad
+> ceb
+> aab
+> aca
+> bcc
+> cab
+> bee
+> beb
+> acc
+> dab
+> caa
+> bed
+> cac
+> ecb
+201,209c322
+< baa
+< cbd
+< dec
+< cda
+< bea
+< abe
+< bda
+< eaa
+< cac
+---
+> ecb
+212,222c325,330
+< cae
+< dcb
+< bac
+< daa
+< dec
+< dda
+< edb
+< ccc
+< dbc
+< bab
+< cea
+---
+> eed
+> bdd
+> bee
+> abc
+> eae
+> abc
+224,230d331
+< bca
+< aae
+< ade
+< aed
+< adc
+< aad
+< ccc
+232,235c333,339
+< acc
+< daa
+< bda
+< cdc
+---
+> ddb
+> eda
+> edc
+> ebd
+> abe
+> cbb
+> dcc
+237,244c341
+< aea
+< bce
+< ebe
+< aed
+< add
+< bbd
+< eeb
+< aaa
+---
+> bcd
+246c343,347
+< cae
+---
+> acd
+> ddc
+> caa
+> aeb
+> bdb
+248,267c349,353
+< dae
+< bdb
+< dbb
+< cbe
+< ebd
+< add
+< cde
+< cbe
+< bbb
+< ced
+< dbe
+< eea
+< bbe
+< bee
+< ace
+< bab
+< bbe
+< cdb
+< eed
+< bdc
+---
+> deb
+> ade
+> aac
+> ece
+> aaa
+269,271c355,358
+< aab
+< eeb
+< bbe
+---
+> ddb
+> bbc
+> dda
+> cec
+273,290c360,362
+< aad
+< edc
+< acb
+< aca
+< eca
+< bcd
+< adb
+< dba
+< abd
+< eca
+< adb
+< ada
+< aba
+< edc
+< eea
+< dea
+< aee
+< cbc
+---
+> eac
+> eba
+> dcd
+292,293c364,365
+< ded
+< bca
+---
+> cac
+> cee
+295,299c367,373
+< dba
+< ebe
+< ccd
+< aae
+< ecd
+---
+> acd
+> dae
+> dcb
+> bab
+> bbb
+> eae
+> eac
+301,304d374
+< ddb
+< adb
+< ced
+< aee
+306,310c376
+< bed
+< ecb
+< cbe
+< aab
+< bbb
+---
+> aed
+312,314c378,382
+< dab
+< eec
+< caa
+---
+> beb
+> ade
+> aca
+> cdc
+> dee
+316,317d383
+< ddc
+< aad
+318a385
+> eae
+320,335c387,402
+< bbe
+< bcd
+< cbc
+< dea
+< ccd
+< ccc
+< dda
+< bed
+< dcb
+< aab
+< ead
+< cce
+< eba
+< dec
+< aac
+< ebe
+---
+> acd
+> ced
+> dcd
+> abe
+> ddd
+> cbe
+> aea
+> eae
+> ecb
+> beb
+> dad
+> ebd
+> aeb
+> ddb
+> baa
+> dba
+337,339c404,410
+< cea
+< acc
+< bde
+---
+> aad
+> dbc
+> bbd
+> ede
+> ecb
+> ddd
+> dbe
+341c412,421
+< bcd
+---
+> cdc
+> ebc
+> eec
+> ebd
+> cbb
+> ebd
+> bab
+> aaa
+> bae
+> aba
+342a423,426
+> cac
+> bac
+> cde
+> abe
+344,349c428,438
+< adb
+< ded
+< dec
+< bbc
+< bdb
+< dbb
+---
+> ead
+> cad
+> aaa
+> ead
+> cad
+> bcb
+> bae
+> cba
+> cbd
+> ecb
+> dee
+351,354c440,442
+< ccb
+< bee
+< adb
+< ccb
+---
+> abd
+> bea
+> add
+356,360c444,447
+< dbb
+< cea
+< bac
+< dcd
+< bdd
+---
+> eba
+> cca
+> ace
+> aee
+362,365c449,451
+< cdd
+< abd
+< daa
+< dea
+---
+> beb
+> aba
+> ddc
+367,371c453,458
+< ded
+< aab
+< bed
+< abc
+< ccd
+---
+> dec
+> cac
+> aed
+> dbc
+> ade
+> aac
+372a460
+> dda
+374,386c462,463
+< dda
+< bee
+< beb
+< eaa
+< edb
+< cde
+< cea
+< dbd
+< bbe
+< bed
+< daa
+< eda
+< ecb
+---
+> bce
+> aae
+388,400c465,467
+< dcd
+< cac
+< bad
+< caa
+< acb
+< cac
+< bcc
+< aab
+< cda
+< edb
+< ccb
+< dee
+< ddc
+---
+> cdd
+> dbe
+> abb
+402,405c469
+< edd
+< aeb
+< ddb
+< dca
+---
+> aae
+407,409c471,480
+< dab
+< aed
+< abc
+---
+> bac
+> ccc
+> ebb
+> bdb
+> ade
+> bac
+> acc
+> ace
+> dcb
+> bca
+411,416c482,485
+< cce
+< bae
+< bec
+< daa
+< eae
+< eae
+---
+> bde
+> cab
+> dbc
+> bed
+418c487,492
+< dcd
+---
+> dda
+> dad
+> eea
+> aea
+> ddc
+> dba
+420c494,498
+< edb
+---
+> ced
+> eda
+> bac
+> aad
+> dac
+422,424c500,502
+< aca
+< cab
+< eae
+---
+> eee
+> abb
+> ecc
+427c505,518
+< dda
+---
+> bca
+> dbc
+> ecb
+> aca
+> bde
+> eea
+> aae
+> dad
+> bca
+> deb
+> adc
+> eee
+> aca
+> ecc
+429c520,538
+< acb
+---
+> acc
+> eea
+> abd
+> dac
+> ccb
+> dab
+> dba
+> eec
+> bed
+> cac
+> bda
+> edc
+> baa
+> abb
+> cca
+> abe
+> abb
+> aac
+> ace
+431,436c540,558
+< aad
+< aae
+< aea
+< ceb
+< cdc
+< eca
+---
+> abc
+> dbb
+> cee
+> bda
+> ded
+> aee
+> bde
+> eac
+> abc
+> cea
+> eed
+> cab
+> aee
+> bea
+> cba
+> abd
+> bcc
+> bee
+> ecd
+438,441c560,565
+< ead
+< bdd
+< daa
+< ebc
+---
+> cec
+> ddb
+> dcb
+> ebd
+> bbd
+> abb
+443,445c567,570
+< ede
+< deb
+< aeb
+---
+> cda
+> bbc
+> ebe
+> bce
+447,465d571
+< ecd
+< cdd
+< eaa
+< bce
+< cdb
+< adc
+< ccb
+< bba
+< ddb
+< dce
+< eca
+< eae
+< acb
+< dde
+< eae
+< dca
+< ada
+< cbc
+< aaa
+467c573,579
+< eee
+---
+> aba
+> cbe
+> cde
+> aee
+> ceb
+> cae
+> ced
+469,474c581,582
+< ddb
+< aec
+< ccb
+< aee
+< dad
+< bcd
+---
+> cde
+> ece
+476,480d583
+< cdb
+< dbd
+< cdb
+< edb
+< acc
+482,486c585,594
+< aba
+< ebb
+< bbc
+< dcd
+< dca
+---
+> beb
+> cbe
+> ddd
+> eea
+> cce
+> bcd
+> abb
+> dcc
+> aca
+> cae
+488,498c596,603
+< aae
+< bdb
+< bab
+< bec
+< dbc
+< edc
+< ded
+< bbe
+< dcb
+< bda
+< eeb
+---
+> eac
+> ebc
+> bbb
+> cdc
+> deb
+> bee
+> daa
+> ead
+499a605
+> abb
+500a607,611
+> eab
+> cde
+> ebb
+> eee
+> ace
+502,512c613
+< dbe
+< cad
+< dbd
+< dae
+< bde
+< aea
+< ced
+< bbb
+< dce
+< aaa
+< bbd
+---
+> bee
+513a615,619
+> cca
+> dcc
+> ace
+> bec
+> bdb
+515,519d620
+< aac
+< cbd
+< bcc
+< ead
+< bed
+520a622,623
+> dbb
+> cae
+522,527c625
+< dce
+< ddc
+< dbb
+< ded
+< bda
+< ccc
+---
+> acb
+529,530d626
+< abc
+< dca
+532,533c628,632
+< bcd
+< ddc
+---
+> dee
+> aea
+> aba
+> aed
+> eac
+535,539d633
+< dac
+< daa
+< adb
+< daa
+< dad
+541,547c635,640
+< cea
+< ceb
+< caa
+< aed
+< bdc
+< aaa
+< daa
+---
+> cad
+> dbc
+> ddd
+> dbd
+> aac
+> edc
+548a642
+> dec
+550,553c644,648
+< bec
+< deb
+< abd
+< abc
+---
+> dce
+> cee
+> dce
+> eec
+> bda
+555,567c650
+< edd
+< eea
+< dbe
+< dda
+< ace
+< daa
+< abd
+< ece
+< bee
+< beb
+< eee
+< ced
+< bdd
+---
+> aab
+569,577c652,659
+< bbc
+< ade
+< aae
+< acb
+< ccc
+< eed
+< dde
+< abb
+< daa
+---
+> adb
+> add
+> cbd
+> edb
+> eec
+> bac
+> bda
+> bab
+579,583c661,676
+< add
+< cad
+< dda
+< cba
+< eed
+---
+> bab
+> cce
+> aaa
+> bda
+> ecb
+> dcd
+> adc
+> ede
+> dad
+> ebb
+> dad
+> dab
+> dcd
+> cea
+> cca
+> cee
+585,588c678,682
+< cce
+< ebd
+< cbe
+< cae
+---
+> aea
+> beb
+> bab
+> bae
+> ded
+590,594c684,686
+< ecb
+< abe
+< ead
+< eeb
+< bec
+---
+> cba
+> aae
+> bcb
+595a688,692
+> bac
+> dbe
+> aca
+> cae
+> ada
+597,603d693
+< bcd
+< eda
+< bed
+< dbc
+< eaa
+< bbe
+< acd
+605,614c695,701
+< ecd
+< ace
+< ccd
+< aca
+< aba
+< eba
+< cac
+< bcb
+< abd
+< bec
+---
+> cea
+> abb
+> aad
+> aac
+> dde
+> ebc
+> bdc
+616,617c703,715
+< dde
+< dba
+---
+> dac
+> ced
+> dcb
+> ccb
+> dcd
+> edc
+> eaa
+> bad
+> acc
+> ebe
+> aad
+> adb
+> eee
+619,621c717,726
+< ecd
+< ace
+< dbc
+---
+> ece
+> eee
+> dea
+> bbd
+> eae
+> add
+> ebe
+> cbd
+> daa
+> edd
+623,625c728
+< bbc
+< cde
+< eeb
+---
+> dcd
+627,628c730
+< cbc
+< ace
+---
+> ada
+630,634c732,751
+< acd
+< ccd
+< beb
+< dac
+< ead
+---
+> cab
+> ced
+> eec
+> ddb
+> aed
+> cea
+> cca
+> cbe
+> dec
+> bda
+> dab
+> baa
+> bba
+> dda
+> dcd
+> cbd
+> aaa
+> ebd
+> bec
+> ece
+636a754,771
+> eac
+> aba
+> aed
+> ddd
+> cdb
+> ddd
+> bbc
+> bed
+> beb
+> cda
+> cae
+> dad
+> bbe
+> bce
+> ddc
+> ecb
+> cca
+> ccb
+637a773,787
+> ecd
+> cee
+> ece
+> cbb
+> dba
+> eda
+> abc
+> bbd
+> bde
+> aea
+> baa
+> aad
+> eca
+> bdd
+> ded
+639,641c789
+< cdb
+< aae
+< deb
+---
+> aaa
+643,653d790
+< cab
+< ebc
+< cdd
+< bab
+< dbc
+< bdc
+< eab
+< aab
+< bbb
+< bbe
+< ede
+655,656c792,794
+< dae
+< bed
+---
+> beb
+> eac
+> cbe
+658,664d795
+< dcd
+< bbc
+< bba
+< aba
+< deb
+< ade
+< dbb
+666,674c797,804
+< dea
+< ebb
+< cdd
+< acb
+< aeb
+< dbe
+< dcd
+< cec
+< ebb
+---
+> caa
+> eac
+> acd
+> cbc
+> ecc
+> dcc
+> edc
+> dca
+675a806,831
+> acd
+> bca
+> bbd
+> eda
+> edb
+> ada
+> ceb
+> ccb
+> dae
+> aca
+> cac
+> eab
+> bca
+> eeb
+> ace
+> ccc
+> bda
+> bbc
+> eee
+> bde
+> abe
+> acc
+> cce
+> bbb
+> eda
+> edb
+677,678c833,838
+< abb
+< dab
+---
+> bea
+> ddc
+> dea
+> aae
+> cca
+> ddd
+680,682c840
+< bdc
+< cbc
+< deb
+---
+> dbe
+684,689d841
+< ace
+< abe
+< ebd
+< dae
+< edc
+< eea
+690a843
+> ebe
+691a845
+> aea
+693,695c847,852
+< baa
+< ebc
+< dce
+---
+> dcb
+> cdd
+> ecd
+> bac
+> cbe
+> cee
+697,699c854,876
+< dcd
+< cac
+< ddd
+---
+> cbb
+> bba
+> aae
+> eac
+> dee
+> ade
+> ace
+> bce
+> dde
+> eac
+> bed
+> eca
+> ebd
+> eca
+> acd
+> dba
+> cad
+> ccb
+> bda
+> dca
+> bba
+> dca
+> aac
+701,703d877
+< cee
+< aea
+< cda
+705c879,884
+< abe
+---
+> eae
+> ccb
+> ecb
+> dce
+> dad
+> eea
+707,711c886,890
+< ada
+< ada
+< bca
+< ecb
+< ddc
+---
+> dca
+> abc
+> dcc
+> dae
+> daa
+712a892,896
+> edd
+> dbe
+> eca
+> bda
+> bce
+714,724c898,899
+< bed
+< dec
+< eec
+< bab
+< baa
+< dea
+< cea
+< eac
+< dbe
+< dee
+< deb
+---
+> ccb
+> dac
+726,727c901,910
+< ccb
+< abc
+---
+> cbb
+> eca
+> eba
+> bec
+> bba
+> ade
+> cca
+> cdc
+> aab
+> ddb
+729,730c912,918
+< ecc
+< bcd
+---
+> cbc
+> aba
+> cbd
+> dac
+> cdb
+> aea
+> dba
+732c920,942
+< cda
+---
+> edb
+> bea
+> bbd
+> cbd
+> dae
+> acc
+> ded
+> abe
+> cec
+> ecb
+> bec
+> ccb
+> dbe
+> eeb
+> aad
+> edc
+> cce
+> bdd
+> bea
+> aad
+> ded
+> cbb
+> dac
+733a944,955
+> bcc
+> acd
+> aed
+> bdb
+> bce
+> cdd
+> dac
+> dab
+> ebb
+> cdb
+> cbe
+> cad
+735,736d956
+< bdd
+< dcd
+738,739c958,960
+< ebe
+< abd
+---
+> ecc
+> aac
+> ebb
+741,748c962,971
+< dcd
+< abb
+< dde
+< bec
+< bca
+< cce
+< eea
+< dbd
+---
+> cac
+> dbc
+> aec
+> dbc
+> aae
+> ccb
+> eed
+> ead
+> ede
+> aad
+750,771d972
+< cab
+< cbd
+< dea
+< adb
+< bac
+< dba
+< eac
+< dcb
+< bdd
+< eac
+< bee
+< bcd
+< bae
+< cea
+< bbb
+< ace
+< cdd
+< dde
+< bac
+< add
+< eba
+< bec
+773,781c974,976
+< dde
+< dae
+< aba
+< daa
+< aca
+< acc
+< acc
+< dcd
+< aed
+---
+> bab
+> cec
+> baa
+783c978
+< eca
+---
+> eeb
+785,788d979
+< bde
+< eac
+< bbc
+< aaa
+790,795c981
+< bec
+< acc
+< dae
+< dda
+< dee
+< ecd
+---
+> aba
+796a983,990
+> deb
+> dcd
+> ece
+> edc
+> cab
+> bae
+> daa
+> cec
+798c992,999
+< bed
+---
+> aad
+> aab
+> aad
+> baa
+> dde
+> caa
+> ebd
+> cac
+800,823c1001
+< ebb
+< abc
+< cbc
+< aaa
+< adb
+< ecd
+< dbd
+< bde
+< ecd
+< dee
+< ade
+< bdb
+< aea
+< bec
+< abe
+< bbc
+< acc
+< eab
+< cbd
+< eec
+< dda
+< beb
+< dac
+< bbd
+---
+> ddc
+824a1003,1006
+> aca
+> dca
+> add
+> abb
+826,844c1008,1009
+< dba
+< ede
+< abb
+< dce
+< aac
+< dcd
+< ebb
+< bbb
+< eec
+< ddb
+< eab
+< ebc
+< dec
+< bdc
+< cbd
+< aba
+< aac
+< bca
+< bed
+---
+> dbc
+> eaa
+845a1011,1013
+> bcc
+> aab
+> cdc
+847,849d1014
+< eea
+< dea
+< abc
+851,861c1016,1020
+< cbe
+< eed
+< dce
+< abc
+< beb
+< dee
+< bad
+< dbb
+< cba
+< cbd
+< ebd
+---
+> bae
+> eba
+> dcc
+> deb
+> dba
+863,864c1022,1026
+< bdc
+< ced
+---
+> daa
+> deb
+> bcd
+> ddb
+> ccd
+866,893c1028,1043
+< bee
+< bed
+< bed
+< ebe
+< cce
+< bad
+< aee
+< bca
+< cce
+< dbb
+< adc
+< acb
+< edd
+< aee
+< eec
+< dbd
+< ced
+< bbe
+< acb
+< bad
+< ebb
+< cdd
+< bce
+< aea
+< bad
+< cac
+< dbb
+< ebc
+---
+> ccb
+> aaa
+> aae
+> bde
+> ccc
+> dcd
+> dbc
+> ece
+> dbc
+> abd
+> cec
+> cae
+> ccb
+> ccb
+> ccb
+> daa
+895,897d1044
+< bee
+< cdb
+< dba
+899c1046,1049
+< bad
+---
+> cbd
+> eea
+> ceb
+> cec
+900a1051,1055
+> aba
+> bed
+> acb
+> bed
+> eab
+902,911c1057,1059
+< cbe
+< abd
+< cda
+< dbc
+< ede
+< bcc
+< ddd
+< ddd
+< cce
+< ccb
+---
+> bbb
+> dba
+> dda
+913,916d1060
+< deb
+< ebe
+< bbc
+< dbe
+918,920c1062,1064
+< cdb
+< abe
+< bca
+---
+> bcc
+> bdd
+> aad
+922d1065
+< cad
+924,926c1067,1077
+< eec
+< cdc
+< ccb
+---
+> ccc
+> cbc
+> edc
+> cde
+> cea
+> edc
+> daa
+> ddd
+> eba
+> bdd
+> eac
+928,931c1079,1081
+< dcc
+< ebc
+< cee
+< aeb
+---
+> bdd
+> bbd
+> eae
+933c1083,1088
+< dca
+---
+> ccc
+> ada
+> bbd
+> bed
+> dda
+> cbd
+935,941c1090,1100
+< abd
+< bea
+< add
+< dea
+< cbb
+< bcc
+< bbe
+---
+> ceb
+> aed
+> aab
+> bda
+> dad
+> aad
+> eed
+> dae
+> aec
+> dcc
+> aae
+942a1102,1105
+> dec
+> dae
+> bcd
+> cdc
+944c1107,1109
+< abd
+---
+> dbc
+> cbe
+> cae
+946,951c1111,1113
+< bee
+< bae
+< eed
+< bda
+< ded
+< dde
+---
+> bdb
+> dad
+> bbd
+953,979c1115,1116
+< ecd
+< cde
+< dba
+< cbe
+< abc
+< adb
+< ade
+< ebb
+< acb
+< ccc
+< dbe
+< dae
+< add
+< aec
+< ccc
+< bcb
+< dee
+< cee
+< ccc
+< bea
+< dae
+< adc
+< adc
+< cbd
+< add
+< aea
+< bba
+---
+> cdc
+> aad
+981,984c1118,1120
+< bad
+< ccb
+< cdb
+< ccb
+---
+> ebd
+> ceb
+> edb
+986,995c1122,1123
+< cdc
+< bee
+< add
+< ebb
+< cba
+< eca
+< bca
+< ecb
+< edb
+< cee
+---
+> dcd
+> ddd
+997,1006d1124
+< eba
+< dda
+< ebe
+< bec
+< ddd
+< adb
+< abb
+< ebc
+< acd
+< bbd
+1008,1010c1126,1132
+< ccb
+< beb
+< adc
+---
+> eda
+> cdb
+> caa
+> caa
+> cad
+> bed
+> eae
+1012,1024c1134
+< ccd
+< ded
+< dee
+< cce
+< bac
+< beb
+< bba
+< eaa
+< ada
+< dcc
+< dcd
+< eee
+< eba
+---
+> add
+1025a1136,1142
+> ecd
+> bea
+> eca
+> bee
+> edd
+> cca
+> caa
+1027,1032c1144
+< cda
+< bbc
+< eca
+< ead
+< cde
+< adc
+---
+> ddb
+1034,1035c1146,1154
+< ceb
+< eda
+---
+> ebc
+> ebb
+> ece
+> ace
+> bed
+> bcc
+> eaa
+> adb
+> ded
+1037,1044c1156,1164
+< eee
+< cab
+< ecc
+< ebe
+< ded
+< cdc
+< cbd
+< dce
+---
+> aed
+> eec
+> ced
+> dbd
+> acb
+> dbc
+> aee
+> cbc
+> cdb
+1046,1053c1166,1169
+< dbc
+< cee
+< ada
+< ced
+< bad
+< aed
+< dea
+< dee
+---
+> aae
+> cda
+> eaa
+> bac
+1055,1056c1171,1177
+< adb
+< dbc
+---
+> cca
+> aad
+> ade
+> ded
+> bbd
+> eae
+> dbd
+1057a1179,1181
+> bdd
+> ada
+> ebb
+1059,1069d1182
+< cce
+< cdd
+< eed
+< aca
+< cde
+< aac
+< dbe
+< eba
+< dde
+< dba
+< dbd
+1071,1076c1184,1185
+< bbb
+< aab
+< edd
+< ded
+< bca
+< cda
+---
+> ebc
+> bdb
+1077a1187,1190
+> eea
+> cba
+> ccd
+> caa
+1079,1080c1192,1195
+< ecd
+< cdd
+---
+> eba
+> ecb
+> edb
+> cce
+1082,1085c1197,1203
+< ddc
+< bdc
+< bce
+< bbb
+---
+> cee
+> ace
+> dbc
+> cbb
+> bea
+> dcd
+> eee
+1087,1092d1204
+< cee
+< ddd
+< dec
+< eba
+< ded
+< cdc
+1094,1095c1206,1233
+< bbd
+< aae
+---
+> caa
+> aeb
+> cdb
+> aea
+> bac
+> eaa
+> dba
+> ced
+> dca
+> dcd
+> cce
+> dca
+> bee
+> cce
+> dcb
+> bcd
+> dad
+> dbb
+> ced
+> aea
+> abb
+> ace
+> bcd
+> ede
+> dbe
+> eeb
+> caa
+> dcd
+1096a1235,1243
+> abc
+> dcd
+> bbb
+> cca
+> aec
+> ddd
+> eec
+> eea
+> aee
+1098,1099c1245,1257
+< cca
+< baa
+---
+> bee
+> ccc
+> cdd
+> bde
+> eeb
+> aad
+> ead
+> bbb
+> dca
+> aeb
+> aaa
+> edc
+> add
+1100a1259,1262
+> ccc
+> aaa
+> ede
+> ada
+1102,1103c1264,1268
+< abb
+< add
+---
+> aad
+> eea
+> cac
+> cbc
+> cac
+1105,1110c1270,1278
+< ccb
+< abe
+< ccb
+< bca
+< eea
+< dea
+---
+> bcc
+> ace
+> caa
+> baa
+> eeb
+> edb
+> ede
+> dac
+> eca
+1113,1120c1281,1308
+< dac
+< eea
+< bde
+< ddb
+< cbd
+< aea
+< ddc
+< aea
+---
+> eda
+> cbb
+> cec
+> cde
+> dca
+> bee
+> eee
+> cad
+> cdc
+> ecd
+> cad
+> ebd
+> dea
+> dea
+> ded
+> dad
+> edd
+> deb
+> bce
+> cdb
+> bdc
+> cda
+> ced
+> bbc
+> ade
+> dbd
+> ebc
+> bda
+1122,1125c1310,1318
+< eae
+< ace
+< ecc
+< deb
+---
+> dde
+> cab
+> bce
+> abe
+> dbd
+> dbe
+> cee
+> ebb
+> acb
+1127c1320
+< cbc
+---
+> dcd
+1129,1131c1322,1340
+< ecc
+< dcc
+< eed
+---
+> ada
+> bca
+> cae
+> cda
+> aac
+> add
+> acd
+> bea
+> eea
+> cbd
+> acc
+> cce
+> dcd
+> ebc
+> bec
+> dea
+> cdc
+> aac
+> bbb
+1133,1136c1342,1345
+< beb
+< cdd
+< ecd
+< ddc
+---
+> bad
+> ead
+> aeb
+> acc
+1138,1141d1346
+< bdd
+< cbc
+< cac
+< edc
+1143c1348,1349
+< cbe
+---
+> aeb
+> add
+1145,1150d1350
+< bea
+< ebb
+< ddd
+< bed
+< dae
+< bbe
+1152c1352,1373
+< aee
+---
+> bce
+> cae
+> ddb
+> ebc
+> cac
+> caa
+> bad
+> baa
+> aca
+> acb
+> ede
+> aac
+> cdc
+> cbd
+> cde
+> bde
+> cdc
+> cdb
+> ace
+> bae
+> dea
+> bcb
+1154,1155c1375,1382
+< dae
+< cde
+---
+> cab
+> ded
+> bdc
+> dce
+> ccb
+> ebb
+> dab
+> daa
+1157c1384,1406
+< bca
+---
+> abd
+> ecd
+> dba
+> cec
+> eda
+> ddc
+> eeb
+> deb
+> bac
+> dda
+> eaa
+> baa
+> cda
+> cca
+> bdc
+> ccd
+> ccd
+> eae
+> dac
+> dba
+> dee
+> cec
+> bae
+1159,1163d1407
+< dac
+< aee
+< aec
+< dbc
+< ddc
+1165,1168c1409
+< cac
+< cde
+< bdd
+< dcb
+---
+> ebe
+1169a1411
+> dcc
+1171,1186c1413,1426
+< eeb
+< dcb
+< ded
+< dba
+< dcb
+< aca
+< cdb
+< dad
+< dae
+< acb
+< ebd
+< bca
+< eac
+< ade
+< aec
+< aec
+---
+> ccc
+> abe
+> bde
+> dab
+> ced
+> dde
+> beb
+> dec
+> aba
+> bec
+> abd
+> bac
+> ecc
+> bed
+1188,1190d1427
+< cbe
+< adc
+< beb
+1191a1429,1431
+> abb
+> eec
+> dab
+1193,1199d1432
+< bed
+< dad
+< cbc
+< dba
+< acc
+< bab
+< aec
+1201,1208c1434,1442
+< bed
+< ddb
+< cee
+< cde
+< daa
+< abb
+< ead
+< cad
+---
+> bde
+> ceb
+> deb
+> bdd
+> bbe
+> eea
+> dac
+> cce
+> eac
+1209a1444,1450
+> cbc
+> bbe
+> ccc
+> deb
+> abc
+> cbd
+> cce
+1211,1214c1452,1453
+< cad
+< aaa
+< aeb
+< dee
+---
+> eac
+> cca
+1216,1222c1455,1462
+< cba
+< aab
+< aeb
+< eaa
+< aca
+< aad
+< ddb
+---
+> ddc
+> ade
+> ece
+> dac
+> cbd
+> bca
+> bcc
+> eae
+1224,1226c1464,1467
+< bcc
+< dbc
+< cce
+---
+> ade
+> eec
+> bba
+> bce
+1228,1230c1469,1473
+< acb
+< aed
+< dda
+---
+> cee
+> ead
+> ccc
+> dcd
+> dcc
+1232,1235c1475,1477
+< bbe
+< bdb
+< dbd
+< cdd
+---
+> bcc
+> eec
+> ebc
+1238,1239c1480,1496
+< dbd
+< ace
+---
+> aba
+> abd
+> eee
+> bac
+> bad
+> cad
+> dde
+> eca
+> dad
+> ebd
+> cab
+> bde
+> aea
+> bdb
+> bbe
+> dde
+> eed
+1240a1498,1507
+> ddb
+> bdb
+> bdd
+> ecc
+> aee
+> cbe
+> cbe
+> ddb
+> bcc
+> edb
+1242,1255c1509,1520
+< bce
+< dab
+< baa
+< daa
+< baa
+< cac
+< cdb
+< ddc
+< bcb
+< eec
+< adb
+< cad
+< acb
+< ebb
+---
+> ecd
+> aad
+> ddd
+> bae
+> dcb
+> cab
+> ead
+> cce
+> cae
+> bbb
+> deb
+> eae
+1257,1259c1522
+< ebd
+< edb
+< bce
+---
+> aee
+1261,1263c1524,1533
+< dcd
+< cde
+< bcd
+---
+> bca
+> ccc
+> bbc
+> aed
+> bdc
+> aea
+> dec
+> bea
+> cdd
+> cae
+1265c1535,1542
+< aac
+---
+> bae
+> eac
+> bec
+> cdd
+> abb
+> ebb
+> bab
+> edc
+1267,1269d1543
+< dcd
+< bcc
+< bea
+1270a1545,1573
+> eaa
+> ede
+> cbc
+> cdb
+> ecb
+> cec
+> edb
+> cce
+> dee
+> dbc
+> aed
+> bcd
+> bec
+> ccb
+> eeb
+> cee
+> aee
+> cdb
+> ecb
+> eea
+> cbe
+> ccb
+> abd
+> eea
+> cae
+> ede
+> ecd
+> bca
+> dad
+1272,1279c1575,1579
+< aec
+< cbd
+< cba
+< edc
+< bca
+< cbe
+< ddd
+< ceb
+---
+> abb
+> ecc
+> ebe
+> daa
+> acc
+1281,1282c1581
+< dac
+< dbe
+---
+> bed
+1284,1285c1583,1602
+< aab
+< bad
+---
+> dee
+> edb
+> ebc
+> bba
+> ede
+> ddd
+> ddb
+> cca
+> ecd
+> bca
+> beb
+> bba
+> bdd
+> cca
+> aad
+> bac
+> cba
+> acc
+> cdc
+> dbc
+1287c1604,1609
+< acb
+---
+> ecc
+> edd
+> bca
+> bdc
+> bac
+> ccd
+1289,1295c1611,1617
+< cba
+< ddd
+< eda
+< ddb
+< dcc
+< dce
+< eae
+---
+> ecb
+> add
+> ebd
+> dae
+> bcb
+> aab
+> eee
+1297,1304c1619,1623
+< ddc
+< dae
+< cbb
+< ddc
+< deb
+< dec
+< ddb
+< bdc
+---
+> dba
+> cdb
+> aaa
+> add
+> ccd
+1306,1307c1625
+< aed
+< dbb
+---
+> dad
+1309,1314d1626
+< aee
+< bae
+< bdc
+< bbc
+< baa
+< ede
+1316c1628,1635
+< ece
+---
+> eae
+> cbc
+> adb
+> bce
+> deb
+> cbb
+> dee
+> eba
+1318,1324c1637,1639
+< cbe
+< bcd
+< eed
+< eeb
+< ece
+< cbb
+< bac
+---
+> beb
+> cdc
+> eda
+1325a1641
+> bab
+1327,1336c1643,1644
+< cbb
+< ddb
+< dda
+< eba
+< bde
+< eda
+< aca
+< ccc
+< aec
+< cdc
+---
+> cee
+> cdd
+1338d1645
+< dbb
+1340,1343c1647,1662
+< bce
+< add
+< bec
+< dcb
+---
+> ede
+> eed
+> dee
+> eca
+> bae
+> dbd
+> dbe
+> dcc
+> ebb
+> dcd
+> eab
+> aee
+> ddc
+> eab
+> bda
+> bdd
+1345,1347c1664,1675
+< aba
+< ada
+< bde
+---
+> ebd
+> cee
+> bed
+> dee
+> aae
+> bed
+> cbe
+> bcb
+> bab
+> abd
+> eaa
+> aab
+1349c1677,1683
+< dba
+---
+> cea
+> cab
+> daa
+> ccd
+> cda
+> eae
+> abe
+1351,1352c1685
+< aed
+< cba
+---
+> bcc
+1354,1355c1687,1695
+< cec
+< dec
+---
+> bab
+> bbd
+> ede
+> ebc
+> abb
+> aae
+> add
+> cee
+> ded
+1357,1362d1696
+< eae
+< dbb
+< acb
+< ced
+< aeb
+< deb
+1364,1365c1698,1702
+< aed
+< cdc
+---
+> ebd
+> baa
+> aad
+> cee
+> ebd
+1367,1377c1704,1714
+< ccc
+< eea
+< beb
+< bcb
+< bdb
+< cbd
+< dea
+< acd
+< ada
+< bae
+< abc
+---
+> bab
+> acc
+> cce
+> eca
+> eee
+> adb
+> ebb
+> ded
+> dda
+> bee
+> ecb
+1379,1385c1716
+< dbc
+< beb
+< beb
+< eeb
+< cab
+< ebe
+< baa
+---
+> add
+1387,1389c1718,1725
+< ccd
+< bdd
+< aae
+---
+> bcc
+> dcd
+> cac
+> eee
+> cbb
+> dbb
+> cbd
+> ebc
+1391,1394c1727,1741
+< cbd
+< bbe
+< cae
+< eeb
+---
+> dbe
+> eea
+> cbc
+> ede
+> ebd
+> abd
+> aaa
+> aca
+> add
+> abd
+> dac
+> aea
+> bbd
+> eaa
+> aee
+1396,1402c1743,1751
+< cae
+< bcd
+< eeb
+< ebd
+< bdd
+< ded
+< abe
+---
+> ebb
+> bde
+> cac
+> bbd
+> bec
+> edb
+> ecb
+> cba
+> bac
+1404,1407c1753,1768
+< cee
+< bce
+< bac
+< dbe
+---
+> eab
+> cec
+> dad
+> ece
+> cdb
+> bda
+> bde
+> dbc
+> bea
+> cbd
+> bda
+> bab
+> dec
+> aab
+> dee
+> dec
+1409,1413c1770,1772
+< aab
+< baa
+< acb
+< bcb
+< ebe
+---
+> aae
+> bde
+> abe
+1415,1418c1774,1777
+< cee
+< bda
+< eac
+< add
+---
+> ecd
+> dde
+> dbc
+> bbc
+1420,1425c1779,1786
+< eea
+< cdc
+< adc
+< bac
+< bec
+< aca
+---
+> acd
+> daa
+> aed
+> aaa
+> ceb
+> ead
+> cde
+> ced
+1426a1788,1790
+> bbc
+> dcb
+> abb
+1428,1431c1792,1797
+< aec
+< dbd
+< cbd
+< eba
+---
+> bce
+> acb
+> cbb
+> ddd
+> bbc
+> eec
+1433,1434d1798
+< ada
+< dcb
+1435a1800,1806
+> ccb
+> dbc
+> bdd
+> abd
+> bce
+> eac
+> dde
+1437,1439c1808,1809
+< aab
+< dce
+< bdd
+---
+> aee
+> cdb
+1441,1442c1811,1831
+< ccb
+< cdd
+---
+> daa
+> eab
+> cea
+> ddd
+> cce
+> aac
+> cad
+> bca
+> ebb
+> aee
+> eac
+> aeb
+> ceb
+> eec
+> ede
+> acb
+> cda
+> cbe
+> dcd
+> bdc
+> baa
+1444c1833,1838
+< acd
+---
+> eac
+> edb
+> bea
+> ede
+> ddd
+> bda
+1446,1450c1840,1862
+< bbc
+< cbb
+< eae
+< bec
+< aeb
+---
+> ece
+> bbd
+> aed
+> bab
+> bed
+> eeb
+> ebc
+> eda
+> cee
+> dab
+> cae
+> abd
+> dad
+> bac
+> cba
+> ccb
+> cea
+> cab
+> add
+> eed
+> bcb
+> eda
+> eda
+1451a1864,1865
+> aad
+> dbe
+1453,1470d1866
+< cce
+< eac
+< bcc
+< ebc
+< adb
+< dee
+< adb
+< abd
+< bad
+< ded
+< bbc
+< ebb
+< dcb
+< ccd
+< cac
+< bdc
+< ddb
+< abc
+1472,1474c1868
+< deb
+< cba
+< cdc
+---
+> aac
+1476,1480d1869
+< cbd
+< cdb
+< dee
+< bcb
+< ebb
+1482,1491d1870
+< daa
+< dab
+< bcb
+< dab
+< bea
+< aae
+< bdb
+< aed
+< bdc
+< dce
+1493d1871
+< deb
+1495,1505d1872
+< abe
+< bde
+< cdc
+< cac
+< ecb
+< aec
+< aae
+< dee
+< caa
+< aaa
+< ace
+1506a1874,1875
+> adb
+> eaa
+1508,1511c1877,1890
+< abe
+< cee
+< dee
+< dde
+---
+> dea
+> aca
+> bba
+> bda
+> ddc
+> bee
+> dac
+> abd
+> eaa
+> eac
+> ced
+> bea
+> eed
+> dbb
+1513,1519c1892
+< dcc
+< ddb
+< dca
+< dda
+< ecc
+< dde
+< eea
+---
+> cba
+1521,1527c1894,1905
+< aae
+< cbd
+< bbc
+< dce
+< edb
+< dac
+< dee
+---
+> ced
+> eed
+> bee
+> bdc
+> eeb
+> eca
+> cca
+> bca
+> bdc
+> ced
+> aac
+> ecb
+1529,1530c1907
+< dce
+< cde
+---
+> ede
+1532,1542c1909,1912
+< bab
+< aed
+< bab
+< edb
+< ece
+< abb
+< abe
+< bab
+< ebb
+< bcd
+< bea
+---
+> cee
+> eac
+> ace
+> bdc
+1543a1914
+> dbb
+1545,1550c1916,1934
+< cbc
+< cdd
+< dcb
+< cea
+< acd
+< ecd
+---
+> dca
+> bcb
+> aaa
+> eeb
+> cda
+> aea
+> bcc
+> eaa
+> ade
+> ceb
+> dcc
+> dda
+> eaa
+> baa
+> dda
+> aec
+> dde
+> ead
+> adb
+1552d1935
+< eaa
+1553a1937,1948
+> daa
+> eab
+> acb
+> aee
+> eac
+> abe
+> dda
+> eab
+> ebc
+> cdd
+> cdc
+> dee
+1555c1950,1960
+< cae
+---
+> bad
+> cbc
+> cda
+> cce
+> ccb
+> aab
+> ebb
+> adc
+> cdc
+> dcc
+> cdc
+1557,1562d1961
+< cba
+< bde
+< edd
+< ebd
+< dda
+< eee
+1564,1573d1962
+< cae
+< cab
+< cdd
+< bbb
+< cbd
+< bbc
+< eda
+< bbc
+< bdd
+< ece
+1575,1576d1963
+< aaa
+< acb
+1579,1584c1966,1968
+< bce
+< cbe
+< ceb
+< aca
+< eec
+< ebc
+---
+> bbc
+> ccd
+> ead
+1586c1970,1978
+< acc
+---
+> eee
+> add
+> dbb
+> eee
+> aec
+> cde
+> cda
+> dbe
+> eeb
+1588,1590d1979
+< cbe
+< cdc
+< eec
+1592c1981,1987
+< cba
+---
+> cdd
+> adb
+> edd
+> cbb
+> ace
+> eab
+> eea
+1594,1598c1989,1990
+< daa
+< bac
+< edd
+< daa
+< ccb
+---
+> cbd
+> bea
+1600,1637c1992
+< dcd
+< cab
+< ebc
+< aeb
+< eae
+< eca
+< aab
+< abb
+< dba
+< cbc
+< ded
+< daa
+< dbd
+< ccb
+< aea
+< bee
+< ace
+< dbd
+< adb
+< aaa
+< aab
+< bbe
+< deb
+< ead
+< cea
+< aea
+< ccd
+< ecd
+< eae
+< beb
+< baa
+< cbe
+< dab
+< edc
+< aea
+< ebe
+< ece
+< ebe
+---
+> acb
+1639,1641c1994,2000
+< eeb
+< beb
+< bcd
+---
+> eaa
+> bca
+> cae
+> edd
+> dbb
+> abe
+> eee
+1643,1648c2002
+< ddd
+< edb
+< dac
+< dea
+< bdc
+< bcc
+---
+> acd
+1650,1653c2004
+< eaa
+< eed
+< eea
+< aab
+---
+> ace
+1655c2006,2012
+< edd
+---
+> dae
+> dce
+> aac
+> cbc
+> bca
+> bce
+> dac
+1657,1659c2014,2015
+< adb
+< dde
+< bbd
+---
+> bea
+> ceb
+1661,1667d2016
+< bac
+< ace
+< dad
+< ece
+< ede
+< acb
+< beb
+1669,1685c2018,2020
+< eed
+< ecb
+< dbd
+< ada
+< aeb
+< ebb
+< bbb
+< edd
+< abd
+< ecb
+< dcd
+< ade
+< ebd
+< ede
+< ada
+< bde
+< cab
+---
+> cca
+> dba
+> bea
+1687,1688d2021
+< dae
+< ade
+1690,1695c2023
+< abd
+< ceb
+< daa
+< bcd
+< dca
+< aba
+---
+> dec
+1697,1734d2024
+< dac
+< ece
+< caa
+< cad
+< ade
+< cba
+< dba
+< bbb
+< acb
+< dba
+< eee
+< ccc
+< eab
+< ddb
+< ced
+< dac
+< cde
+< ace
+< add
+< aba
+< dce
+< bbb
+< cab
+< bcc
+< aae
+< cac
+< eec
+< eae
+< ddd
+< bcd
+< dad
+< ceb
+< ead
+< eaa
+< eae
+< cbd
+< bda
+< bae
+1736c2026,2028
+< edb
+---
+> bbc
+> bea
+> cda
+1738,1745c2030,2034
+< cea
+< cca
+< adb
+< dbb
+< dea
+< aaa
+< dbb
+< aec
+---
+> cda
+> bce
+> dce
+> edc
+> aad
+1747,1751c2036,2038
+< cbc
+< eba
+< dbb
+< eac
+< aae
+---
+> ead
+> cdb
+> ead
+1753,1765c2040,2044
+< ede
+< dbb
+< dcc
+< bcb
+< dbc
+< edb
+< bcd
+< ede
+< bcd
+< aea
+< ebb
+< cdd
+< bbb
+---
+> bce
+> cde
+> cae
+> eec
+> aee
+1767,1775c2046,2048
+< cbc
+< ced
+< ded
+< cbe
+< bdd
+< cda
+< bcd
+< bdd
+< aab
+---
+> aba
+> eca
+> ccb
+1777,1778d2049
+< dee
+< bcb
+1780,1792d2050
+< cac
+< bdc
+< eba
+< aea
+< aed
+< edc
+< acd
+< ccd
+< aec
+< ccc
+< cbc
+< dca
+< bbc
+1794,1797c2052,2059
+< bad
+< bbd
+< dbc
+< cea
+---
+> add
+> eae
+> ebd
+> ebc
+> aee
+> eae
+> eda
+> cad
+1798a2061,2076
+> ebe
+> bba
+> cde
+> dbe
+> bba
+> dcd
+> aec
+> bac
+> cda
+> edb
+> eda
+> aad
+> bcd
+> bbe
+> ceb
+> cdc
+1800,1801c2078,2081
+< cbc
+< aea
+---
+> bae
+> bad
+> abc
+> bed
+1803,1804c2083,2090
+< ecd
+< ddb
+---
+> eec
+> ada
+> cdc
+> bde
+> eab
+> dcb
+> dac
+> eaa
+1806,1811d2091
+< dca
+< ceb
+< ede
+< dca
+< ddb
+< bab
+1813,1830c2093,2101
+< aab
+< ecb
+< dae
+< bdc
+< ccd
+< ccb
+< bac
+< ddc
+< dde
+< cad
+< bdb
+< cec
+< bea
+< dba
+< ada
+< dad
+< dbb
+< deb
+---
+> aba
+> eac
+> bbc
+> bca
+> dbe
+> aea
+> cae
+> cdc
+> eee
+1832,1839c2103,2105
+< cac
+< bed
+< dee
+< ddd
+< ccd
+< ead
+< ced
+< dbc
+---
+> edd
+> aac
+> bcc
+1841c2107,2112
+< aad
+---
+> cba
+> aae
+> ccc
+> cda
+> dcd
+> bca
+1843,1844d2113
+< ebb
+< dea
+1846,1864c2115,2116
+< adb
+< bbd
+< dab
+< bee
+< eed
+< bec
+< cde
+< ebc
+< abc
+< baa
+< bcb
+< ebb
+< bee
+< bee
+< aec
+< bdb
+< cee
+< cbe
+< dee
+---
+> ecc
+> acb
+1866,1872c2118,2132
+< ebc
+< bdc
+< acd
+< eba
+< cba
+< aeb
+< caa
+---
+> bbe
+> edc
+> ebe
+> eea
+> ceb
+> bca
+> ead
+> edb
+> ecc
+> cbb
+> aac
+> aae
+> abe
+> aae
+> dda
+1874,1876c2134,2141
+< bcd
+< dce
+< cad
+---
+> aba
+> cae
+> ecc
+> aad
+> daa
+> eda
+> dee
+> dba
+1878,1879d2142
+< ccd
+< bbe
+1881,1882d2143
+< eda
+< ddb
+1883a2145,2149
+> edd
+> cbe
+> dca
+> dcd
+> cbe
+1885,1887c2151,2152
+< ead
+< deb
+< bae
+---
+> eaa
+> bda
+1889,1890c2154,2173
+< cae
+< cdc
+---
+> ceb
+> bba
+> cab
+> bac
+> edc
+> ada
+> cdd
+> dba
+> eea
+> ebd
+> edc
+> bac
+> cba
+> cab
+> eed
+> dad
+> ebe
+> ddd
+> aea
+> eaa
+1892,1894c2175
+< eec
+< dbd
+< ebb
+---
+> abc
+1897,1902c2178,2191
+< bbb
+< eec
+< aed
+< aed
+< bbb
+< dbb
+---
+> cce
+> bcc
+> bad
+> eeb
+> cbc
+> bcb
+> aad
+> edc
+> dbe
+> beb
+> eaa
+> ecc
+> beb
+> ebd
+1904,1914c2193
+< bca
+< cbc
+< adb
+< eac
+< dee
+< bea
+< dee
+< aae
+< ede
+< eac
+< bae
+---
+> abd
+1915a2195,2196
+> eed
+> cbe
+1917,1919c2198,2205
+< ade
+< bbb
+< dda
+---
+> dae
+> dcd
+> bec
+> dba
+> cea
+> bbe
+> ecd
+> ecd
+1921,1925c2207
+< ddd
+< acd
+< eec
+< ded
+< cea
+---
+> baa
+1927,1933c2209,2216
+< eee
+< ebb
+< ecd
+< eeb
+< ecb
+< dae
+< ebc
+---
+> bcb
+> ead
+> dee
+> aed
+> cbe
+> beb
+> bda
+> cac
+1935,1936c2218
+< aaa
+< ada
+---
+> aab
+1938,1941c2220,2221
+< bcc
+< dca
+< deb
+< cdc
+---
+> bde
+> eba
+1943,1947c2223,2227
+< eba
+< eca
+< acb
+< cbb
+< cad
+---
+> eda
+> bbb
+> ace
+> dcd
+> ccd
+1948a2229,2244
+> dea
+> bdd
+> cdb
+> bac
+> ebc
+> dad
+> daa
+> edd
+> cbd
+> eed
+> cec
+> ecc
+> bcd
+> aad
+> edc
+> dad
+1950,1952d2245
+< bda
+< dab
+< cad
+1953a2247
+> eca
+1955,1979c2249,2250
+< ded
+< ecd
+< cce
+< cbe
+< eeb
+< ded
+< bda
+< abb
+< bbc
+< daa
+< eee
+< cce
+< dda
+< ebb
+< ecd
+< edc
+< cab
+< eed
+< cbc
+< eeb
+< cce
+< dad
+< cab
+< ceb
+< acc
+---
+> cbd
+> aac
+1981,1985c2252,2257
+< baa
+< acc
+< dae
+< ece
+< baa
+---
+> ace
+> eba
+> cec
+> ace
+> cbb
+> bac
+1986a2259,2263
+> bca
+> aaa
+> ace
+> bce
+> ced
+1988,1994d2264
+< eae
+< acc
+< bdb
+< add
+< ebe
+< abc
+< eae
+1996c2266,2275
+< abd
+---
+> abb
+> dde
+> adb
+> cea
+> aec
+> eec
+> cdb
+> edc
+> caa
+> eee
+1998,2016c2277
+< ccd
+< eeb
+< bde
+< bdb
+< bea
+< bbd
+< ecb
+< ece
+< aea
+< bdc
+< eab
+< aae
+< bcb
+< bdd
+< daa
+< dec
+< eaa
+< ead
+< eea
+---
+> dca
+2018,2025c2279,2280
+< acc
+< dab
+< dbc
+< edb
+< cce
+< eab
+< deb
+< cbb
+---
+> aaa
+> eee
+2027,2040d2281
+< bbc
+< deb
+< abb
+< cae
+< cdd
+< aca
+< eeb
+< bcc
+< eba
+< ddd
+< bca
+< dad
+< deb
+< edd
+2042,2047c2283,2286
+< ade
+< eba
+< ccb
+< eae
+< ecb
+< aad
+---
+> daa
+> bea
+> bdc
+> ceb
+2049,2054d2287
+< ecd
+< ecd
+< bca
+< bdb
+< eee
+< dee
+2055a2289,2313
+> ced
+> ceb
+> ceb
+> cca
+> ecc
+> edc
+> aba
+> aec
+> cad
+> bda
+> dcc
+> cdd
+> acc
+> dcb
+> ebb
+> bce
+> bad
+> bba
+> bcb
+> aed
+> bde
+> eed
+> dca
+> eed
+> bec
+2057c2315,2319
+< cec
+---
+> ceb
+> cea
+> bab
+> dcd
+> eba
+2059c2321,2325
+< cdb
+---
+> ebd
+> aab
+> baa
+> acc
+> ada
+2061c2327,2334
+< ebb
+---
+> eaa
+> dbd
+> bcc
+> aed
+> edd
+> baa
+> cbd
+> ada
+2062a2336
+> cdc
+2064c2338,2340
+< dda
+---
+> dce
+> bdd
+> bbd
+2066,2080c2342,2347
+< dae
+< bcd
+< cee
+< cec
+< ebd
+< adb
+< daa
+< ebd
+< ddd
+< bac
+< aee
+< aec
+< eaa
+< eba
+< acd
+---
+> ecb
+> ecd
+> cdc
+> dcd
+> beb
+> aac
+2082c2349,2351
+< acc
+---
+> ead
+> bed
+> cea
+2085,2093c2354,2355
+< dbb
+< ceb
+< ada
+< eab
+< beb
+< eec
+< dbd
+< adc
+< aba
+---
+> aea
+> bca
+2095,2098c2357,2359
+< ecb
+< dbc
+< aae
+< dec
+---
+> ddd
+> ced
+> ded
+2100,2107c2361
+< cec
+< bae
+< bba
+< edb
+< cbb
+< cad
+< ebb
+< eee
+---
+> cab
+2109,2117c2363,2368
+< ceb
+< ddc
+< ddc
+< cce
+< bea
+< ebb
+< eea
+< baa
+< bdc
+---
+> eda
+> cdb
+> ccb
+> ecc
+> cde
+> abd
+2119,2133c2370,2375
+< dbb
+< dbe
+< cec
+< aae
+< bad
+< abb
+< ebc
+< bea
+< bba
+< bde
+< dde
+< eec
+< dad
+< cbb
+< edc
+---
+> dce
+> bbe
+> ddb
+> bae
+> ccd
+> dba
+2135,2138c2377
+< acb
+< edc
+< cde
+< ddd
+---
+> ede
+2140,2153d2378
+< bdc
+< cec
+< eac
+< bce
+< bde
+< abd
+< adb
+< bbb
+< cce
+< dcd
+< eab
+< add
+< bda
+< baa
+2155c2380,2383
+< ceb
+---
+> abe
+> cab
+> dce
+> abb
+2156a2385,2392
+> acd
+> dab
+> ded
+> ddd
+> ddc
+> aca
+> aca
+> bce
+2158,2162c2394,2397
+< dea
+< aca
+< aec
+< ccd
+< dbb
+---
+> edc
+> adc
+> ced
+> aeb
+2164c2399,2412
+< ccd
+---
+> ced
+> cdc
+> bbe
+> dec
+> cda
+> dcc
+> ddc
+> ede
+> eec
+> ecc
+> acd
+> bee
+> bbc
+> eca
+2166c2414,2416
+< ade
+---
+> eaa
+> dca
+> bbb
+2168,2173c2418,2424
+< ecb
+< eab
+< dac
+< ddc
+< dad
+< ccb
+---
+> ebd
+> ccd
+> aea
+> dda
+> edc
+> ecd
+> eda
+2175c2426,2434
+< ace
+---
+> edc
+> bde
+> eee
+> dcd
+> ada
+> acd
+> ecd
+> caa
+> ead
+2177,2180c2436,2445
+< eed
+< aed
+< ece
+< acb
+---
+> bee
+> dcc
+> ced
+> eba
+> beb
+> cac
+> beb
+> adb
+> cee
+> bae
+2182c2447,2455
+< cee
+---
+> eac
+> ecc
+> cba
+> ced
+> beb
+> adc
+> ccd
+> dda
+> bad
+2184,2208c2457,2460
+< cbe
+< dbc
+< cec
+< bad
+< ebc
+< dde
+< eac
+< abe
+< dca
+< ebd
+< abc
+< cdc
+< dbb
+< eca
+< ade
+< edd
+< aac
+< eaa
+< eac
+< dab
+< bde
+< dad
+< ebd
+< cca
+< bac
+---
+> ada
+> aeb
+> cac
+> dac
+2210,2227d2461
+< dad
+< acc
+< cdd
+< bbc
+< eec
+< ccc
+< ecb
+< edd
+< dcd
+< cbb
+< dce
+< cec
+< bda
+< dde
+< bcb
+< ccd
+< bee
+< cec
+2229,2230c2463,2466
+< aea
+< cdd
+---
+> eee
+> dca
+> dec
+> aca
+2232c2468
+< aad
+---
+> ccd
+2234,2244c2470,2472
+< ddb
+< eeb
+< bbd
+< aac
+< cda
+< dee
+< aba
+< aea
+< eba
+< adc
+< bac
+---
+> cee
+> ebb
+> ccb
+2246,2250d2473
+< ecd
+< bda
+< ecb
+< cad
+< cab
+2252,2257c2475,2476
+< ceb
+< dae
+< aee
+< abe
+< aec
+< bed
+---
+> acc
+> dcb
+2259,2272c2478,2482
+< dbb
+< dab
+< cac
+< cec
+< eed
+< cde
+< adb
+< dba
+< cec
+< bed
+< ebe
+< bee
+< cdd
+< bed
+---
+> cda
+> edc
+> bde
+> bea
+> cda
+2273a2484,2485
+> acc
+> ded
+2275,2283c2487,2502
+< cdc
+< bdb
+< add
+< cba
+< edd
+< caa
+< ada
+< bbb
+< bee
+---
+> bce
+> ace
+> abd
+> cca
+> aae
+> ebb
+> aac
+> eab
+> aaa
+> eaa
+> dad
+> aba
+> bbe
+> ead
+> dda
+> ddd
+2284a2504
+> ebc
+2286,2287c2506,2508
+< dae
+< ded
+---
+> ebe
+> cac
+> ceb
+2290,2295c2511,2531
+< dbd
+< cea
+< bec
+< ced
+< ecd
+< dde
+---
+> bbe
+> dce
+> eda
+> cbc
+> cdd
+> dcb
+> bda
+> cbe
+> eaa
+> ccb
+> deb
+> edb
+> eab
+> edd
+> ddb
+> edd
+> abc
+> add
+> bcb
+> bbe
+> abc
+2296a2533,2534
+> dee
+> abe
+2299,2303c2537,2547
+< dbd
+< eba
+< ece
+< add
+< dec
+---
+> deb
+> ebc
+> cba
+> bea
+> ddb
+> dbe
+> ced
+> ada
+> ccb
+> aca
+> dac
+2305,2308c2549,2550
+< dca
+< eec
+< bdd
+< bdc
+---
+> bde
+> ecb
+2310,2323c2552,2557
+< aad
+< deb
+< cda
+< ecb
+< bae
+< ede
+< aca
+< eba
+< bad
+< eca
+< ddc
+< adc
+< eab
+< bee
+---
+> cce
+> bcd
+> bbe
+> cba
+> bce
+> abd
+2325,2340c2559,2563
+< cdb
+< dde
+< eda
+< dbd
+< bad
+< cec
+< aac
+< cbc
+< dca
+< bcc
+< bcd
+< ced
+< cbb
+< cee
+< abc
+< bac
+---
+> aab
+> dec
+> ead
+> ada
+> eac
+2342,2343c2565,2569
+< bbb
+< eae
+---
+> bcb
+> cad
+> baa
+> ade
+> eec
+2345,2350d2570
+< cdd
+< eab
+< abb
+< bbb
+< eee
+< bda
+2352c2572,2581
+< dde
+---
+> dcd
+> edd
+> ddc
+> bea
+> bbd
+> cba
+> ede
+> cdc
+> eeb
+> ecb
+2354,2356c2583
+< daa
+< edd
+< beb
+---
+> cac
+2358c2585,2589
+< dea
+---
+> cbe
+> adb
+> cae
+> aca
+> bce
+2360,2361c2591,2592
+< ded
+< ccc
+---
+> dee
+> cdb
+2363,2364c2594,2615
+< cac
+< eca
+---
+> dad
+> edb
+> acd
+> cea
+> edc
+> bbc
+> bbd
+> cbe
+> bdd
+> bca
+> eae
+> bbe
+> aea
+> cda
+> cea
+> ddd
+> cda
+> eac
+> cab
+> aba
+> cee
+> ecb
+2366,2368c2617,2618
+< dac
+< eee
+< dec
+---
+> abe
+> dbd
+2370,2372c2620,2628
+< adc
+< bee
+< ccc
+---
+> ceb
+> dda
+> ced
+> aac
+> dee
+> bca
+> eae
+> ddb
+> ddb
+2374,2384d2629
+< bcd
+< bba
+< ccc
+< eaa
+< bcb
+< ebd
+< bbe
+< dce
+< aaa
+< aba
+< cbb
+2386,2407c2631
+< daa
+< edc
+< bea
+< cde
+< eee
+< aed
+< eba
+< bac
+< edd
+< aca
+< bca
+< eeb
+< adb
+< bec
+< daa
+< dae
+< dcc
+< abb
+< ade
+< cda
+< cbd
+< dee
+---
+> cad
+2409,2417c2633
+< ddc
+< ebc
+< ece
+< dda
+< bde
+< adb
+< bda
+< abd
+< dce
+---
+> ebe
+2419c2635,2636
+< bba
+---
+> ddd
+> ccd
+2421,2430d2637
+< aeb
+< bda
+< bcd
+< acb
+< dcb
+< add
+< aee
+< cdb
+< aed
+< aad
+2432,2457c2639,2642
+< bab
+< ced
+< dac
+< bda
+< eed
+< bed
+< dac
+< eca
+< aed
+< bee
+< bcb
+< dcc
+< bac
+< dab
+< acb
+< bda
+< ead
+< aaa
+< dbd
+< dbe
+< aad
+< eae
+< ead
+< dbb
+< dec
+< edb
+---
+> aba
+> eeb
+> bcc
+> bbb
+2459,2460d2643
+< dec
+< dec
+2461a2645
+> cce
+2462a2647,2652
+> ddd
+> aec
+> bcb
+> edb
+> aad
+> eca
+2463a2654,2656
+> ddd
+> cdb
+> aad
+2465,2468c2658,2661
+< cda
+< ebb
+< bae
+< ecc
+---
+> dec
+> eaa
+> ace
+> dbd
+2470,2473d2662
+< bdc
+< ace
+< bea
+< aab
+2474a2664,2675
+> bbb
+> dba
+> ecd
+> dea
+> dbc
+> ecc
+> bbd
+> ecc
+> cca
+> ebb
+> aca
+> bba
+2476,2480c2677
+< ece
+< add
+< dee
+< aac
+< caa
+---
+> cee
+2482,2497c2679,2681
+< dce
+< abb
+< dac
+< abd
+< cdc
+< adc
+< ebc
+< cbd
+< bee
+< dac
+< dec
+< dab
+< aea
+< ddb
+< cab
+< bcc
+---
+> abe
+> aad
+> aad
+2499,2504d2682
+< cbc
+< eaa
+< add
+< abe
+< aea
+< bdd
+2505a2684,2696
+> aee
+> dac
+> ded
+> dce
+> aca
+> bab
+> aae
+> cbe
+> beb
+> ead
+> baa
+> ebe
+> ace
+2506a2698,2700
+> cda
+> edc
+> adc
+2508,2536c2702,2707
+< abe
+< dbd
+< eed
+< bee
+< cec
+< cab
+< ddb
+< dab
+< aab
+< adc
+< bbe
+< aaa
+< ecd
+< aee
+< eeb
+< ccc
+< ddd
+< dae
+< aac
+< bcc
+< dda
+< aeb
+< aba
+< ccd
+< bde
+< aca
+< eec
+< dca
+< cdd
+---
+> edc
+> bbc
+> bce
+> ceb
+> deb
+> caa
+2537a2709,2713
+> daa
+> add
+> ece
+> dbc
+> ece
+2539,2560c2715,2716
+< dae
+< dcd
+< dbb
+< eea
+< eae
+< cbc
+< cdd
+< abc
+< daa
+< dab
+< ebc
+< bbe
+< cac
+< bbb
+< ebb
+< ceb
+< dca
+< dca
+< dee
+< dce
+< dce
+< ddd
+---
+> beb
+> bba
+2562,2563c2718,2722
+< deb
+< aac
+---
+> dda
+> abb
+> bcc
+> dbc
+> aab
+2565,2570c2724,2726
+< bcc
+< dcb
+< ebe
+< cdd
+< edc
+< bdb
+---
+> ace
+> edd
+> ecd
+2572,2593d2727
+< acc
+< dbb
+< bed
+< aea
+< dab
+< eba
+< ccb
+< eab
+< eed
+< bbd
+< acd
+< cae
+< eea
+< bab
+< eec
+< dbc
+< dae
+< abe
+< cdb
+< ccc
+< ddc
+< acb
+2596,2600c2730,2734
+< cde
+< ddd
+< ccb
+< ade
+< cdd
+---
+> dbe
+> ced
+> abe
+> abe
+> add
+2602,2603c2736,2741
+< dcc
+< dbe
+---
+> bee
+> aad
+> dcb
+> acd
+> eda
+> bad
+2605,2607c2743,2752
+< aad
+< cbc
+< dcd
+---
+> bea
+> dba
+> eac
+> cbb
+> dde
+> acb
+> ebd
+> ddc
+> bee
+> cda
+2609,2615c2754
+< bed
+< dbc
+< dcb
+< cdd
+< abe
+< bed
+< ebc
+---
+> bcd
+2617c2756,2772
+< abc
+---
+> deb
+> cec
+> add
+> ace
+> dae
+> bac
+> bce
+> ceb
+> acd
+> cca
+> acb
+> caa
+> cca
+> daa
+> aac
+> bec
+> bce
+2619,2620c2774,2776
+< aaa
+< eeb
+---
+> ecd
+> cdc
+> deb
+2622,2633c2778,2779
+< bde
+< dea
+< eab
+< ccb
+< cbe
+< dec
+< bbc
+< dcc
+< ddd
+< bde
+< dee
+< aea
+---
+> add
+> bee
+2635,2641c2781
+< dad
+< bae
+< bde
+< aec
+< dbe
+< ecd
+< cda
+---
+> bee
+2643,2646c2783,2786
+< ccd
+< acc
+< dcd
+< bca
+---
+> ddc
+> dba
+> aab
+> bdd
+2648,2649c2788,2790
+< cba
+< eaa
+---
+> edb
+> bbd
+> cac
+2651,2670c2792
+< cbe
+< edd
+< bbc
+< acc
+< aac
+< aee
+< dbd
+< bcc
+< eed
+< dba
+< acc
+< bea
+< ddc
+< abc
+< bac
+< cee
+< dec
+< bac
+< ead
+< acc
+---
+> adc
+2672c2794,2797
+< adc
+---
+> dde
+> dce
+> aca
+> dcd
+2674c2799
+< dae
+---
+> dee
+2676c2801,2808
+< bdb
+---
+> bad
+> ceb
+> aba
+> dcd
+> acc
+> ddd
+> bec
+> cac
+2678,2688c2810,2812
+< bcd
+< ebd
+< bed
+< eea
+< aed
+< dae
+< eac
+< ddb
+< bcd
+< dab
+< acb
+---
+> aee
+> cea
+> bda
+2690,2691c2814,2819
+< ade
+< deb
+---
+> add
+> aee
+> bae
+> eda
+> cca
+> cdb
+2693,2694c2821,2825
+< ebe
+< caa
+---
+> ebb
+> cdc
+> dca
+> bca
+> abe
+2696,2697d2826
+< cdb
+< ebb
+2699,2703c2828,2831
+< ddd
+< bac
+< eae
+< bca
+< dda
+---
+> dcd
+> cec
+> acd
+> eeb
+2704a2833,2837
+> cbe
+> cce
+> ede
+> ada
+> eaa
+2706c2839,2851
+< bbd
+---
+> cca
+> cbe
+> cbe
+> cbe
+> edc
+> bac
+> aba
+> dcc
+> cbd
+> ade
+> cbc
+> cbb
+> ada
+2708,2720d2852
+< beb
+< bcc
+< abb
+< ccb
+< ebb
+< bda
+< aad
+< ceb
+< dce
+< bec
+< acd
+< dab
+< baa
+2722,2730c2854,2868
+< cba
+< bde
+< dbb
+< bce
+< ddc
+< deb
+< ebb
+< cdb
+< cba
+---
+> bdb
+> cec
+> bbe
+> acc
+> aca
+> aed
+> ead
+> aba
+> dcd
+> eed
+> cab
+> ece
+> bcb
+> dba
+> cee
+2732,2736d2869
+< aee
+< ada
+< abc
+< cae
+< cbc
+2738c2871,2873
+< bba
+---
+> bcc
+> bdd
+> cdb
+2740,2753c2875,2877
+< acb
+< adb
+< cec
+< dba
+< cda
+< dce
+< cee
+< ebd
+< cab
+< eab
+< abd
+< bbd
+< bea
+< aac
+---
+> cad
+> bdd
+> dcb
+2755,2769d2878
+< eed
+< ecd
+< ccd
+< add
+< bab
+< aca
+< adc
+< cba
+< bda
+< dac
+< bed
+< dec
+< acb
+< dbb
+< edc
+2771,2776c2880,2887
+< bed
+< acb
+< eea
+< dbb
+< dad
+< dcd
+---
+> eba
+> ebc
+> bbe
+> bba
+> aba
+> eeb
+> aab
+> ead
+2777a2889,2895
+> bac
+> edb
+> bee
+> dba
+> ede
+> cba
+> ddc
+2779,2786d2896
+< acb
+< aee
+< bdb
+< aba
+< aac
+< aea
+< bce
+< aee
+2788,2789c2898,2910
+< aba
+< bbe
+---
+> ede
+> ceb
+> dda
+> eed
+> acc
+> aeb
+> aeb
+> dbb
+> dbd
+> baa
+> dca
+> dec
+> dba
+2791,2792c2912,2918
+< cae
+< deb
+---
+> dec
+> bba
+> ead
+> daa
+> dda
+> dcc
+> aeb
+2793a2920,2932
+> cee
+> dbc
+> acc
+> cea
+> dda
+> beb
+> cba
+> bed
+> aea
+> dbd
+> cad
+> aae
+> cba
+2795,2797d2933
+< ded
+< ddb
+< abb
+2799c2935,2936
+< cdd
+---
+> bad
+> cda
+2801,2815c2938
+< edb
+< cec
+< bac
+< ded
+< aab
+< bca
+< ddb
+< ecc
+< bca
+< ace
+< eda
+< cde
+< cca
+< eee
+< ede
+---
+> bdd
+2817,2824d2939
+< aab
+< dda
+< baa
+< dee
+< aac
+< cbb
+< ace
+< cbb
+2826,2827d2940
+< ecb
+< eae
+2829,2830c2942,2943
+< cbc
+< aea
+---
+> dcb
+> adc
+2832c2945
+< dbb
+---
+> edd
+2834,2838c2947,2961
+< deb
+< edd
+< cbd
+< bdd
+< bde
+---
+> aee
+> cea
+> bdc
+> dee
+> cdd
+> dab
+> cab
+> ddd
+> cab
+> dec
+> cdd
+> bbd
+> caa
+> dae
+> aac
+2840c2963,2967
+< bcb
+---
+> caa
+> cac
+> add
+> eac
+> aba
+2842,2847c2969,2984
+< bdd
+< ead
+< dab
+< aeb
+< bee
+< cbb
+---
+> cae
+> eaa
+> eed
+> ddc
+> aaa
+> ecb
+> aca
+> ddc
+> bde
+> cbe
+> edd
+> aed
+> dbb
+> ced
+> bab
+> acc
+2848a2986,2993
+> eeb
+> bac
+> dcc
+> ddc
+> dcc
+> dcc
+> bcc
+> adc
+2849a2995,3009
+> dac
+> bca
+> ade
+> bba
+> cdb
+> ddd
+> eae
+> bdc
+> aee
+> add
+> eae
+> eee
+> aab
+> ecc
+> ddb
+2850a3011,3021
+> ccd
+> eae
+> dcd
+> ecb
+> bbc
+> eba
+> ace
+> dbc
+> bbc
+> bed
+> acc
+2851a3023,3035
+> aec
+> dbe
+> ebb
+> ecb
+> eba
+> dbd
+> edc
+> abb
+> add
+> dbc
+> bde
+> bad
+> aca
+2853,2857c3037,3048
+< bcc
+< cea
+< bca
+< cee
+< cbb
+---
+> ceb
+> ddb
+> eed
+> daa
+> dab
+> dcc
+> bec
+> eea
+> cbc
+> eaa
+> ddb
+> bbe
+2859,2874d3049
+< cad
+< bae
+< eda
+< bcc
+< cbc
+< cca
+< dba
+< ecd
+< acd
+< bde
+< eee
+< dbb
+< cad
+< bab
+< eda
+< add
+2876,2878d3050
+< dee
+< dbb
+< cbd
+2880,2883c3052,3055
+< ebd
+< ede
+< bbc
+< adc
+---
+> cac
+> eac
+> bed
+> ded
+2884a3057
+> deb
+2886,2892c3059,3061
+< bec
+< abd
+< cdc
+< dde
+< ddb
+< cda
+< bea
+---
+> eeb
+> aba
+> bcd
+2894,2903c3063,3064
+< bea
+< dca
+< aab
+< cca
+< ade
+< ceb
+< bad
+< baa
+< eaa
+< ebc
+---
+> ccd
+> cdd
+2905,2913c3066,3076
+< aed
+< bdb
+< cdd
+< dec
+< dda
+< eed
+< cbe
+< ece
+< ade
+---
+> ded
+> dea
+> caa
+> cea
+> cdc
+> dcb
+> edd
+> dbd
+> dea
+> dbc
+> aeb
+2916,2919d3078
+< ccd
+< ded
+< cac
+< cde
+2921,2931c3080,3082
+< dea
+< acc
+< ead
+< dcd
+< dac
+< bdc
+< eae
+< abb
+< ace
+< cbc
+< ecb
+---
+> aec
+> bbb
+> ede
+2933,2943d3083
+< bdc
+< cdb
+< baa
+< aee
+< deb
+< ede
+< ccd
+< bcd
+< dba
+< cbe
+< adc
+2945,2958d3084
+< bae
+< ccd
+< ecb
+< cea
+< bec
+< eab
+< aca
+< aca
+< cab
+< cbb
+< dee
+< ede
+< ead
+< cec
+2960,2961c3086,3094
+< aee
+< baa
+---
+> dcd
+> bcb
+> dbd
+> bad
+> aab
+> ddb
+> acb
+> aec
+> ece
+2963,2970d3095
+< cca
+< abe
+< eca
+< edc
+< eed
+< dab
+< bed
+< adb
+2972,2978c3097,3100
+< ded
+< ceb
+< bcc
+< bdc
+< eab
+< cac
+< deb
+---
+> dda
+> cba
+> acb
+> acc
+2980,2982c3102,3114
+< dba
+< eec
+< edd
+---
+> cae
+> aec
+> dcb
+> dcc
+> acd
+> cce
+> eeb
+> dbd
+> bdb
+> eba
+> cbe
+> eed
+> dae
+2984c3116,3119
+< bee
+---
+> bbe
+> eed
+> bdc
+> dbd
+2986,2990c3121,3127
+< aac
+< dba
+< dba
+< cae
+< cba
+---
+> eae
+> caa
+> ddb
+> dae
+> ead
+> cad
+> bea
+2992,2997d3128
+< abe
+< dce
+< dca
+< eda
+< bcb
+< bea
+2999,3003c3130,3135
+< abb
+< ebe
+< ecc
+< adc
+< adc
+---
+> cdd
+> cee
+> dbd
+> eac
+> dbd
+> eae
+3005,3020d3136
+< ddc
+< ecd
+< bbb
+< dbb
+< aad
+< acc
+< cae
+< bda
+< aad
+< cde
+< ced
+< bbb
+< cee
+< cab
+< dcc
+< ded
+3022,3023d3137
+< cda
+< aad
+3024a3139,3154
+> aea
+> aab
+> aac
+> eac
+> dea
+> cbd
+> bbb
+> bee
+> daa
+> cac
+> bba
+> add
+> ebd
+> dbe
+> bed
+> ceb
+3025a3156
+> ebe
+3027,3029c3158,3160
+< ece
+< ccb
+< cee
+---
+> eed
+> aca
+> bad
+3031d3161
+< aeb
+3033,3036c3163,3182
+< aeb
+< ccd
+< aea
+< cbd
+---
+> ebb
+> dcc
+> cca
+> dce
+> cea
+> bac
+> eac
+> aad
+> bee
+> ebe
+> aba
+> ded
+> eed
+> bbe
+> bda
+> dcd
+> baa
+> acd
+> dda
+> cad
+3038,3039d3183
+< bbd
+< acc
+3041,3049c3185,3201
+< ebc
+< bee
+< ebe
+< cec
+< bab
+< ade
+< deb
+< ebc
+< cac
+---
+> ead
+> cca
+> acd
+> eea
+> dea
+> ddc
+> aec
+> cbb
+> eba
+> bea
+> cdc
+> cce
+> aeb
+> dba
+> bcb
+> dba
+> bec
+3051,3052c3203,3205
+< ede
+< cac
+---
+> aac
+> ceb
+> ced
+3054,3071c3207,3212
+< dbb
+< dee
+< add
+< bce
+< beb
+< abd
+< cbc
+< eeb
+< bad
+< abc
+< ade
+< bac
+< bad
+< bab
+< cbd
+< bdc
+< aea
+< bde
+---
+> deb
+> dad
+> aab
+> eae
+> dbd
+> ace
+3073,3074c3214,3215
+< cca
+< bea
+---
+> bcd
+> ddc
+3076a3218,3233
+> ceb
+> eab
+> beb
+> cad
+> ccd
+> acb
+> aee
+> ccd
+> aab
+> aab
+> ebe
+> deb
+> cec
+> bac
+> ace
+> adc
+3077a3235,3238
+> cbd
+> eeb
+> bbc
+> cac
+3079,3085c3240
+< adc
+< cbc
+< bcc
+< cca
+< dad
+< eee
+< ecb
+---
+> bde
+3087,3094c3242,3246
+< eeb
+< dba
+< adb
+< ead
+< acd
+< adc
+< bab
+< baa
+---
+> abc
+> bba
+> aaa
+> cda
+> bbc
+3096,3101d3247
+< dba
+< daa
+< dde
+< bec
+< ddd
+< eab
+3103,3104c3249,3270
+< eaa
+< bec
+---
+> bbc
+> eec
+> dda
+> ece
+> aad
+> dac
+> bca
+> ddb
+> dbe
+> aae
+> eda
+> ddc
+> adb
+> cdb
+> bea
+> cdc
+> ced
+> ada
+> dbb
+> dac
+> dad
+> aca
+3106,3118c3272,3274
+< dcc
+< aca
+< abc
+< aec
+< cad
+< bcd
+< ddd
+< bdc
+< eca
+< ebc
+< bab
+< dec
+< aca
+---
+> bee
+> aeb
+> dea
+3120,3124c3276,3279
+< eae
+< aed
+< eab
+< cbd
+< dcb
+---
+> dea
+> bee
+> aea
+> bce
+3126,3128c3281,3285
+< dce
+< cbb
+< ace
+---
+> cda
+> abb
+> ccd
+> edc
+> dac
+3130c3287,3289
+< cde
+---
+> dab
+> ddc
+> ede
+3132,3133c3291
+< ead
+< adb
+---
+> ccc
+3135,3151c3293,3294
+< eab
+< add
+< aab
+< ddb
+< eed
+< bea
+< abc
+< ded
+< cac
+< eba
+< dcc
+< ece
+< ebd
+< bcb
+< bab
+< ced
+< eae
+---
+> cdd
+> edc
+3153,3158c3296,3299
+< cce
+< adc
+< bac
+< ebe
+< abd
+< cab
+---
+> dbb
+> aac
+> ebb
+> bdb
+3160,3161c3301,3303
+< eaa
+< ddc
+---
+> cee
+> dba
+> ddb
+3163,3171c3305,3311
+< bea
+< dba
+< bdb
+< ddc
+< abe
+< dee
+< aaa
+< cdc
+< eda
+---
+> cdd
+> adb
+> bda
+> cba
+> bbd
+> cae
+> ede
+3173,3187d3312
+< acd
+< bde
+< baa
+< abd
+< dcc
+< ecc
+< eea
+< eeb
+< bda
+< dab
+< ddc
+< dae
+< ade
+< deb
+< bba
+3188a3314,3318
+> ecd
+> dea
+> cbe
+> bcc
+> bee
+3190,3191c3320
+< ecd
+< ced
+---
+> dae
+3192a3322,3324
+> bbe
+> edb
+> bcc
+3194,3197c3326,3329
+< ace
+< ace
+< acb
+< cde
+---
+> dcd
+> bbc
+> dde
+> adc
+3198a3331,3352
+> bbc
+> bcd
+> aec
+> aab
+> aec
+> ebe
+> cae
+> ceb
+> ded
+> acd
+> aeb
+> ccc
+> ebb
+> bda
+> dee
+> dba
+> ded
+> aeb
+> eea
+> cee
+> dae
+> cae
+3200,3202c3354,3358
+< dba
+< cba
+< eee
+---
+> aba
+> dbe
+> bea
+> eab
+> cdd
+3204,3205c3360,3362
+< cbb
+< deb
+---
+> ece
+> ded
+> ecc
+3206a3364,3392
+> eda
+> eec
+> eae
+> ebe
+> bcc
+> bdb
+> eec
+> bdc
+> edc
+> eeb
+> dbe
+> add
+> dac
+> ecb
+> bce
+> cac
+> cac
+> dac
+> bdb
+> cae
+> bab
+> acc
+> aad
+> caa
+> dde
+> bee
+> ecb
+> edd
+> ddd
+3208,3209d3393
+< bba
+< caa
+3211,3212c3395,3410
+< aab
+< dec
+---
+> eca
+> aae
+> cbe
+> aeb
+> cdc
+> ccc
+> cea
+> eec
+> acc
+> ebd
+> cee
+> aac
+> eaa
+> abc
+> bae
+> ccc
+3214,3227c3412,3420
+< deb
+< cca
+< dbd
+< edd
+< ebe
+< ede
+< eeb
+< ade
+< abc
+< abd
+< eae
+< dcb
+< ebd
+< bdb
+---
+> dae
+> bec
+> eea
+> eed
+> edc
+> cbe
+> eaa
+> ece
+> caa
+3229,3234c3422,3424
+< eea
+< dbd
+< edb
+< cdb
+< abb
+< cad
+---
+> eac
+> adc
+> eda
+3236,3242c3426,3427
+< ead
+< aaa
+< cab
+< ddc
+< add
+< acb
+< cde
+---
+> ece
+> eda
+3244,3247c3429
+< bda
+< ebb
+< ddb
+< ced
+---
+> aae
+3249,3251c3431,3442
+< adc
+< dda
+< bba
+---
+> beb
+> deb
+> cee
+> cdb
+> daa
+> ade
+> ade
+> bad
+> cbb
+> aac
+> bae
+> eeb
+3253,3255c3444,3446
+< eec
+< dce
+< abd
+---
+> eac
+> eea
+> bab
+3256a3448,3474
+> eed
+> eaa
+> ebe
+> eea
+> ddc
+> cbd
+> ebc
+> bed
+> bba
+> edd
+> ead
+> aab
+> aab
+> ddd
+> ecd
+> bbc
+> ded
+> ccd
+> bae
+> ebc
+> aca
+> cce
+> eab
+> ebc
+> dcd
+> eeb
+> cbe
+3258,3260c3476,3485
+< abd
+< dce
+< dda
+---
+> bcc
+> dab
+> eab
+> edb
+> ede
+> ead
+> aec
+> eae
+> ade
+> ddb
+3262,3265c3487,3498
+< ecb
+< dea
+< dbb
+< dcc
+---
+> aeb
+> cdd
+> bee
+> cae
+> dcb
+> abe
+> aea
+> abb
+> ede
+> bce
+> cca
+> dad
+3267a3501,3507
+> acb
+> cab
+> bbe
+> bcc
+> bee
+> dad
+> abd
+3269,3272c3509,3529
+< eae
+< acb
+< daa
+< dbd
+---
+> bec
+> bac
+> cac
+> eda
+> bac
+> ced
+> cab
+> abc
+> cea
+> dbb
+> aca
+> bbe
+> bcc
+> ebd
+> eba
+> eab
+> ebd
+> bdc
+> ddc
+> eba
+> ccc
+3274,3285c3531,3538
+< dba
+< bab
+< dac
+< acd
+< bbd
+< ade
+< dce
+< bde
+< daa
+< cce
+< bda
+< ebb
+---
+> ede
+> cbe
+> dcd
+> add
+> bbe
+> bad
+> dcd
+> aca
+3287,3296d3539
+< bbd
+< bca
+< ade
+< ecc
+< baa
+< cde
+< ebe
+< caa
+< abe
+< ddd
+3298c3541,3548
+< ddd
+---
+> ddc
+> ceb
+> eeb
+> eda
+> dbd
+> ada
+> cdc
+> ceb
+3300,3301c3550,3568
+< abe
+< ebe
+---
+> aec
+> ddc
+> ddc
+> eca
+> ace
+> acd
+> ede
+> ada
+> beb
+> bdc
+> bce
+> dba
+> dde
+> ebc
+> eac
+> ada
+> aec
+> aba
+> cca
+3303c3570
+< abe
+---
+> ecd
+3305,3306c3572,3574
+< dea
+< ebb
+---
+> ccd
+> ddd
+> eab
+3308,3314c3576,3580
+< cca
+< ceb
+< cdc
+< ced
+< eee
+< bde
+< aab
+---
+> ccd
+> bed
+> ebc
+> acd
+> ade
+3316,3330d3581
+< ada
+< dab
+< dee
+< bcc
+< ada
+< bde
+< dbc
+< dee
+< cdb
+< ced
+< dbe
+< cae
+< aab
+< dbd
+< aed
+3332,3339c3583
+< cbd
+< aad
+< cae
+< adc
+< ced
+< aae
+< abc
+< aba
+---
+> eba
+3341,3344c3585,3587
+< bca
+< dae
+< eba
+< dbb
+---
+> eda
+> bcd
+> edb
+3346,3359c3589,3590
+< ecb
+< eee
+< baa
+< eeb
+< bbd
+< bab
+< aed
+< cbc
+< dba
+< bae
+< dae
+< bde
+< eeb
+< aaa
+---
+> aba
+> abe
+3362c3593,3598
+< bcd
+---
+> dae
+> aeb
+> bdc
+> cdb
+> ccc
+> ceb
+3364c3600,3602
+< acd
+---
+> bda
+> dca
+> aab
+3366,3371d3603
+< cba
+< dce
+< dcd
+< ebd
+< cce
+< bee
+3373d3604
+< dde
+3374a3606,3616
+> ecc
+> dca
+> dbb
+> baa
+> dae
+> dac
+> ccb
+> cbd
+> cec
+> bca
+> aeb
+3376,3383c3618,3626
+< ccb
+< dda
+< dab
+< eae
+< ddd
+< dba
+< dee
+< bdc
+---
+> eea
+> bad
+> bcb
+> ecd
+> bce
+> ecd
+> bec
+> bce
+> edd
+3385,3387c3628,3637
+< dda
+< ddb
+< dba
+---
+> aec
+> acc
+> cab
+> eed
+> bde
+> dae
+> bca
+> adb
+> eed
+> aac
+3389c3639,3643
+< dbc
+---
+> cee
+> bdd
+> cee
+> aaa
+> edb
+3391,3392d3644
+< eba
+< ded
+3393a3646,3660
+> dcd
+> bea
+> ebc
+> dbe
+> bee
+> ead
+> bcd
+> dab
+> abe
+> bba
+> dba
+> ede
+> dca
+> abe
+> abc
+3395,3396d3661
+< cde
+< bee
+3398,3399c3663,3664
+< bca
+< cba
+---
+> aca
+> acc
+3401,3416c3666,3678
+< acd
+< eec
+< aac
+< baa
+< eee
+< cce
+< cdc
+< eaa
+< ebb
+< dce
+< eae
+< bac
+< abd
+< dba
+< cce
+< ecb
+---
+> bdd
+> dde
+> bdb
+> ade
+> bcd
+> cbb
+> ebc
+> dde
+> eac
+> eac
+> eed
+> ccc
+> dca
+3418,3428c3680,3682
+< bcc
+< cbc
+< cbd
+< beb
+< aec
+< cab
+< bda
+< dad
+< cbd
+< bbd
+< ded
+---
+> ebc
+> eda
+> dae
+3430c3684,3687
+< bce
+---
+> bea
+> dba
+> abb
+> ebe
+3432,3437d3688
+< dbb
+< ade
+< bba
+< cea
+< bec
+< aeb
+3439,3440d3689
+< cea
+< dcd
+3442,3458d3690
+< deb
+< daa
+< ddd
+< daa
+< deb
+< baa
+< cac
+< eba
+< aca
+< ccd
+< bcb
+< cbd
+< bab
+< adb
+< bea
+< ceb
+< dcd
+3459a3692,3697
+> cec
+> ebc
+> eeb
+> ebd
+> ded
+> aac
+3461,3467c3699,3701
+< acc
+< dca
+< eeb
+< ece
+< cde
+< dbc
+< ebe
+---
+> bbb
+> ebb
+> ada
+3469,3471c3703,3706
+< dae
+< ccd
+< daa
+---
+> cad
+> eac
+> edc
+> add
+3473,3477c3708,3727
+< dce
+< eae
+< cad
+< bde
+< bdb
+---
+> beb
+> edd
+> dbe
+> deb
+> aac
+> bcc
+> add
+> bce
+> ecd
+> bee
+> aba
+> caa
+> cba
+> ecb
+> ead
+> eab
+> ddc
+> adc
+> bcc
+> cda
+3479,3484c3729
+< aca
+< daa
+< daa
+< bbe
+< bdb
+< adb
+---
+> aac
+3486,3489d3730
+< eda
+< bdd
+< abe
+< eaa
+3491,3494c3732,3736
+< ebd
+< bca
+< adc
+< dcb
+---
+> dbe
+> bed
+> bcb
+> bae
+> edd
+3496,3498c3738
+< add
+< bdc
+< edd
+---
+> dca
+3499a3740
+> bea
+3500a3742,3763
+> cab
+> aba
+> dbc
+> aba
+> ddb
+> caa
+> eae
+> caa
+> ecb
+> ddb
+> cce
+> ded
+> aec
+> eca
+> aac
+> bcc
+> dbc
+> cda
+> cba
+> daa
+> dcb
+> bad
+3502,3511c3765,3770
+< ecb
+< bdb
+< bde
+< bbd
+< dea
+< eac
+< caa
+< cec
+< aaa
+< dbb
+---
+> bec
+> edd
+> eeb
+> ade
+> ded
+> aae
+3513,3525c3772,3776
+< dcd
+< cbd
+< aea
+< ede
+< cea
+< eea
+< cea
+< bdb
+< cee
+< dde
+< ebb
+< bad
+< cdd
+---
+> bba
+> bed
+> dab
+> ddc
+> ddd
+3527,3529c3778,3780
+< deb
+< ecb
+< bbd
+---
+> bdc
+> bdc
+> dea
+3530a3782,3784
+> eee
+> dba
+> dad
+3531a3786,3788
+> aad
+> adc
+> acd
+3533c3790,3798
+< add
+---
+> ebd
+> ecb
+> ddb
+> dbb
+> ebb
+> aab
+> cdc
+> eed
+> edb
+3534a3800,3801
+> aaa
+> ece
+3536,3542c3803
+< eac
+< adb
+< add
+< cba
+< cec
+< bab
+< acc
+---
+> acb
+3544,3548d3804
+< acb
+< eab
+< bde
+< dbc
+< bdd
+3550,3552c3806,3814
+< dee
+< ebb
+< dea
+---
+> bcb
+> eea
+> cdc
+> cce
+> aca
+> aaa
+> abd
+> bce
+> eca
+3554,3557c3816,3818
+< dad
+< ece
+< edd
+< dbc
+---
+> aae
+> eac
+> aaa
+3559,3580c3820,3822
+< ebe
+< ace
+< ecc
+< bde
+< abb
+< ade
+< ddd
+< ecd
+< aee
+< abc
+< bed
+< ebb
+< add
+< eaa
+< dae
+< ebc
+< bee
+< bac
+< edd
+< aab
+< eab
+< eea
+---
+> cde
+> abe
+> dda
+3582,3589d3823
+< aed
+< cea
+< cda
+< abc
+< bba
+< bcb
+< cda
+< caa
+3591,3602c3825,3826
+< aed
+< cac
+< abe
+< bdc
+< aba
+< ace
+< adc
+< ebc
+< aee
+< dce
+< dbc
+< bba
+---
+> edc
+> dec
+3604,3605d3827
+< cbe
+< dbe
+3607,3610c3829,3838
+< cba
+< bed
+< cad
+< ebe
+---
+> aab
+> dba
+> aab
+> deb
+> bae
+> bda
+> eae
+> dcd
+> bee
+> bab
+3612,3644c3840,3842
+< ccd
+< bcc
+< eed
+< aca
+< cae
+< ade
+< eba
+< ddc
+< aac
+< ddb
+< eed
+< cba
+< cbd
+< ecb
+< dcc
+< cae
+< bba
+< cdc
+< dee
+< dce
+< aca
+< dde
+< dec
+< ace
+< acb
+< ada
+< eca
+< cea
+< ebb
+< cea
+< dcd
+< bed
+< adc
+---
+> dda
+> bca
+> eee
+3646,3651d3843
+< edc
+< bbc
+< dce
+< ded
+< abb
+< bca
+3653,3654c3845
+< ceb
+< bed
+---
+> dac
+3656,3678d3846
+< dca
+< ded
+< ddd
+< daa
+< adc
+< edc
+< dcb
+< eed
+< daa
+< ebd
+< ecb
+< bac
+< bca
+< dad
+< daa
+< dcd
+< eab
+< ebb
+< bea
+< eeb
+< eda
+< ada
+< adb
+3680,3689c3848,3850
+< dee
+< aeb
+< dda
+< ebe
+< abd
+< eaa
+< eab
+< dbd
+< ecd
+< aee
+---
+> abe
+> cce
+> caa
+3691,3693c3852,3853
+< edb
+< aec
+< cad
+---
+> cdc
+> edc
+3695,3696d3854
+< eee
+< cca
+3698,3701c3856,3865
+< ded
+< cdd
+< aed
+< dcb
+---
+> ccc
+> bcd
+> bda
+> aaa
+> cce
+> ecc
+> eec
+> eeb
+> edd
+> dba
+3703,3705d3866
+< acd
+< aae
+< aab
+3707,3710c3868,3870
+< adb
+< cba
+< bbd
+< cac
+---
+> bec
+> ecc
+> abe
+3712,3718c3872,3884
+< bca
+< dcb
+< edd
+< bee
+< edd
+< eae
+< dcb
+---
+> dbe
+> aae
+> eee
+> dae
+> cbd
+> ddd
+> cec
+> ccb
+> bcd
+> bcd
+> cab
+> abc
+> dda
+3720,3722c3886
+< aea
+< ced
+< bab
+---
+> abb
+3724,3759c3888,3890
+< dea
+< ecb
+< bcd
+< ced
+< eba
+< dec
+< ccc
+< edd
+< cca
+< bae
+< cea
+< bea
+< daa
+< aca
+< ebc
+< aae
+< cac
+< cca
+< cbb
+< abc
+< dcb
+< aac
+< ccd
+< cab
+< ddc
+< eae
+< bbe
+< dae
+< bce
+< ede
+< cce
+< cdc
+< ced
+< cac
+< cdd
+< eeb
+---
+> ade
+> cae
+> cad
+3761,3762c3892
+< bcc
+< eeb
+---
+> aaa
+3764,3766c3894,3903
+< dad
+< dec
+< aeb
+---
+> aaa
+> bcb
+> dbe
+> aec
+> ceb
+> abe
+> bbe
+> bec
+> dee
+> cca
+3767a3905,3910
+> eca
+> bec
+> dab
+> cdb
+> eae
+> ade
+3769,3785c3912,3916
+< cae
+< eaa
+< dda
+< dbd
+< dbd
+< bad
+< cea
+< ded
+< ced
+< dbc
+< cdb
+< dec
+< dbd
+< add
+< edc
+< dbd
+< ebe
+---
+> eab
+> aea
+> eeb
+> bec
+> dea
+3787d3917
+< bcd
+3789,3805c3919,3925
+< bdc
+< bdc
+< dbb
+< cde
+< dab
+< aac
+< ddb
+< bde
+< ada
+< cac
+< dea
+< cde
+< eeb
+< bad
+< bda
+< bec
+< aed
+---
+> eed
+> bca
+> ddc
+> adb
+> eea
+> dde
+> aea
+3807,3815c3927,3932
+< aca
+< ecd
+< abc
+< aad
+< aca
+< dca
+< cda
+< dbd
+< bbd
+---
+> cad
+> dde
+> bbb
+> bee
+> ccd
+> aae
+3816a3934,3945
+> bed
+> ede
+> dda
+> bcc
+> cea
+> dce
+> bdb
+> ede
+> dda
+> cba
+> abb
+> aba
+3818c3947,3948
+< ded
+---
+> ece
+> aee
+3820,3823c3950,3954
+< cbd
+< ece
+< aea
+< dea
+---
+> bec
+> edb
+> dae
+> dca
+> ceb
+3825,3830c3956,3960
+< cca
+< eeb
+< ace
+< eec
+< edb
+< ecd
+---
+> ada
+> ddb
+> ddd
+> cbe
+> dec
+3832,3846c3962,3966
+< dca
+< add
+< cab
+< ccc
+< bcb
+< bca
+< ede
+< add
+< eeb
+< cdd
+< bba
+< bea
+< eea
+< bbe
+< eec
+---
+> cbd
+> cce
+> cda
+> ada
+> ecc
+3849,3851c3969,3975
+< dab
+< ead
+< adc
+---
+> acc
+> aec
+> bcd
+> dbd
+> eeb
+> edb
+> dbe
+3852a3977,3983
+> cce
+> bdc
+> acc
+> adb
+> dcd
+> aed
+> bdb
+3854c3985,3987
+< cdc
+---
+> dac
+> ccb
+> bdd
+3856c3989,3990
+< aac
+---
+> aed
+> ead
+3857a3992,3995
+> cad
+> ebb
+> ede
+> eca
+3859,3863c3997,4024
+< aac
+< acb
+< add
+< ebd
+< ebb
+---
+> aaa
+> dcc
+> eca
+> edc
+> dba
+> beb
+> abd
+> eee
+> ede
+> bec
+> bde
+> bec
+> ebc
+> cea
+> dbb
+> aad
+> ecd
+> edd
+> dac
+> aaa
+> bcc
+> cbc
+> aab
+> ecd
+> dae
+> eab
+> ece
+> dae
+3865c4026,4056
+< cee
+---
+> acc
+> cbc
+> bbe
+> aea
+> bbc
+> bae
+> aec
+> aed
+> dcd
+> bdc
+> bce
+> eec
+> ccb
+> cbb
+> bbd
+> aae
+> cad
+> dac
+> bdc
+> dee
+> eaa
+> dbc
+> bdb
+> eca
+> bae
+> eeb
+> deb
+> ede
+> ade
+> beb
+> cea
+3867,3878c4058,4064
+< bde
+< edc
+< ade
+< edb
+< cbd
+< cdd
+< bed
+< caa
+< dea
+< abb
+< caa
+< bbb
+---
+> eac
+> cea
+> eda
+> eeb
+> ace
+> dde
+> bdb
+3881,3898d4066
+< dab
+< cdb
+< dee
+< aec
+< cab
+< dad
+< ced
+< aab
+< cbd
+< bdd
+< add
+< beb
+< aed
+< ebd
+< dbd
+< cce
+< bbe
+< aab
+3900c4068,4069
+< acd
+---
+> bdb
+> cac
+3902,3904c4071,4072
+< cdc
+< dbe
+< adb
+---
+> acb
+> ead
+3906,3913d4073
+< cca
+< dab
+< dad
+< ebd
+< abb
+< cbb
+< acb
+< bce
+3915,3917c4075
+< eed
+< dac
+< ede
+---
+> cbd
+3920,3935c4078,4085
+< aca
+< ced
+< cee
+< bab
+< ced
+< dea
+< bed
+< eaa
+< bdd
+< cde
+< acd
+< aae
+< cbd
+< eeb
+< aee
+< cbc
+---
+> ddb
+> dbc
+> eec
+> bca
+> aed
+> acc
+> eae
+> bac
+3936a4087,4095
+> dae
+> dbb
+> bcc
+> ede
+> dba
+> abc
+> aab
+> aaa
+> dde
+3937a4097,4099
+> bdb
+> cbe
+> aba
+3939,3954c4101,4114
+< ada
+< bcd
+< deb
+< cbc
+< adb
+< bde
+< acd
+< cba
+< dac
+< cdc
+< cdc
+< cca
+< eea
+< bcb
+< ebe
+< eae
+---
+> cec
+> ddd
+> ecb
+> aeb
+> ecc
+> abe
+> bac
+> eaa
+> add
+> cee
+> dce
+> ddc
+> bbe
+> eda
+3956c4116
+< dda
+---
+> eaa
+3958,3963c4118,4128
+< ccc
+< dcb
+< cce
+< bcd
+< eea
+< aad
+---
+> daa
+> bcc
+> aca
+> caa
+> eca
+> dde
+> ccb
+> eac
+> add
+> ece
+> cee
+3964a4130
+> aeb
+3966c4132,4136
+< aca
+---
+> ead
+> eda
+> ebd
+> edb
+> bce
+3968,3970c4138,4139
+< cda
+< eab
+< dac
+---
+> bee
+> dba
+3972,3975c4141,4170
+< edb
+< ded
+< cac
+< ddc
+---
+> cbe
+> ecb
+> abe
+> dec
+> ece
+> bbd
+> bee
+> bad
+> ccc
+> aab
+> aeb
+> ebe
+> bac
+> bdb
+> aba
+> dca
+> aca
+> dbe
+> baa
+> dee
+> cbb
+> bbd
+> cbd
+> aac
+> cea
+> abc
+> dbc
+> dab
+> acd
+> bbc
+3977,3979c4172
+< cba
+< aca
+< eee
+---
+> bde
+3981,3985c4174,4208
+< aed
+< bbd
+< aae
+< cec
+< bda
+---
+> edc
+> aba
+> eeb
+> dec
+> cdb
+> dce
+> cea
+> cdd
+> bec
+> bba
+> aba
+> cdc
+> ded
+> bdc
+> dea
+> aec
+> bae
+> bbe
+> bbe
+> eeb
+> eaa
+> ede
+> aeb
+> dbb
+> cda
+> ade
+> aad
+> aeb
+> bdc
+> ebe
+> deb
+> cae
+> eba
+> eec
+> dde
+3987,3988c4210
+< bbb
+< dee
+---
+> dbc
+3991,3994c4213,4217
+< cec
+< acc
+< dbd
+< bbb
+---
+> ebe
+> ebe
+> ebb
+> ccc
+> eeb
+3995a4219,4220
+> aca
+> cbc
+3996a4222,4227
+> dac
+> ddd
+> aea
+> add
+> aea
+> cda
+3998,4002c4229
+< ccb
+< ced
+< dea
+< cad
+< eac
+---
+> bea
+4004,4008c4231,4238
+< aba
+< ded
+< dde
+< bda
+< edd
+---
+> adb
+> aab
+> eeb
+> aaa
+> abc
+> eae
+> eab
+> abe
+4010,4020c4240,4245
+< bab
+< baa
+< ebd
+< ddd
+< ead
+< bae
+< bae
+< cdc
+< bee
+< dbc
+< ceb
+---
+> cdb
+> abe
+> dda
+> acb
+> dac
+> ccc
+4022,4026c4247,4250
+< abb
+< bed
+< aad
+< dde
+< cdb
+---
+> aed
+> bec
+> eba
+> ace
+4028,4031d4251
+< caa
+< aae
+< cba
+< daa
+4032a4253,4255
+> ade
+> ebd
+> ccc
+4034,4037c4257,4262
+< dbb
+< adb
+< aeb
+< eaa
+---
+> ceb
+> aea
+> dee
+> ebb
+> bde
+> bcd
+4039c4264,4274
+< dce
+---
+> acb
+> cbe
+> aed
+> bbe
+> cae
+> aee
+> eca
+> aae
+> dcc
+> bae
+> ced
+4041,4045c4276,4278
+< eee
+< aac
+< daa
+< cce
+< eea
+---
+> adb
+> bdb
+> eab
+4047,4049d4279
+< eae
+< bde
+< bdd
+4051c4281,4294
+< acd
+---
+> aed
+> cce
+> acb
+> dad
+> dee
+> bcb
+> ebe
+> ceb
+> bba
+> eab
+> abd
+> bcc
+> bab
+> ebc
+4052a4296,4302
+> bea
+> bac
+> cbd
+> bce
+> bad
+> bca
+> ded
+4054c4304,4307
+< edb
+---
+> caa
+> daa
+> ccc
+> aaa
+4056c4309,4327
+< eab
+---
+> daa
+> ede
+> cce
+> aae
+> cca
+> bdb
+> bba
+> ccd
+> dde
+> ddd
+> cbc
+> dbb
+> deb
+> bec
+> bcb
+> abd
+> cce
+> bea
+> abe
+4057a4329,4344
+> cba
+> eeb
+> dbc
+> cae
+> dcb
+> dbb
+> abb
+> bae
+> ddd
+> bed
+> ecc
+> ede
+> aec
+> bca
+> cde
+> ede
+4059,4065c4346,4354
+< bcd
+< cee
+< cbe
+< dec
+< edc
+< ade
+< dde
+---
+> dbd
+> eda
+> dce
+> bbe
+> cab
+> adc
+> ccb
+> cca
+> dbc
+4067,4068c4356,4357
+< edc
+< cdc
+---
+> aca
+> ceb
+4070c4359,4368
+< dab
+---
+> cca
+> adb
+> dad
+> bad
+> cca
+> cbd
+> daa
+> dca
+> ebe
+> dcc
+4072,4073c4370,4384
+< dbb
+< edd
+---
+> eeb
+> bdd
+> bad
+> ecd
+> cdb
+> daa
+> dce
+> ced
+> aea
+> add
+> cbe
+> acd
+> aab
+> dba
+> acb
+4075,4076c4386,4396
+< ccd
+< dab
+---
+> dce
+> eba
+> cba
+> ede
+> dec
+> bbb
+> bbe
+> eba
+> cda
+> edb
+> cce
+4077a4398,4416
+> dae
+> dad
+> aee
+> aba
+> ecc
+> bdb
+> bbe
+> aeb
+> cab
+> ade
+> dad
+> ddd
+> cdd
+> bdc
+> aec
+> dcb
+> ced
+> dca
+> aee
+4078a4418,4420
+> acd
+> dec
+> aae
+4080,4085c4422,4431
+< eed
+< cbd
+< eaa
+< bde
+< ccd
+< bba
+---
+> baa
+> eda
+> edc
+> bda
+> ddc
+> cbc
+> bcb
+> cad
+> ded
+> bea
+4087,4099c4433,4437
+< eab
+< acb
+< cdc
+< aea
+< eeb
+< ecd
+< eee
+< aad
+< bce
+< dcd
+< aab
+< eee
+< aab
+---
+> bae
+> adc
+> eae
+> eda
+> ddd
+4100a4439,4448
+> bca
+> cba
+> aed
+> bcd
+> dec
+> bed
+> bad
+> ddc
+> dbd
+> bee
+4102c4450,4455
+< bea
+---
+> ede
+> abe
+> ebd
+> ddb
+> aee
+> aea
+4103a4457,4471
+> bad
+> eda
+> ace
+> ebe
+> eed
+> ebb
+> eab
+> aed
+> ece
+> ccb
+> bcc
+> dea
+> eba
+> bab
+> abd
+4104a4473,4483
+> edd
+> dab
+> dcb
+> ecd
+> eab
+> cae
+> cdc
+> ada
+> ace
+> ebd
+> beb
+4105a4485,4486
+> abd
+> ddc
+4107,4121c4488,4500
+< edb
+< ade
+< ccc
+< dea
+< baa
+< dcd
+< bcc
+< adb
+< eae
+< bbd
+< ded
+< eca
+< edc
+< dee
+< dcb
+---
+> ebd
+> dca
+> eac
+> ccd
+> cbb
+> cbb
+> eac
+> cdd
+> add
+> bae
+> bca
+> bab
+> aad
+4123,4140c4502,4503
+< eda
+< cab
+< eae
+< eab
+< ebc
+< add
+< ade
+< bde
+< ebe
+< dee
+< eea
+< ebc
+< dea
+< bcd
+< cea
+< ebe
+< dda
+< acd
+---
+> bbb
+> bbc
+4142c4505
+< abb
+---
+> bce
+4144,4152c4507,4510
+< ecb
+< dce
+< edc
+< bdb
+< aba
+< abc
+< bbb
+< bab
+< ade
+---
+> bba
+> adb
+> dcd
+> aab
+4154c4512,4517
+< eec
+---
+> bba
+> dde
+> cce
+> abb
+> eab
+> ceb
+4156,4163c4519,4523
+< cab
+< bac
+< cde
+< aab
+< bab
+< dea
+< aee
+< eda
+---
+> dab
+> ece
+> dad
+> cdd
+> ccd
+4166,4172c4526,4531
+< aad
+< ced
+< dcb
+< ade
+< ade
+< daa
+< bab
+---
+> ace
+> eaa
+> ece
+> dbb
+> bbe
+> eec
+4174,4175c4533,4540
+< ddb
+< edd
+---
+> ada
+> bea
+> cdb
+> ccb
+> cdc
+> dae
+> cbc
+> bde
+4177,4183c4542,4567
+< ecb
+< ebd
+< aec
+< bca
+< bbd
+< dcd
+< ecd
+---
+> cea
+> aeb
+> aae
+> aba
+> ddc
+> ada
+> cbb
+> ede
+> cdd
+> abc
+> abd
+> abc
+> bcd
+> cbb
+> eeb
+> dda
+> dce
+> baa
+> bbc
+> cdb
+> ebc
+> ace
+> bac
+> bbe
+> deb
+> eca
+4184a4569
+> bad
+4186,4187c4571,4578
+< eea
+< dcc
+---
+> cbe
+> dca
+> ecc
+> eba
+> aea
+> bcd
+> aac
+> cec
+4189,4194c4580
+< bbe
+< beb
+< ddc
+< eac
+< dca
+< bbe
+---
+> cbc
+4195a4582,4593
+> cea
+> bad
+> ede
+> cdc
+> ecb
+> ded
+> bdc
+> bea
+> abc
+> cea
+> aec
+> ccb
+4196a4595,4603
+> ead
+> ebd
+> ebb
+> edd
+> bdc
+> bde
+> abd
+> cbe
+> dcd
+4198,4204c4605,4608
+< cee
+< bad
+< cda
+< aac
+< aec
+< bcd
+< eca
+---
+> ccd
+> ecd
+> ddb
+> ead
+4206,4208c4610,4629
+< cdc
+< eab
+< cda
+---
+> ebd
+> aee
+> ede
+> bea
+> bae
+> ddb
+> ccd
+> cad
+> cea
+> cdb
+> ede
+> aae
+> bbe
+> cbc
+> bea
+> dce
+> dae
+> eee
+> bca
+> acb
+4209a4631,4647
+> ddc
+> dae
+> dce
+> cba
+> dce
+> bba
+> aae
+> ada
+> dee
+> dae
+> dae
+> eba
+> ecc
+> aab
+> edd
+> abb
+> ebb
+4211c4649
+< ddd
+---
+> bcc
+4213d4650
+< abe
+4214a4652,4670
+> eaa
+> ced
+> ebd
+> eeb
+> bbc
+> dbe
+> aaa
+> dbe
+> cec
+> bbb
+> bcc
+> dac
+> edb
+> abc
+> acb
+> cda
+> edc
+> cee
+> dcb
+4216c4672,4675
+< adc
+---
+> eee
+> aad
+> bad
+> cab
+4218,4239d4676
+< bbd
+< cda
+< eda
+< ccb
+< cca
+< aea
+< ada
+< ccd
+< cbd
+< bec
+< ced
+< abb
+< bbb
+< ccd
+< cad
+< eac
+< ddc
+< dcc
+< dad
+< aab
+< cae
+< cea
+4241,4242c4678
+< ecc
+< baa
+---
+> dce
+4244,4257c4680
+< eda
+< ecb
+< bbd
+< bec
+< dea
+< eca
+< cbb
+< eae
+< ecc
+< eea
+< ced
+< dee
+< dce
+< dae
+---
+> ebb
+4259,4260c4682,4683
+< daa
+< ace
+---
+> bba
+> ebd
+4262a4686,4699
+> abb
+> ebb
+> bed
+> eab
+> adc
+> cbe
+> eca
+> ddb
+> bdb
+> ccd
+> cac
+> cac
+> ece
+> ddd
+4263a4701,4709
+> ece
+> bdb
+> dda
+> eae
+> aab
+> aee
+> aea
+> ddc
+> bdd
+4265a4712,4713
+> ebe
+> bac
+4267c4715,4732
+< acb
+---
+> ddc
+> ced
+> ebd
+> cce
+> acd
+> bcb
+> dee
+> cbb
+> deb
+> bcb
+> ddd
+> abd
+> dcd
+> bbe
+> cea
+> bad
+> deb
+> ace
+4269,4271c4734,4748
+< ebc
+< cca
+< bcd
+---
+> bdb
+> aae
+> cee
+> bcb
+> bec
+> dbc
+> dba
+> aeb
+> aaa
+> bac
+> dbe
+> ecd
+> ebb
+> aee
+> dee
+4273,4282c4750,4758
+< ded
+< bbd
+< cbe
+< cac
+< aba
+< acc
+< cde
+< ddc
+< bdd
+< bcc
+---
+> dca
+> aab
+> cbd
+> cda
+> ece
+> aee
+> dcc
+> eac
+> ede
+4284,4286c4760,4762
+< ced
+< dae
+< aed
+---
+> ede
+> cdb
+> adc
+4288,4291c4764
+< aeb
+< beb
+< bab
+< dab
+---
+> bac
+4293,4295c4766,4781
+< bec
+< cac
+< edb
+---
+> dde
+> ebc
+> ebb
+> daa
+> dac
+> aca
+> eeb
+> eee
+> bcc
+> cae
+> aad
+> abb
+> dec
+> cec
+> abc
+> dda
+4297,4301d4782
+< ecc
+< dce
+< bec
+< dbd
+< ddc
+4303c4784,4785
+< dcc
+---
+> ece
+> eee
+4305,4308c4787,4814
+< acb
+< eee
+< baa
+< eab
+---
+> dbc
+> bbe
+> aeb
+> bbb
+> eaa
+> bcc
+> aec
+> eea
+> deb
+> bed
+> ace
+> aeb
+> ded
+> edc
+> eac
+> cae
+> aad
+> dbe
+> dbb
+> bde
+> eec
+> dcd
+> abd
+> deb
+> cdd
+> bdc
+> eec
+> ecd
+4309a4816,4819
+> cee
+> ccd
+> eea
+> dce
+4311c4821,4829
+< edd
+---
+> abd
+> eea
+> eae
+> cba
+> bea
+> eea
+> bdc
+> ede
+> aea
+4313,4342c4831,4832
+< ced
+< eed
+< cae
+< aba
+< dae
+< aed
+< dbd
+< acb
+< edb
+< eeb
+< abe
+< edd
+< eeb
+< aaa
+< cac
+< cab
+< cce
+< abd
+< ebb
+< bae
+< dad
+< daa
+< daa
+< eda
+< aab
+< daa
+< adb
+< eda
+< bbc
+< bed
+---
+> ceb
+> eea
+4344,4351c4834
+< cdc
+< bbd
+< ecb
+< eab
+< dae
+< adc
+< bce
+< dcd
+---
+> ada
+4353c4836
+< acb
+---
+> ddb
+4355c4838,4845
+< aab
+---
+> edd
+> cbc
+> dbd
+> ccd
+> cae
+> eab
+> bcd
+> eab
+4357,4363c4847,4859
+< aac
+< ecb
+< add
+< cbd
+< bad
+< bbb
+< bba
+---
+> eda
+> dce
+> eee
+> edd
+> aad
+> abb
+> bea
+> eee
+> bca
+> bbc
+> dbe
+> ccd
+> eed
+4365c4861,4863
+< acb
+---
+> ced
+> bca
+> edb
+4367,4376d4864
+< eaa
+< ddd
+< ebc
+< abb
+< dab
+< acd
+< ebd
+< bac
+< ccb
+< ebd
+4378,4379c4866,4868
+< bdd
+< ebc
+---
+> eab
+> aba
+> ddb
+4381,4383c4870,4872
+< cad
+< edc
+< deb
+---
+> ddd
+> acc
+> eee
+4385,4399d4873
+< add
+< dbb
+< eeb
+< aae
+< deb
+< dae
+< ebd
+< cbb
+< ace
+< cab
+< bdd
+< cba
+< dcc
+< bae
+< dec
+4401c4875,4882
+< cec
+---
+> ada
+> aad
+> aad
+> acd
+> aaa
+> eab
+> bac
+> eab
+4403,4404c4884,4889
+< adb
+< ead
+---
+> cea
+> cbd
+> cdb
+> eae
+> ccd
+> cea
+4405a4891,4894
+> bac
+> dcd
+> ada
+> eeb
+4407,4423c4896,4897
+< cbc
+< dec
+< dcd
+< bde
+< acd
+< dbd
+< dde
+< aac
+< ece
+< cac
+< bac
+< dde
+< dda
+< eed
+< ebb
+< bec
+< dbd
+---
+> bbe
+> eab
+4425,4427c4899,4905
+< dae
+< acd
+< cee
+---
+> cbd
+> ccb
+> beb
+> ace
+> ace
+> abb
+> aca
+4429,4438c4907,4908
+< dea
+< ddd
+< bbe
+< edb
+< eda
+< bea
+< bca
+< bbb
+< aca
+< cad
+---
+> ade
+> cac
+4440c4910,4918
+< ecd
+---
+> cbb
+> dbb
+> dad
+> dbe
+> bed
+> cce
+> ace
+> cdb
+> bed
+4442,4446c4920,4924
+< aed
+< cce
+< bee
+< cce
+< ecd
+---
+> dde
+> cdc
+> aaa
+> bad
+> ced
+4448,4455c4926,4932
+< dbe
+< cca
+< cbc
+< bbb
+< bdd
+< dcc
+< ddb
+< bbd
+---
+> bed
+> ebb
+> aeb
+> adc
+> ddc
+> cab
+> aae
+4456a4934,4937
+> cab
+> dce
+> acc
+> abe
+4458,4460d4938
+< bea
+< adc
+< bcd
+4461a4940,4947
+> ecd
+> bab
+> aca
+> aac
+> bca
+> dec
+> dcc
+> bcb
+4463,4467c4949,4954
+< dda
+< aeb
+< bea
+< bea
+< edd
+---
+> ccb
+> dca
+> adb
+> eee
+> aae
+> eab
+4468a4956,4957
+> cce
+> dcd
+4470,4472c4959,4962
+< bba
+< cee
+< ece
+---
+> acd
+> eaa
+> dad
+> edd
+4474,4476c4964,4965
+< deb
+< eab
+< ecb
+---
+> ccd
+> ead
+4477a4967,4988
+> bab
+> dea
+> eda
+> dcc
+> bea
+> aca
+> eae
+> ced
+> aca
+> ccb
+> cbe
+> beb
+> bce
+> aad
+> abd
+> cbd
+> bdc
+> eaa
+> ded
+> ebc
+> cdd
+> edc
+4478a4990,5010
+> adb
+> dbb
+> aac
+> ddc
+> dac
+> edd
+> cbd
+> dea
+> aae
+> dca
+> eac
+> dba
+> bdb
+> ebb
+> ced
+> aba
+> aba
+> abd
+> bda
+> ded
+> ead
+4480,4485c5012,5014
+< dda
+< daa
+< dbc
+< ade
+< cbb
+< eae
+---
+> ada
+> dde
+> cbc
+4487,4488d5015
+< bee
+< aaa
+4490,4491c5017,5019
+< abe
+< cae
+---
+> dcd
+> bca
+> eab
+4493,4494c5021,5035
+< ecb
+< aed
+---
+> dee
+> abb
+> acd
+> bad
+> cdc
+> dba
+> bbe
+> cdd
+> abc
+> aee
+> bdd
+> acb
+> bea
+> aca
+> eda
+4496c5037,5049
+< cee
+---
+> eac
+> bdc
+> ead
+> ceb
+> ceb
+> dbc
+> dad
+> eab
+> acd
+> bbc
+> bee
+> eea
+> eea
+4498,4500c5051,5058
+< adb
+< cac
+< dda
+---
+> edc
+> dcc
+> ddb
+> ebc
+> ceb
+> ded
+> bae
+> ceb
+4502,4504c5060,5061
+< cca
+< bbe
+< aea
+---
+> deb
+> dad
+4506,4507c5063,5064
+< dcc
+< dde
+---
+> abb
+> edd
+4509,4511c5066
+< beb
+< adb
+< aed
+---
+> ebd
+4513,4525d5067
+< deb
+< aae
+< ddd
+< aae
+< cdc
+< ccc
+< dea
+< dae
+< ebb
+< abe
+< cae
+< bbe
+< cdb
+4527,4528c5069,5072
+< bbb
+< bea
+---
+> baa
+> ddb
+> ded
+> cda
+4530,4538c5074,5076
+< aea
+< dce
+< bba
+< bac
+< cdd
+< bdb
+< bee
+< ebc
+< bdb
+---
+> bce
+> acc
+> ccc
+4540,4543c5078,5084
+< cec
+< ecc
+< dea
+< daa
+---
+> bce
+> adc
+> bdc
+> dab
+> aac
+> dab
+> dbc
+4545,4552c5086,5094
+< beb
+< eac
+< abb
+< cec
+< abc
+< bee
+< ede
+< cae
+---
+> cac
+> dee
+> bbd
+> ddd
+> ced
+> eaa
+> bae
+> ccb
+> ccb
+4554,4561c5096,5099
+< cbd
+< caa
+< abd
+< ede
+< aea
+< aab
+< aed
+< dca
+---
+> ebb
+> aee
+> eab
+> bdc
+4563,4564d5100
+< cbc
+< dcd
+4566,4570c5102
+< acd
+< bbe
+< eeb
+< bbb
+< ddc
+---
+> dad
+4572,4573d5103
+< dbb
+< eae
+4574a5105,5110
+> eed
+> ded
+> bab
+> bba
+> bdc
+> aea
+4576,4577c5112,5118
+< aaa
+< cde
+---
+> ddc
+> eab
+> aee
+> ddc
+> bbb
+> cbd
+> dad
+4579,4580d5119
+< aed
+< bda
+4582,4584c5121,5124
+< cdc
+< ecd
+< cbe
+---
+> eba
+> ecc
+> beb
+> ace
+4586,4591c5126,5138
+< eee
+< aba
+< dac
+< dcd
+< bbb
+< bdb
+---
+> abb
+> bce
+> ddd
+> eaa
+> cdd
+> bec
+> bda
+> abb
+> bea
+> dae
+> eca
+> eaa
+> abd
+4592a5140,5142
+> ccc
+> abd
+> cbc
+4594,4607c5144,5150
+< ecd
+< ccb
+< dea
+< eda
+< aca
+< ede
+< aab
+< ada
+< dac
+< bcb
+< bbd
+< aae
+< dbe
+< eda
+---
+> ebe
+> cba
+> bca
+> ebd
+> baa
+> cbc
+> dee
+4608a5152
+> ccc
+4610,4615c5154,5156
+< ebd
+< cad
+< ebd
+< add
+< aba
+< ddc
+---
+> bbe
+> cbd
+> ced
+4617,4631c5158,5159
+< eeb
+< dde
+< eeb
+< ded
+< beb
+< bcc
+< aec
+< abc
+< cda
+< dcb
+< ead
+< eed
+< abe
+< bbb
+< dce
+---
+> cea
+> bbd
+4633,4649d5160
+< cbb
+< bde
+< aeb
+< bac
+< eea
+< abb
+< aed
+< dbc
+< edc
+< cec
+< ded
+< cac
+< cbd
+< ada
+< bad
+< abc
+< aec
+4651,4654c5162,5164
+< abb
+< ecd
+< dee
+< ded
+---
+> cdc
+> bcc
+> dba
+4657,4667c5167,5174
+< abd
+< bbd
+< cda
+< dcb
+< dcd
+< bdd
+< abd
+< cea
+< dbb
+< cea
+< eec
+---
+> dce
+> dbe
+> eea
+> ace
+> ade
+> aad
+> ced
+> cbc
+4669,4677d5175
+< dda
+< cac
+< cac
+< beb
+< ddd
+< abe
+< cab
+< ceb
+< beb
+4679c5177,5185
+< ebb
+---
+> dad
+> bde
+> ddb
+> eae
+> acb
+> ade
+> cce
+> aaa
+> bce
+4681,4688d5186
+< bac
+< ddc
+< cea
+< ccb
+< eab
+< bcc
+< cce
+< dec
+4690,4693c5188,5197
+< caa
+< aee
+< dba
+< cea
+---
+> cee
+> bcb
+> eea
+> dac
+> ade
+> eac
+> eed
+> dad
+> dee
+> ade
+4695,4701c5199,5211
+< cad
+< bcd
+< bac
+< ced
+< dde
+< baa
+< ced
+---
+> ebc
+> dcc
+> ebe
+> cde
+> eac
+> dcc
+> ebd
+> aea
+> edb
+> edb
+> ddc
+> aea
+> bda
+4703,4715c5213
+< dba
+< adc
+< dce
+< bbb
+< eed
+< dcd
+< bcb
+< dda
+< dec
+< bde
+< ddb
+< dae
+< bcd
+---
+> dea
+4717,4720c5215
+< ade
+< bed
+< daa
+< ceb
+---
+> cba
+4722,4724d5216
+< aee
+< aab
+< dee
+4725a5218,5224
+> eed
+> cde
+> bce
+> ade
+> cdd
+> abe
+> ebb
+4727,4731c5226,5231
+< ede
+< ccc
+< bea
+< acb
+< edb
+---
+> dcc
+> aba
+> dce
+> ecd
+> eac
+> bab
+4732a5233,5237
+> bcb
+> abc
+> dee
+> bbe
+> ebd
+4734,4740c5239,5247
+< cee
+< ded
+< bae
+< eac
+< acc
+< abe
+< ddc
+---
+> eed
+> aca
+> aec
+> ece
+> cab
+> eec
+> edd
+> ecc
+> bed
+4742,4745c5249,5250
+< bbd
+< bae
+< cad
+< abe
+---
+> adc
+> abd
+4747c5252,5253
+< eab
+---
+> dda
+> aee
+4749,4750c5255,5292
+< aba
+< dbd
+---
+> aee
+> bec
+> cae
+> aab
+> ebc
+> cda
+> ada
+> dad
+> abc
+> cdb
+> aea
+> bcd
+> ebb
+> deb
+> cbc
+> eda
+> cce
+> aad
+> cba
+> bbe
+> aee
+> ccb
+> ccd
+> aab
+> ebc
+> cae
+> acc
+> aca
+> bea
+> bbe
+> eec
+> eea
+> aad
+> bdb
+> ecd
+> eae
+> ded
+> cbe
+4751a5294,5299
+> bac
+> ebb
+> dae
+> ace
+> ceb
+> daa
+4754,4755c5302,5319
+< eec
+< dac
+---
+> bae
+> dca
+> bab
+> bae
+> ccb
+> ccd
+> bac
+> dca
+> ead
+> eba
+> cae
+> abc
+> bba
+> acb
+> abc
+> eca
+> bcc
+> dae
+4756a5321,5327
+> beb
+> bed
+> abd
+> aec
+> cbd
+> ebc
+> aed
+4758c5329,5336
+< dea
+---
+> bcb
+> acd
+> aca
+> bbb
+> dac
+> caa
+> cbe
+> ddb
+4759a5338,5360
+> abb
+> dcb
+> cab
+> baa
+> bad
+> aee
+> ace
+> cad
+> cbb
+> dbd
+> aec
+> adc
+> eac
+> eab
+> bca
+> bae
+> ceb
+> caa
+> bcb
+> aee
+> dbd
+> cad
+> ccb
+4761,4768c5362
+< dbd
+< bde
+< cbb
+< bda
+< ace
+< ddc
+< cdd
+< cce
+---
+> aeb
+4770,4783c5364,5386
+< ddc
+< bac
+< aca
+< dbb
+< ada
+< aba
+< eba
+< ddb
+< eee
+< aea
+< eac
+< bbc
+< dea
+< aaa
+---
+> dce
+> bec
+> daa
+> dba
+> dce
+> ded
+> bab
+> dcb
+> ebb
+> aab
+> beb
+> bce
+> bdc
+> acc
+> bdb
+> ebb
+> edc
+> cdc
+> aab
+> bbd
+> cea
+> adb
+> eed
+4785,4787c5388
+< edd
+< eaa
+< bed
+---
+> cbb
+4788a5390,5391
+> edb
+> bad
+4790,4792c5393,5395
+< ebc
+< cdb
+< edc
+---
+> ded
+> ade
+> ded
+4794,4795c5397,5399
+< edb
+< dac
+---
+> bad
+> cca
+> dab
+4797,4799c5401,5409
+< bee
+< caa
+< ecc
+---
+> eeb
+> cec
+> ecb
+> cae
+> aed
+> ada
+> eaa
+> cdc
+> bea
+4800a5411,5428
+> acb
+> bab
+> eba
+> dde
+> aeb
+> cdd
+> cad
+> dce
+> dbe
+> cdc
+> dbd
+> bab
+> dac
+> bca
+> ddd
+> bea
+> ade
+> dcb
+4802,4805c5430,5436
+< bbd
+< cbb
+< bcb
+< ebb
+---
+> ccb
+> add
+> bee
+> ccc
+> beb
+> dca
+> abd
+4808,4811c5439,5462
+< aac
+< bea
+< eba
+< bdd
+---
+> bdb
+> bbc
+> bde
+> bad
+> add
+> daa
+> eab
+> cae
+> cdb
+> cee
+> ebb
+> ccb
+> cdd
+> acc
+> bde
+> acd
+> ace
+> eed
+> cec
+> acb
+> aae
+> dac
+> acd
+> ddc
+4813d5463
+< cab
+4814a5465
+> eac
+4816,4819c5467,5472
+< aca
+< ccc
+< bed
+< bdd
+---
+> cbd
+> ecc
+> edb
+> ced
+> add
+> ecb
+4821,4823c5474
+< dbc
+< aae
+< ecb
+---
+> baa
+4825,4826c5476,5480
+< abe
+< ace
+---
+> bea
+> bbe
+> dcc
+> cab
+> aad
+4828,4831d5481
+< bed
+< eae
+< bdd
+< abe
+4833,4835c5483,5485
+< aad
+< eed
+< dea
+---
+> bcb
+> bcc
+> bae
+4837,4845c5487
+< cbc
+< cca
+< baa
+< eec
+< ebc
+< abe
+< cab
+< aad
+< aae
+---
+> dde
+4847,4849c5489
+< bed
+< ebc
+< dde
+---
+> ded
+4850a5491,5521
+> ede
+> cbd
+> aad
+> cec
+> edc
+> bae
+> add
+> dae
+> dda
+> bda
+> ade
+> cac
+> eee
+> dba
+> cac
+> dcd
+> dda
+> ceb
+> ddd
+> dca
+> dbb
+> ada
+> beb
+> cdb
+> cec
+> bdb
+> ecc
+> dca
+> adb
+> ced
+> ded
+4852,4855c5523,5538
+< dac
+< cca
+< bdd
+< dae
+---
+> edb
+> ebb
+> dce
+> bbe
+> cec
+> add
+> ede
+> bed
+> cad
+> bec
+> add
+> edc
+> aed
+> aae
+> aed
+> aec
+4856a5540,5556
+> bbd
+> ece
+> ebe
+> baa
+> aab
+> dca
+> bba
+> dbd
+> bbe
+> bde
+> edb
+> acc
+> ead
+> acb
+> add
+> beb
+> dab
+4858,4867c5558,5562
+< bac
+< bad
+< dac
+< dbc
+< dab
+< adc
+< cdc
+< acd
+< cee
+< dcb
+---
+> eac
+> bdc
+> cac
+> aad
+> bea
+4869,4879c5564,5571
+< bbb
+< dde
+< ccb
+< ebd
+< dbb
+< bcb
+< eae
+< dda
+< ded
+< cdd
+< cec
+---
+> ebc
+> cbc
+> bbe
+> bab
+> dbe
+> cad
+> eda
+> cbd
+4881c5573
+< deb
+---
+> eac
+4882a5575,5576
+> eea
+> bbc
+4884,4896c5578,5580
+< ebc
+< dee
+< bee
+< dca
+< bce
+< ece
+< bad
+< aed
+< ccc
+< daa
+< bbc
+< dce
+< ddb
+---
+> ddd
+> dcb
+> dda
+4898c5582,5591
+< eee
+---
+> eeb
+> edc
+> dbb
+> aab
+> dac
+> eda
+> bae
+> cbc
+> bba
+> dcc
+4900,4901c5593,5595
+< ebd
+< ead
+---
+> cde
+> cac
+> cdc
+4903,4905d5596
+< ecb
+< eec
+< bee
+4907,4918c5598
+< bae
+< bda
+< eee
+< dab
+< dab
+< ecc
+< cca
+< cec
+< bae
+< add
+< dce
+< aae
+---
+> cea
+4920c5600,5602
+< ddb
+---
+> cdc
+> dcb
+> bea
+4921a5604,5606
+> aec
+> bbe
+> adc
+4923,4933c5608,5618
+< aad
+< ccb
+< ccc
+< eda
+< cda
+< eba
+< ebc
+< ced
+< bdb
+< bed
+< dbc
+---
+> dda
+> cae
+> dad
+> ace
+> dce
+> edd
+> bdc
+> dab
+> dde
+> bee
+> edc
+4935,4937c5620,5625
+< aed
+< ada
+< ebd
+---
+> aba
+> eed
+> bae
+> ead
+> aac
+> caa
+4939c5627,5636
+< dec
+---
+> cad
+> dbe
+> edb
+> aeb
+> cac
+> bbb
+> beb
+> ecc
+> ead
+> aeb
+4941,4948c5638,5651
+< abd
+< bad
+< abc
+< ada
+< ded
+< aca
+< dde
+< aae
+---
+> acd
+> cac
+> bcd
+> eba
+> eda
+> dcc
+> cab
+> dba
+> bca
+> dbc
+> cad
+> dbe
+> dce
+> cdd
+4950,4958c5653,5661
+< add
+< ceb
+< ede
+< add
+< aca
+< aeb
+< dca
+< ebe
+< bbb
+---
+> aba
+> dba
+> aea
+> bbc
+> bae
+> cad
+> aec
+> ecd
+> eec
+4960,4964c5663,5666
+< ebe
+< cab
+< dea
+< edc
+< eba
+---
+> ced
+> deb
+> bea
+> bce
+4966,4976c5668,5673
+< eee
+< cdb
+< eee
+< bec
+< eba
+< dbb
+< ccb
+< cdc
+< aaa
+< bcc
+< ceb
+---
+> bde
+> bde
+> ace
+> bba
+> ada
+> eea
+4978,4979d5674
+< eaa
+< bee
+4981c5676,5685
+< aac
+---
+> aed
+> bad
+> cab
+> dac
+> dbc
+> dac
+> ccd
+> dea
+> bcd
+> dda
+4983c5687,5689
+< dac
+---
+> cdb
+> bae
+> edb
+4984a5691,5702
+> edd
+> cda
+> cee
+> acc
+> dbe
+> dcb
+> cae
+> ede
+> cad
+> bda
+> cee
+> bdc
+4985a5704,5706
+> eee
+> ebb
+> dcc
+4986a5708,5713
+> deb
+> edc
+> bcb
+> aec
+> bca
+> abc
+4988c5715,5731
+< aca
+---
+> dbe
+> bcc
+> ced
+> bbb
+> cab
+> ddc
+> adc
+> bca
+> ccd
+> aeb
+> dac
+> dbd
+> bec
+> eae
+> eca
+> aad
+> abc
+4990c5733,5770
+< bcc
+---
+> baa
+> cdc
+> dec
+> dbe
+> cac
+> cce
+> cdc
+> cdb
+> eda
+> ecc
+> abc
+> dcb
+> ade
+> ced
+> cdd
+> aed
+> eae
+> ecc
+> ccc
+> bdd
+> bad
+> cca
+> cce
+> aec
+> aec
+> eba
+> ecc
+> aec
+> abe
+> dda
+> bec
+> aba
+> dea
+> ade
+> aeb
+> dab
+> eda
+> cbc
+4993,5000c5773,5775
+< ebd
+< ddb
+< ecb
+< cbb
+< bda
+< aac
+< bba
+< dad
+---
+> bed
+> bdb
+> dbd
+5002,5005d5776
+< cbc
+< ddc
+< ddd
+< ebe
+5007d5777
+< adc
+5009,5025c5779,5781
+< eeb
+< beb
+< aae
+< cad
+< eac
+< cec
+< bac
+< bbd
+< abe
+< aac
+< bda
+< cde
+< ecc
+< bed
+< dcc
+< bac
+< bcc
+---
+> bbe
+> dae
+> acb
+5027,5051c5783
+< dae
+< eea
+< aac
+< dce
+< dbb
+< ddc
+< bcb
+< cdc
+< ded
+< aeb
+< bde
+< aca
+< ceb
+< dee
+< bac
+< cae
+< bdc
+< bac
+< ddc
+< cdb
+< cbd
+< ade
+< dcc
+< cbe
+< bea
+---
+> ddb
+5053c5785
+< aab
+---
+> bad
+5055,5057c5787,5788
+< dde
+< dbd
+< ecc
+---
+> bcc
+> cdc
+5059,5067c5790,5792
+< ddd
+< ebc
+< ddd
+< aaa
+< ced
+< abd
+< dea
+< bba
+< cdb
+---
+> add
+> aac
+> aac
+5068a5794,5795
+> cea
+> baa
+5070,5075c5797,5798
+< ebe
+< eab
+< cac
+< cee
+< bba
+< ece
+---
+> ecd
+> daa
+5077c5800,5825
+< dce
+---
+> bcd
+> ebc
+> abe
+> eee
+> ccb
+> cae
+> dad
+> bde
+> bcb
+> cce
+> eed
+> bac
+> aee
+> acc
+> bad
+> dab
+> ddb
+> eda
+> bbd
+> dad
+> dab
+> bae
+> add
+> cea
+> acb
+> bdd
+5079,5080c5827,5831
+< cdd
+< dcc
+---
+> aac
+> adc
+> bdb
+> cbd
+> abc
+5081a5833
+> aba
+5082a5835,5849
+> bdc
+> baa
+> beb
+> bda
+> bda
+> cae
+> eea
+> bae
+> add
+> cbb
+> dac
+> daa
+> bdc
+> aac
+> dde
+5084c5851,5854
+< eac
+---
+> bad
+> ecd
+> add
+> edc
+5086,5091d5855
+< baa
+< ede
+< bec
+< aaa
+< abd
+< deb
+5094,5097c5858,5866
+< edc
+< aed
+< ccb
+< ccd
+---
+> ebd
+> aab
+> cdc
+> bcb
+> cad
+> eec
+> baa
+> dcd
+> ccc
+5099c5868,5886
+< cbc
+---
+> bad
+> ecd
+> dcc
+> cbe
+> eaa
+> bbe
+> cbb
+> adb
+> bbd
+> aac
+> edd
+> bbd
+> baa
+> ebd
+> eed
+> eec
+> cce
+> bcb
+> cab
+5101,5105c5888,5889
+< abb
+< daa
+< edd
+< dec
+< cee
+---
+> bac
+> ddd
+5107,5108c5891,5901
+< dcc
+< cbd
+---
+> bba
+> aea
+> cca
+> eba
+> ede
+> ccb
+> acb
+> bbc
+> cde
+> ded
+> cdc
+5109a5903,5909
+> bca
+> abe
+> aee
+> dbc
+> dbe
+> eec
+> aec
+5110a5911,5913
+> cbe
+> bea
+> cca
+5112,5119c5915,5916
+< aab
+< bbc
+< aab
+< abb
+< ded
+< ecb
+< edd
+< dab
+---
+> bcb
+> eea
+5121,5135c5918,5925
+< dbd
+< ecd
+< ddc
+< ece
+< aca
+< ecc
+< ded
+< ead
+< eea
+< dab
+< abc
+< edc
+< dbb
+< aac
+< abb
+---
+> ced
+> dde
+> bbd
+> eba
+> bed
+> bec
+> eac
+> bbe
+5137,5139c5927,5931
+< abe
+< bea
+< bbb
+---
+> bdb
+> bec
+> bce
+> dec
+> bba
+5141,5147d5932
+< cad
+< caa
+< acd
+< eea
+< dce
+< acd
+< dcb
+5149,5157c5934,5941
+< dca
+< eea
+< cac
+< cdc
+< aec
+< acd
+< ecd
+< acd
+< aaa
+---
+> abd
+> cca
+> bed
+> ccb
+> bca
+> aea
+> dda
+> bce
+5159,5163c5943
+< aca
+< cdc
+< dbe
+< dad
+< eec
+---
+> dea
+5165c5945,5959
+< cac
+---
+> ced
+> acc
+> dab
+> cca
+> ebc
+> bce
+> cde
+> caa
+> ccd
+> eba
+> dae
+> dbb
+> adb
+> bcb
+> aeb
+5167,5172c5961,5962
+< ced
+< eac
+< cdb
+< cab
+< ccc
+< bdd
+---
+> eee
+> bba
+5174c5964,5965
+< dbc
+---
+> dda
+> dce
+5176,5196c5967,5969
+< cdb
+< cac
+< dce
+< bcd
+< eed
+< ddd
+< bac
+< cca
+< cee
+< dbd
+< acd
+< dbd
+< cce
+< cbe
+< bac
+< edc
+< ced
+< aea
+< edb
+< ead
+< abd
+---
+> cda
+> cdd
+> ecc
+5198,5199d5970
+< cda
+< adc
+5201,5205d5971
+< bdb
+< dbb
+< cab
+< edc
+< dca
+5207,5211c5973,5974
+< cbb
+< bce
+< eab
+< bbc
+< dec
+---
+> dad
+> dbe
+5213c5976,5982
+< abc
+---
+> ecb
+> bda
+> edc
+> acc
+> bdd
+> cce
+> aee
+5215d5983
+< bdd
+5216a5985,5987
+> bce
+> bed
+> abe
+5218,5223c5989,5995
+< aac
+< bec
+< eec
+< cad
+< daa
+< eae
+---
+> bae
+> bae
+> cbc
+> ded
+> edd
+> aed
+> dde
+5224a5997,6007
+> ebd
+> bdc
+> ecd
+> dce
+> bbe
+> dab
+> cbc
+> ede
+> abb
+> ebb
+> bbb
+5226,5231c6009,6017
+< bea
+< bab
+< eaa
+< ceb
+< dcc
+< adb
+---
+> cde
+> ddc
+> aba
+> dbc
+> ece
+> bbe
+> edd
+> eda
+> ecb
+5233,5234c6019,6021
+< bcc
+< ece
+---
+> eae
+> cbc
+> dda
+5236,5239c6023,6029
+< bed
+< bee
+< ecc
+< eea
+---
+> dcc
+> cbe
+> ada
+> bde
+> ccb
+> eca
+> dde
+5241,5248c6031
+< cac
+< bcd
+< eab
+< bdc
+< dba
+< cce
+< ccc
+< aba
+---
+> ada
+5249a6033
+> bce
+5251c6035,6055
+< bdb
+---
+> abb
+> eea
+> cbc
+> ded
+> bbb
+> ced
+> cba
+> edb
+> eec
+> aca
+> ebd
+> abb
+> edd
+> acd
+> cad
+> dbb
+> abd
+> bae
+> aed
+> aeb
+> ebd
+5253,5254c6057
+< eba
+< ada
+---
+> ebd
+5256,5266c6059,6070
+< ebb
+< dca
+< bee
+< eca
+< bdc
+< bed
+< ccc
+< dbe
+< dbd
+< daa
+< eeb
+---
+> add
+> bdd
+> acc
+> aea
+> cbc
+> aec
+> bbc
+> cee
+> ecb
+> ece
+> eac
+> aea
+5268,5274c6072,6073
+< dbe
+< bba
+< bbb
+< deb
+< ebd
+< cab
+< eeb
+---
+> ecc
+> aab
+5275a6075
+> aee
+5276a6077,6084
+> cde
+> cbb
+> dba
+> eae
+> cdc
+> dad
+> ddb
+> dee
+5278,5295d6085
+< aea
+< cdc
+< ada
+< eaa
+< aab
+< eeb
+< aab
+< bcc
+< aba
+< cbd
+< cbd
+< aad
+< bcb
+< cdd
+< dac
+< caa
+< aab
+< cee
+5298,5299c6088,6097
+< dcc
+< bed
+---
+> ebc
+> ede
+> dae
+> beb
+> eac
+> bce
+> ded
+> abc
+> abe
+> acb
+5301,5306c6099,6106
+< bca
+< dab
+< bac
+< aec
+< ebc
+< edc
+---
+> bec
+> ceb
+> eae
+> ebd
+> bcd
+> dba
+> ccb
+> abd
+5307a6108
+> abd
+5308a6110,6112
+> dca
+> cbe
+> bac
+5310,5317c6114,6147
+< abc
+< ebe
+< cae
+< dee
+< bbe
+< bbc
+< cde
+< eca
+---
+> ccc
+> baa
+> bdb
+> ddb
+> eec
+> cea
+> ceb
+> dec
+> cea
+> caa
+> cdc
+> aed
+> bec
+> bdb
+> eab
+> dca
+> bca
+> ced
+> ccd
+> cba
+> cdc
+> aea
+> bad
+> baa
+> adc
+> cbc
+> dbd
+> aac
+> ecd
+> cce
+> bca
+> dec
+> cac
+> eec
+5318a6149,6154
+> cbd
+> deb
+> ace
+> eed
+> dde
+> aca
+5319a6156,6168
+> bbd
+> adc
+> ccc
+> adc
+> dea
+> dae
+> ccc
+> ade
+> eac
+> ead
+> ecb
+> aca
+> dce
+5321,5322c6170,6202
+< bca
+< cce
+---
+> aab
+> cca
+> eca
+> cca
+> cdb
+> eda
+> eee
+> aec
+> eee
+> add
+> edc
+> aec
+> cdd
+> bcd
+> bae
+> cae
+> ece
+> add
+> bbd
+> bbd
+> ece
+> cee
+> add
+> aac
+> edd
+> ddb
+> ced
+> ebb
+> bae
+> bde
+> ccc
+> ddd
+> aae
+5324,5327c6204
+< bac
+< bde
+< dae
+< ebd
+---
+> dcb
+5328a6206,6224
+> edb
+> bcc
+> cac
+> bda
+> dea
+> dde
+> eac
+> bdd
+> cac
+> aca
+> eed
+> dea
+> ebe
+> caa
+> edc
+> ede
+> bec
+> cbe
+> dcd
+5330,5335c6226,6232
+< ece
+< aba
+< cbb
+< cbb
+< dca
+< eca
+---
+> abd
+> dad
+> cde
+> ccb
+> aaa
+> cbc
+> bee
+5337,5339c6234,6235
+< bac
+< bad
+< dee
+---
+> cbc
+> edc
+5341,5342d6236
+< ddd
+< eed
+5344c6238,6240
+< adc
+---
+> bae
+> ebb
+> aeb
+5346c6242,6249
+< ace
+---
+> bcb
+> ceb
+> bbb
+> abd
+> cdc
+> eaa
+> ecb
+> dee
+5348,5357c6251,6257
+< dbe
+< dca
+< ebb
+< cac
+< eed
+< eaa
+< aba
+< ede
+< aee
+< dba
+---
+> ecd
+> ddb
+> dcc
+> cdc
+> dea
+> add
+> dac
+5359,5367c6259,6260
+< eed
+< baa
+< bbd
+< aab
+< aab
+< dcc
+< dbd
+< cdb
+< ccb
+---
+> bea
+> caa
+5369,5373c6262,6280
+< beb
+< bce
+< dbe
+< dea
+< dee
+---
+> ece
+> ceb
+> bec
+> caa
+> bdb
+> bde
+> bad
+> aae
+> dcb
+> cad
+> ccd
+> ddc
+> dad
+> ebc
+> bcb
+> ecb
+> eda
+> ced
+> adc
+5374a6282,6286
+> cab
+> acc
+> ebd
+> bee
+> acb
+5375a6288
+> ecc
+5377,5388c6290,6323
+< cbe
+< aed
+< cca
+< dac
+< dab
+< dab
+< ecc
+< aea
+< dbe
+< cca
+< dce
+< ceb
+---
+> aec
+> abc
+> eaa
+> dda
+> bbb
+> abb
+> dbb
+> eac
+> abc
+> bcb
+> ade
+> eeb
+> bae
+> bbd
+> adb
+> aad
+> bdd
+> ddd
+> ddb
+> abe
+> bad
+> aeb
+> eec
+> eaa
+> aeb
+> ccd
+> acb
+> dda
+> eee
+> eca
+> aab
+> eab
+> dba
+> aae
+5390c6325,6329
+< bee
+---
+> bec
+> cdb
+> eee
+> bea
+> daa
+5392,5395c6331,6350
+< acb
+< cab
+< dbb
+< dca
+---
+> cea
+> ead
+> eaa
+> ddb
+> cde
+> eaa
+> bac
+> caa
+> bac
+> cdc
+> cbc
+> cda
+> dcb
+> cde
+> bcb
+> bdd
+> cdb
+> ddc
+> abe
+> eae
+5396a6352,6357
+> ddd
+> eee
+> ecc
+> cbc
+> dcb
+> eea
+5398,5405c6359,6366
+< ccd
+< cbb
+< edc
+< eac
+< cab
+< cac
+< ebd
+< ded
+---
+> add
+> dcc
+> cce
+> dbb
+> baa
+> bbb
+> bde
+> ccc
+5407c6368
+< dbd
+---
+> dba
+5409c6370,6379
+< bac
+---
+> aad
+> bca
+> add
+> eab
+> ebe
+> ebe
+> cab
+> cce
+> ead
+> edd
+5411,5424c6381,6387
+< acd
+< ace
+< bcb
+< ada
+< ccb
+< cab
+< eed
+< eee
+< aac
+< adc
+< eac
+< eac
+< eba
+< eec
+---
+> bce
+> dab
+> ede
+> dad
+> adb
+> ebb
+> ece
+5426,5433c6389
+< bce
+< eea
+< cbc
+< beb
+< eec
+< eec
+< aec
+< bdb
+---
+> aad
+5434a6391,6405
+> dea
+> ecd
+> bbc
+> eda
+> edc
+> bea
+> cdd
+> aba
+> edb
+> eba
+> dad
+> dcd
+> abc
+> ccd
+> ceb
+5436,5437c6407,6410
+< ebb
+< baa
+---
+> bde
+> aba
+> edd
+> adb
+5439,5446c6412,6413
+< dda
+< abb
+< eee
+< dee
+< eeb
+< ebd
+< eee
+< bed
+---
+> ddc
+> dcc
+5447a6415,6418
+> ebc
+> cbb
+> bcb
+> ddc
+5448a6420,6432
+> cbe
+> dce
+> bba
+> aec
+> eab
+> bae
+> bdc
+> ddd
+> acd
+> ead
+> baa
+> abb
+> eac
+5450,5452c6434,6444
+< eae
+< dae
+< aad
+---
+> bbc
+> cdc
+> dba
+> abd
+> bbd
+> bce
+> ead
+> ebc
+> dcd
+> dac
+> bbb
+5454,5460c6446,6447
+< aac
+< bad
+< ddc
+< cdd
+< dbd
+< dde
+< ecd
+---
+> bbc
+> bdd
+5462c6449,6452
+< aeb
+---
+> bde
+> bdb
+> bdd
+> ccd
+5464,5471c6454,6465
+< ced
+< cac
+< ccb
+< cee
+< ebd
+< adb
+< eba
+< aab
+---
+> aee
+> ddb
+> cae
+> cda
+> cab
+> bed
+> ede
+> eea
+> cbd
+> cce
+> ecb
+> dcb
+5473,5475c6467,6471
+< ecd
+< bdc
+< cdc
+---
+> eab
+> aed
+> dae
+> cca
+> acd
+5477,5478c6473,6479
+< aab
+< dab
+---
+> acc
+> ead
+> bda
+> bcc
+> ece
+> cee
+> bbd
+5480,5489c6481
+< cbb
+< edd
+< bca
+< dbe
+< cee
+< ebb
+< abd
+< ecc
+< bda
+< bed
+---
+> eec
+5491,5499c6483,6486
+< ece
+< bae
+< dbd
+< bbe
+< dad
+< eeb
+< cec
+< ece
+< edd
+---
+> dbb
+> bbb
+> bcd
+> cbd
+5501,5503c6488,6490
+< acb
+< cae
+< ccd
+---
+> aed
+> dbb
+> ded
+5505,5508c6492,6498
+< dca
+< eeb
+< dbd
+< bda
+---
+> aad
+> dec
+> ced
+> eec
+> bed
+> eae
+> ccb
+5510,5517c6500,6504
+< cdd
+< dcb
+< ada
+< beb
+< aad
+< eaa
+< aed
+< bbc
+---
+> dce
+> baa
+> deb
+> ccb
+> bbe
+5518a6506
+> aea
+5520c6508,6513
+< eda
+---
+> cee
+> ece
+> dee
+> edd
+> aca
+> bee
+5522c6515
+< dde
+---
+> bab
+5524,5534c6517,6523
+< edd
+< aaa
+< aae
+< aca
+< dee
+< adb
+< bcc
+< edc
+< cdc
+< edc
+< add
+---
+> cab
+> aec
+> bdc
+> ccb
+> ebe
+> abe
+> bdb
+5536,5537c6525,6526
+< eed
+< dbb
+---
+> cae
+> bcd
+5539c6528
+< ebc
+---
+> eda
+5540a6530,6539
+> aec
+> dec
+> caa
+> dcb
+> ede
+> eba
+> dcb
+> cdb
+> cce
+> aeb
+5541a6541,6554
+> bab
+> aad
+> ebc
+> bde
+> cae
+> edb
+> ccc
+> cdc
+> dca
+> aac
+> ccb
+> dde
+> bdb
+> bde
+5543,5549c6556,6560
+< bbc
+< cde
+< cce
+< deb
+< cec
+< acb
+< bee
+---
+> cae
+> adb
+> abe
+> dbe
+> cbd
+5550a6562,6569
+> ade
+> bae
+> bdd
+> aec
+> add
+> bdc
+> eae
+> cbc
+5551a6571,6574
+> daa
+> bdb
+> bcb
+> bde
+5552a6576
+> ded
+5554c6578
+< cee
+---
+> dea
+5556,5563c6580,6583
+< bed
+< aac
+< ddd
+< eac
+< cbe
+< bca
+< bcc
+< aac
+---
+> ecb
+> cbb
+> dee
+> eaa
+5565,5569c6585,6587
+< bbb
+< daa
+< edd
+< cdd
+< bdc
+---
+> abc
+> dec
+> eeb
+5571,5575d6588
+< abe
+< aea
+< dab
+< bad
+< bce
+5577,5610c6590,6594
+< dda
+< bab
+< dcd
+< dba
+< dab
+< dcd
+< bbc
+< ece
+< bba
+< ecc
+< cda
+< bde
+< dbb
+< dab
+< bbb
+< ece
+< dde
+< aec
+< eba
+< edc
+< edb
+< ebd
+< ebb
+< ebe
+< ada
+< aad
+< eee
+< bcc
+< cce
+< bec
+< dbe
+< cda
+< dca
+< cbd
+---
+> ecb
+> cdd
+> aaa
+> cab
+> dee
+5612,5615c6596,6598
+< ddd
+< aec
+< bde
+< cbd
+---
+> aca
+> aab
+> abe
+5617,5620c6600
+< bbb
+< ede
+< daa
+< cad
+---
+> ebb
+5621a6602,6604
+> cbe
+> bdc
+> dde
+5623,5631c6606,6615
+< ebb
+< eaa
+< bde
+< ccb
+< dcb
+< bcd
+< ccd
+< eee
+< eee
+---
+> cba
+> dae
+> ead
+> eda
+> eae
+> ddc
+> ace
+> cdb
+> cdb
+> bee
+5633,5634c6617,6628
+< cea
+< dbe
+---
+> acb
+> ded
+> dba
+> bee
+> dbd
+> dec
+> aed
+> edb
+> edb
+> adc
+> eae
+> dda
+5636,5643c6630,6632
+< bed
+< ebc
+< eec
+< dac
+< aaa
+< dac
+< eaa
+< eec
+---
+> baa
+> dad
+> cbc
+5645,5646c6634,6642
+< cbc
+< eca
+---
+> ebb
+> bac
+> dbd
+> dbd
+> baa
+> cbe
+> acc
+> bcd
+> ced
+5648,5653c6644,6651
+< bbe
+< ebe
+< acd
+< bad
+< cbe
+< eaa
+---
+> bda
+> aed
+> dea
+> ecb
+> ded
+> dbc
+> edd
+> daa
+5654a6653,6655
+> aca
+> cca
+> daa
+5656,5672c6657,6663
+< cdb
+< eba
+< ccc
+< aaa
+< daa
+< abc
+< ace
+< ceb
+< dac
+< dba
+< dbb
+< dac
+< bda
+< bcb
+< cce
+< aad
+< cec
+---
+> cee
+> dda
+> bab
+> cba
+> dcb
+> eaa
+> dee
+5674,5682c6665,6666
+< dcb
+< dcc
+< eee
+< cae
+< acb
+< dad
+< cbd
+< deb
+< cee
+---
+> dea
+> cda
+5684,5686c6668,6669
+< dad
+< ddd
+< bee
+---
+> eeb
+> bbb
+5688,5690c6671
+< abd
+< ccc
+< deb
+---
+> cab
+5692,5694c6673
+< ebd
+< cbd
+< cce
+---
+> dae
+5696,5707c6675,6678
+< ede
+< bec
+< bcb
+< aec
+< ebe
+< aae
+< dcc
+< ced
+< abb
+< daa
+< abe
+< bcd
+---
+> dda
+> bed
+> ddc
+> adb
+5709,5722c6680,6682
+< aad
+< eac
+< dcc
+< dab
+< ebd
+< ceb
+< ade
+< cba
+< cec
+< acc
+< dcc
+< ebe
+< bdb
+< dac
+---
+> dbe
+> bee
+> dae
+5724,5726c6684,6689
+< dce
+< cdb
+< bbb
+---
+> edd
+> adb
+> add
+> adc
+> dbd
+> bbd
+5728,5735c6691,6698
+< abd
+< dbd
+< ddc
+< eac
+< ddc
+< cde
+< dab
+< cbb
+---
+> cce
+> dda
+> acd
+> deb
+> abc
+> dbe
+> eae
+> ade
+5737,5738c6700
+< bdc
+< ebd
+---
+> aac
+5740,5746c6702,6704
+< dda
+< dca
+< bcd
+< bdc
+< ebd
+< aaa
+< dca
+---
+> ddc
+> eed
+> aeb
+5748,5751c6706,6707
+< aeb
+< cbc
+< ebe
+< ead
+---
+> ded
+> cbe
+5753,5764c6709,6715
+< dcd
+< dcd
+< ebd
+< ecc
+< eec
+< ece
+< ebe
+< abb
+< bcd
+< bed
+< ceb
+< ecd
+---
+> dab
+> caa
+> cad
+> ede
+> bbc
+> aed
+> dad
+5765a6717,6728
+> cda
+> cea
+> bcc
+> bac
+> dbd
+> dea
+> dbd
+> bec
+> dba
+> cce
+> ddb
+> dea
+5767c6730,6743
+< bae
+---
+> cea
+> eca
+> bed
+> bdb
+> bbe
+> bbd
+> cea
+> dbc
+> eab
+> dce
+> eed
+> aeb
+> bed
+> aec
+5769,5770c6745,6752
+< dba
+< ddb
+---
+> aac
+> bac
+> dca
+> ccd
+> eee
+> ade
+> dbe
+> aac
+5772,5785d6753
+< cee
+< ebc
+< dbe
+< aae
+< eaa
+< ebe
+< bec
+< ded
+< bda
+< daa
+< cda
+< bba
+< eda
+< ede
+5787,5794c6755,6758
+< eaa
+< adc
+< bed
+< bbe
+< ebb
+< ddb
+< dab
+< cce
+---
+> ead
+> cae
+> bac
+> bca
+5796,5809c6760,6761
+< beb
+< bec
+< cda
+< ece
+< edc
+< bbb
+< bba
+< ecc
+< adb
+< ceb
+< cdc
+< aba
+< cad
+< ddb
+---
+> deb
+> abe
+5811,5824c6763,6765
+< edb
+< ada
+< aea
+< ccc
+< bbc
+< ded
+< ccb
+< ceb
+< dab
+< dde
+< bdd
+< ace
+< cdc
+< bed
+---
+> ebe
+> adc
+> eda
+5826,5830c6767
+< cee
+< cad
+< eed
+< dcc
+< ebb
+---
+> ebd
+5832c6769
+< dcd
+---
+> dab
+5833a6771,6779
+> bcd
+> acd
+> baa
+> aad
+> cae
+> adb
+> eae
+> dbd
+> edb
+5835,5841c6781,6784
+< abb
+< ade
+< dae
+< dae
+< dcb
+< dbd
+< cae
+---
+> cab
+> cab
+> ccb
+> edb
+5843,5848c6786,6787
+< ece
+< bcb
+< bee
+< ceb
+< ebd
+< ebe
+---
+> cea
+> bcd
+5850,5862d6788
+< bdc
+< abd
+< dcd
+< ebb
+< aeb
+< edd
+< ddb
+< cbd
+< cbd
+< dea
+< dbd
+< cde
+< cda
+5864,5865c6790
+< cdc
+< bdc
+---
+> deb
+5868,5878c6793,6798
+< bdd
+< bca
+< bae
+< bad
+< dcc
+< dcc
+< dcd
+< abe
+< aba
+< aec
+< bdc
+---
+> cda
+> dbd
+> bac
+> bbb
+> cca
+> adc
+5880,5889d6799
+< dca
+< dbc
+< abd
+< ccc
+< bad
+< ded
+< bad
+< bcb
+< abc
+< cde
+5891,5903c6801
+< cec
+< ade
+< edd
+< cea
+< cad
+< ddb
+< ead
+< dbe
+< ddd
+< bbb
+< cbe
+< add
+< ebe
+---
+> bbd
+5904a6803,6807
+> bce
+> bed
+> ecb
+> acb
+> aab
+5906c6809,6817
+< aba
+---
+> cde
+> bbc
+> edb
+> dbb
+> bae
+> bbb
+> aaa
+> ccb
+> cbc
+5908,5918c6819,6820
+< edb
+< dec
+< bce
+< eec
+< cbe
+< cbe
+< aad
+< ebc
+< ead
+< bad
+< cac
+---
+> eee
+> cae
+5920,5921c6822
+< aec
+< ade
+---
+> abe
+5923,5926c6824,6828
+< beb
+< add
+< ebb
+< aed
+---
+> bec
+> eaa
+> dae
+> ccd
+> bbd
+5928,5931c6830,6836
+< bce
+< cda
+< eca
+< eda
+---
+> bbc
+> eae
+> dbc
+> eac
+> dde
+> bde
+> ddd
+5932a6838,6849
+> bed
+> beb
+> bab
+> cbd
+> bdb
+> edd
+> bcd
+> bcc
+> aab
+> dcd
+> cba
+> bee
+5934,5936c6851,6852
+< baa
+< eec
+< adb
+---
+> ecb
+> bcd
+5938d6853
+< eac
+5940c6855,6863
+< aee
+---
+> eaa
+> ecd
+> dba
+> bcc
+> adc
+> bde
+> cdc
+> abd
+> add
+5942,5948c6865,6881
+< bbb
+< aec
+< cae
+< aaa
+< dee
+< adb
+< dcc
+---
+> bcc
+> baa
+> dba
+> acb
+> dce
+> aeb
+> ede
+> eea
+> bde
+> baa
+> bda
+> dca
+> aab
+> add
+> cac
+> ece
+> add
+5950c6883,6887
+< cda
+---
+> edc
+> bcc
+> cdb
+> ecb
+> ebd
+5951a6889,6890
+> dde
+> ebd
+5953,5961c6892,6901
+< deb
+< cdd
+< cce
+< dae
+< acc
+< ebc
+< cbc
+< cbe
+< bdc
+---
+> ced
+> cca
+> bec
+> cdc
+> ead
+> eab
+> eeb
+> caa
+> edd
+> bcb
+5963c6903,6904
+< cad
+---
+> cca
+> bbe
+5965,5966d6905
+< cbe
+< cbd
+5968,5972c6907,6922
+< cae
+< bcb
+< beb
+< dde
+< bdd
+---
+> ccd
+> aba
+> dec
+> eac
+> bee
+> bbe
+> bde
+> bdb
+> bbe
+> ebe
+> cda
+> dcc
+> eee
+> bbe
+> cbc
+> dea
+5973a6924
+> baa
+5975c6926,6935
+< ace
+---
+> cea
+> cbd
+> eed
+> eac
+> adb
+> cdd
+> eaa
+> bbe
+> abd
+> cbc
+5977,5991c6937,6941
+< bcb
+< ddc
+< ebb
+< cbc
+< abb
+< ead
+< dae
+< ebe
+< edc
+< aaa
+< dcd
+< acb
+< ebc
+< acd
+< aea
+---
+> eea
+> dbe
+> abc
+> add
+> bab
+5993,5995c6943,6944
+< ded
+< dec
+< bbd
+---
+> eeb
+> ecd
+5997,6016c6946
+< cbd
+< ecd
+< aac
+< deb
+< bcc
+< aea
+< aca
+< cdb
+< cba
+< dbe
+< bea
+< eab
+< dee
+< dee
+< cae
+< aba
+< bba
+< cab
+< eac
+< cab
+---
+> dbb
+6018,6020c6948,6949
+< beb
+< abb
+< cbc
+---
+> abe
+> abc
+6022,6025c6951,6952
+< dbb
+< abd
+< bcd
+< aab
+---
+> dbd
+> dea
+6028,6030c6955,6971
+< cac
+< eec
+< aee
+---
+> eeb
+> eac
+> bda
+> dee
+> aed
+> cba
+> dde
+> dde
+> bac
+> bae
+> bce
+> eda
+> dcd
+> cce
+> abb
+> ebd
+> ecb
+6031a6973,6974
+> ead
+> bde
+6033,6034c6976,6983
+< deb
+< ebc
+---
+> ebb
+> baa
+> dda
+> aad
+> aaa
+> cec
+> bba
+> bac
+6035a6985,6997
+> abb
+> dcc
+> bbc
+> ece
+> ded
+> bdc
+> ecd
+> aed
+> ecb
+> ebb
+> dca
+> aab
+> dea
+6037,6046c6999,7001
+< deb
+< cae
+< cca
+< aaa
+< eed
+< ccc
+< bdd
+< beb
+< ebc
+< eae
+---
+> bca
+> aba
+> aab
+6048,6050c7003,7006
+< ddd
+< bdb
+< eab
+---
+> eaa
+> bee
+> eee
+> dac
+6052,6066c7008,7010
+< eec
+< ddc
+< eea
+< beb
+< adb
+< dba
+< bbc
+< ecc
+< dcc
+< ebc
+< bec
+< bce
+< edd
+< dab
+< bcc
+---
+> dcd
+> dec
+> ede
+6067a7012,7013
+> aed
+> acb
+6069c7015,7017
+< edd
+---
+> dec
+> dda
+> eab
+6071,6073c7019,7029
+< dea
+< bdb
+< bdb
+---
+> ade
+> eab
+> eda
+> ced
+> baa
+> ddb
+> dab
+> cae
+> aae
+> bdd
+> bdd
+6075,6077c7031,7033
+< ebc
+< bda
+< bab
+---
+> ded
+> ddb
+> aca
+6079,6086c7035,7037
+< eab
+< ebe
+< bcd
+< ade
+< bec
+< acc
+< dae
+< ebb
+---
+> acb
+> aad
+> eda
+6088,6100c7039,7044
+< eab
+< cdd
+< cce
+< abd
+< dcd
+< cda
+< bdb
+< eed
+< beb
+< dcc
+< bed
+< ecb
+< aee
+---
+> bbd
+> ccd
+> edd
+> acb
+> dca
+> bcc
+6102,6106c7046
+< adc
+< dbc
+< dca
+< dab
+< abb
+---
+> bdd
+6108,6112c7048,7051
+< eed
+< dbe
+< cad
+< cde
+< bec
+---
+> eee
+> dac
+> cdb
+> bde
+6114c7053,7064
+< bec
+---
+> ada
+> abc
+> ddb
+> ebb
+> ecc
+> cbc
+> ddd
+> ebe
+> cdd
+> ecb
+> aab
+> bab
+6116,6117c7066
+< aab
+< aca
+---
+> dba
+6119,6122c7068,7074
+< abe
+< edd
+< cde
+< cdb
+---
+> ccb
+> edb
+> abb
+> cbb
+> acb
+> ebb
+> cbd
+6124,6133c7076,7077
+< bcd
+< aaa
+< bea
+< cdb
+< ccb
+< aad
+< dce
+< dca
+< ebd
+< aec
+---
+> acb
+> bcc
+6135,6139c7079,7080
+< aaa
+< bee
+< abd
+< eab
+< ddc
+---
+> caa
+> ecd
+6141,6144d7081
+< edd
+< eca
+< ebd
+< aeb
+6146,6163c7083,7088
+< acb
+< eec
+< aaa
+< aab
+< ebb
+< acc
+< aec
+< edc
+< eab
+< ddc
+< eea
+< aea
+< cbc
+< eac
+< aeb
+< ddc
+< bed
+< abc
+---
+> adc
+> abe
+> eee
+> ace
+> cdd
+> bad
+6165c7090,7092
+< ccb
+---
+> bac
+> bac
+> bbd
+6166a7094,7118
+> aaa
+> eda
+> cad
+> eeb
+> abd
+> bbb
+> eaa
+> abd
+> ecb
+> ced
+> bde
+> dba
+> bcb
+> ccd
+> dda
+> cab
+> ecd
+> bbe
+> aba
+> ead
+> ecb
+> beb
+> bde
+> bee
+> bee
+6168,6170c7120,7133
+< ace
+< add
+< dbe
+---
+> dbd
+> bba
+> ced
+> dec
+> dda
+> dae
+> cbc
+> bad
+> cea
+> ecd
+> bbb
+> ead
+> bdb
+> baa
+6172c7135,7148
+< cbd
+---
+> dbd
+> ede
+> bcc
+> bbd
+> dab
+> dbc
+> bee
+> dce
+> eed
+> cba
+> aae
+> dde
+> bbe
+> bad
+6174,6177c7150,7158
+< bbb
+< cbb
+< dec
+< baa
+---
+> bec
+> bda
+> bca
+> ddb
+> ddb
+> aaa
+> dbd
+> add
+> aeb
+6179,6180c7160,7173
+< eda
+< ebc
+---
+> aea
+> ece
+> bbc
+> cce
+> bea
+> cad
+> dba
+> dda
+> dac
+> abb
+> dcc
+> cee
+> eca
+> bac
+6182,6187c7175,7183
+< ebc
+< aee
+< cbe
+< aab
+< cda
+< ccb
+---
+> eac
+> acd
+> bca
+> dad
+> bcb
+> bee
+> ded
+> edd
+> ded
+6189,6200c7185,7189
+< dca
+< ddd
+< dcc
+< cbd
+< eba
+< bbe
+< dba
+< aec
+< cbe
+< ddd
+< cdc
+< acc
+---
+> bed
+> ecc
+> eca
+> abc
+> ceb
+6202c7191,7195
+< aec
+---
+> dad
+> cca
+> eda
+> edc
+> eec
+6204c7197,7199
+< cec
+---
+> cba
+> cbe
+> acd
+6205a7201,7216
+> ada
+> aba
+> bbc
+> ece
+> cde
+> ddc
+> dac
+> baa
+> dba
+> eab
+> dbd
+> edd
+> dab
+> abc
+> bec
+> ddc
+6207,6215c7218,7222
+< aee
+< cec
+< abe
+< cae
+< acd
+< eeb
+< eeb
+< bea
+< ade
+---
+> bdc
+> dde
+> bed
+> dbe
+> bbe
+6216a7224
+> dca
+6218,6220c7226,7228
+< eba
+< baa
+< bec
+---
+> acc
+> ada
+> ded
+6222,6224c7230,7232
+< cbb
+< aab
+< aec
+---
+> bbe
+> cde
+> ada
+6226,6230c7234,7247
+< abd
+< eaa
+< bbb
+< dca
+< cad
+---
+> dcd
+> daa
+> cbd
+> ede
+> eca
+> baa
+> bed
+> cee
+> dee
+> cdb
+> aad
+> acc
+> bba
+> ebe
+6232,6245d7248
+< ebb
+< aeb
+< bed
+< bbb
+< bde
+< eab
+< dda
+< deb
+< cac
+< aec
+< dbc
+< aae
+< bac
+< aea
+6247,6251c7250,7255
+< daa
+< ace
+< cbb
+< add
+< edb
+---
+> ede
+> bdc
+> eea
+> ecd
+> eed
+> ede
+6252a7257,7259
+> ccb
+> abb
+> acd
+6254,6260c7261,7264
+< acc
+< bda
+< ddc
+< bea
+< bde
+< cbc
+< abd
+---
+> bce
+> dea
+> dcb
+> abb
+6262,6267c7266,7267
+< bcb
+< bea
+< eae
+< beb
+< dee
+< eda
+---
+> bee
+> ebc
+6269,6280c7269,7273
+< add
+< dba
+< acd
+< aec
+< aed
+< edb
+< abe
+< bdd
+< bce
+< dbe
+< ccd
+< cbc
+---
+> eec
+> eed
+> bcc
+> dae
+> dde
+6282c7275
+< ebe
+---
+> ede
+6284,6288c7277
+< bae
+< bdb
+< aec
+< ebd
+< daa
+---
+> bcd
+6290,6293c7279,7291
+< bba
+< dbc
+< cdd
+< eae
+---
+> ddc
+> cbe
+> edc
+> aee
+> ceb
+> ada
+> bed
+> bec
+> cec
+> aea
+> bbc
+> ceb
+> cba
+6295c7293,7300
+< bbe
+---
+> ccd
+> add
+> bbb
+> bab
+> aad
+> cbe
+> deb
+> bea
+6297,6300c7302
+< ded
+< ccb
+< aea
+< bed
+---
+> dba
+6302,6309c7304,7306
+< dda
+< ddc
+< ccc
+< cda
+< eea
+< ead
+< dcb
+< ddc
+---
+> eeb
+> dab
+> bac
+6310a7308,7324
+> aba
+> cdc
+> cba
+> acb
+> ceb
+> cab
+> bbe
+> bab
+> cdc
+> bbe
+> eac
+> eab
+> ada
+> cba
+> bce
+> acc
+> abe
+6312,6321d7325
+< cee
+< eca
+< abe
+< ada
+< dde
+< bee
+< ecd
+< eed
+< bda
+< dda
+6323c7327,7330
+< dde
+---
+> add
+> aac
+> eeb
+> eee
+6325,6345c7332,7334
+< dad
+< dce
+< cba
+< cce
+< ecc
+< deb
+< ade
+< dda
+< cbc
+< ebd
+< abd
+< ace
+< cbc
+< cbe
+< ddd
+< dcc
+< ccd
+< cba
+< dba
+< ade
+< ebe
+---
+> cbb
+> bac
+> eae
+6347,6360c7336
+< abd
+< bad
+< abb
+< bdb
+< edc
+< dee
+< aae
+< bdb
+< beb
+< dee
+< bee
+< bce
+< ebe
+< dda
+---
+> aec
+6362,6390d7337
+< eda
+< bca
+< bbc
+< dbc
+< bde
+< ddd
+< dbe
+< aeb
+< dca
+< bcc
+< aba
+< bdc
+< aae
+< daa
+< ebe
+< bcd
+< cca
+< bcd
+< bcc
+< abc
+< dec
+< eca
+< cec
+< eeb
+< adb
+< edb
+< add
+< deb
+< ceb
+6392,6394c7339,7340
+< add
+< bdc
+< beb
+---
+> aea
+> ddb
+6395a7342,7351
+> acd
+> bde
+> ced
+> eea
+> ebc
+> baa
+> cac
+> dcc
+> abe
+> bda
+6397c7353,7355
+< deb
+---
+> eea
+> dad
+> cdb
+6399,6402c7357,7360
+< ead
+< abb
+< ead
+< cee
+---
+> bdd
+> eec
+> adc
+> aee
+6404c7362,7365
+< ded
+---
+> dad
+> edb
+> bce
+> cae
+6405a7367,7370
+> ddd
+> bea
+> abc
+> bdc
+6407,6417c7372,7373
+< cdb
+< cdd
+< aab
+< aee
+< eec
+< cca
+< bbc
+< bab
+< ccc
+< eed
+< beb
+---
+> cce
+> edb
+6420,6424c7376,7386
+< dab
+< cea
+< ebb
+< eee
+< bbd
+---
+> ccc
+> bab
+> cca
+> abb
+> caa
+> dcd
+> abb
+> abb
+> ceb
+> dcc
+> eec
+6427,6428c7389
+< add
+< aad
+---
+> ebd
+6429a7391,7395
+> bdd
+> ddc
+> edc
+> aca
+> bab
+6431,6432c7397,7420
+< caa
+< adb
+---
+> aed
+> baa
+> bba
+> cdc
+> daa
+> cea
+> bab
+> ccb
+> beb
+> bea
+> dec
+> dce
+> aab
+> eed
+> ecc
+> aee
+> eda
+> cec
+> ecc
+> ecb
+> dbc
+> aad
+> dec
+> abb
+6434c7422,7427
+< acb
+---
+> ebe
+> ade
+> aae
+> dbb
+> dae
+> bca
+6436c7429
+< abb
+---
+> aeb
+6438,6442d7430
+< acb
+< baa
+< aac
+< aac
+< ede
+6444c7432,7434
+< bbb
+---
+> ccd
+> cea
+> add
+6446,6452c7436,7446
+< cce
+< eeb
+< acb
+< dac
+< aac
+< bee
+< aad
+---
+> bac
+> abe
+> dda
+> aec
+> edb
+> aed
+> cbe
+> cbe
+> bcd
+> dee
+> aae
+6453a7448,7453
+> cad
+> cee
+> cad
+> ccc
+> ebc
+> bdd
+6455,6482d7454
+< ceb
+< bae
+< ecb
+< ebd
+< edd
+< aba
+< dad
+< acc
+< cdd
+< cab
+< bce
+< aaa
+< cae
+< dec
+< aad
+< bce
+< edb
+< ddd
+< cde
+< ccc
+< acb
+< ddd
+< dcc
+< bcb
+< aac
+< aab
+< edb
+< bba
+6484,6485d7455
+< dbc
+< aca
+6487,6492c7457,7460
+< dac
+< ced
+< aed
+< eec
+< dad
+< ada
+---
+> cad
+> cac
+> cdd
+> eed
+6494,6501c7462
+< aaa
+< eab
+< dcd
+< caa
+< cae
+< aaa
+< ebe
+< cea
+---
+> abd
+6503,6508c7464,7469
+< cca
+< cad
+< ebd
+< cca
+< edb
+< acc
+---
+> acd
+> bdd
+> bdc
+> bcd
+> eec
+> dbd
+6509a7471,7476
+> bee
+> ddd
+> cbe
+> bbc
+> dcd
+> bcd
+6511,6518c7478,7484
+< bad
+< aaa
+< ecd
+< bab
+< ddd
+< cca
+< eea
+< ebb
+---
+> bbc
+> dcc
+> ede
+> dca
+> dce
+> cde
+> acd
+6519a7486,7495
+> dee
+> ddb
+> bdb
+> cae
+> cac
+> dca
+> bcc
+> dad
+> add
+> eba
+6520a7497,7510
+> bdc
+> aaa
+> dac
+> bac
+> baa
+> bbd
+> bcd
+> dda
+> eda
+> dbd
+> cbe
+> bcc
+> dcb
+> dac
+6522,6527c7512,7514
+< cee
+< dab
+< ace
+< eec
+< aba
+< cdd
+---
+> eae
+> aad
+> dbe
+6529,6531c7516
+< ebc
+< cde
+< cdb
+---
+> bbc
+6533,6536c7518
+< eec
+< bea
+< bea
+< add
+---
+> dea
+6538,6541c7520,7522
+< cea
+< ccd
+< aac
+< bed
+---
+> dbc
+> bbe
+> dec
+6543,6545c7524,7533
+< aea
+< abe
+< cee
+---
+> aca
+> dcc
+> acb
+> ecd
+> cad
+> dce
+> dcb
+> baa
+> add
+> dcd
+6547,6553c7535,7542
+< cec
+< dda
+< ccc
+< edc
+< dec
+< bbc
+< dce
+---
+> dcb
+> bba
+> ade
+> bbd
+> bca
+> bab
+> ddb
+> beb
+6555,6560c7544,7546
+< bdc
+< aab
+< cbd
+< ebe
+< bcb
+< baa
+---
+> ecd
+> eac
+> ade
+6561a7548,7550
+> bae
+> dec
+> bea
+6563c7552,7555
+< bba
+---
+> ede
+> ddd
+> dad
+> dcb
+6565,6566c7557,7563
+< ebe
+< ecd
+---
+> eec
+> eea
+> dca
+> dbb
+> dbc
+> ded
+> bbc
+6568,6579c7565,7571
+< ebd
+< add
+< dae
+< bbb
+< bad
+< cbd
+< dae
+< acb
+< eda
+< dec
+< bee
+< cdc
+---
+> bcc
+> edd
+> bac
+> beb
+> bdc
+> bde
+> adb
+6581,6584c7573,7577
+< ddd
+< ace
+< cdb
+< edb
+---
+> cae
+> bea
+> dca
+> bcb
+> dda
+6586,6593c7579,7588
+< eed
+< ccc
+< dee
+< abc
+< ecd
+< adb
+< eca
+< cec
+---
+> dbe
+> abb
+> add
+> bed
+> dbc
+> cab
+> ceb
+> ead
+> eeb
+> ebd
+6595,6597c7590
+< cad
+< acd
+< ceb
+---
+> eea
+6599,6625c7592,7594
+< bde
+< eae
+< cad
+< ece
+< cbc
+< eac
+< daa
+< cdd
+< eed
+< ade
+< ecd
+< dda
+< aec
+< eed
+< dce
+< adc
+< bed
+< bed
+< eee
+< eab
+< dbb
+< acb
+< aaa
+< ebb
+< aab
+< ade
+< deb
+---
+> abb
+> ebe
+> eda
+6627,6631c7596,7598
+< bae
+< dac
+< aba
+< bcd
+< dce
+---
+> ccc
+> dec
+> cee
+6633,6634c7600
+< dbc
+< dcc
+---
+> dad
+6636,6654c7602
+< ead
+< beb
+< bbc
+< dde
+< ade
+< aaa
+< dce
+< dec
+< add
+< dcc
+< dda
+< ecd
+< cdd
+< ead
+< ede
+< aca
+< cab
+< cec
+< bcd
+---
+> dba
+6656d7603
+< ebe
+6658,6663c7605
+< cbe
+< bcb
+< aba
+< edd
+< bab
+< ecb
+---
+> dec
+6665,6671c7607,7609
+< bae
+< cdd
+< ade
+< bbe
+< aee
+< bbb
+< cec
+---
+> ead
+> cbd
+> dcc
+6673,6674d7610
+< ded
+< aac
+6676,6678c7612
+< bda
+< bde
+< aca
+---
+> dba
+6680,6681c7614
+< abe
+< dea
+---
+> dcb
+6683,6690c7616,7624
+< ecd
+< ada
+< beb
+< edd
+< bdc
+< bed
+< eac
+< dbb
+---
+> acb
+> cbc
+> eeb
+> bbc
+> bad
+> bdb
+> eaa
+> dca
+> abc
+6692,6703c7626,7631
+< caa
+< ccc
+< dbd
+< caa
+< bcb
+< ccd
+< ced
+< aab
+< eea
+< aad
+< aab
+< ecb
+---
+> cbb
+> ebe
+> baa
+> ddd
+> eee
+> dad
+6704a7633,7642
+> dde
+> aec
+> acd
+> ebd
+> eae
+> dbb
+> cab
+> bcd
+> ccb
+> ecc
+6706,6711c7644
+< ceb
+< acc
+< acb
+< adb
+< bba
+< dba
+---
+> cdb
+6712a7646,7647
+> ccb
+> add
+6714d7648
+< edc
+6716,6727c7650,7654
+< ebe
+< eae
+< deb
+< daa
+< bbc
+< cab
+< cab
+< aab
+< eee
+< ece
+< ccb
+< dca
+---
+> cbd
+> ded
+> cbe
+> ecd
+> cdc
+6729,6734d7655
+< ecc
+< abe
+< dcc
+< dde
+< bee
+< bca
+6736,6738c7657,7658
+< abb
+< add
+< eed
+---
+> abc
+> bde
+6739a7660,7662
+> dec
+> cce
+> aeb
+6741,6747d7663
+< edb
+< cac
+< eaa
+< aad
+< bee
+< eae
+< bad
+6749,6767c7665
+< bea
+< bce
+< bce
+< bac
+< dae
+< ace
+< aba
+< edc
+< cdd
+< bbe
+< bed
+< deb
+< cad
+< aee
+< dbb
+< ccb
+< edc
+< aaa
+< aea
+---
+> bdc
+6769,6773c7667,7670
+< edd
+< dab
+< ead
+< beb
+< dae
+---
+> aac
+> cda
+> abd
+> ebc
+6775,6788d7671
+< bcc
+< cab
+< ccd
+< dbc
+< aea
+< dbd
+< cdc
+< dca
+< beb
+< bea
+< add
+< aad
+< ceb
+< dad
+6789a7673,7694
+> dce
+> bbe
+> bbd
+> ddd
+> acd
+> cbb
+> baa
+> cac
+> bbb
+> bec
+> bbb
+> bdd
+> bbd
+> cec
+> adc
+> bac
+> edc
+> edb
+> ced
+> eac
+> abd
+> dcc
+6791c7696
+< bcd
+---
+> acb
+6793,6794c7698,7699
+< bbb
+< adc
+---
+> ecb
+> dad
+6796,6799c7701,7707
+< ddc
+< dbb
+< dac
+< aaa
+---
+> ebc
+> eed
+> dba
+> cba
+> dad
+> dcb
+> aec
+6801,6821c7709,7714
+< cda
+< baa
+< dbd
+< cde
+< cbd
+< adb
+< ded
+< bbc
+< deb
+< ebc
+< cbc
+< bbb
+< cda
+< ddd
+< eea
+< eee
+< ddc
+< acd
+< bee
+< aba
+< eac
+---
+> eba
+> aec
+> acc
+> dad
+> bca
+> eab
+6822a7716,7718
+> bdc
+> edc
+> cdd
+6823a7720,7734
+> bba
+> bca
+> acb
+> cdb
+> abb
+> dbb
+> dac
+> dee
+> bcb
+> ead
+> caa
+> ccd
+> dea
+> aad
+> ecc
+6825,6836d7735
+< aca
+< dbd
+< bde
+< bcb
+< bdd
+< ded
+< dae
+< aac
+< ebd
+< bbd
+< ceb
+< dec
+6838,6839c7737,7739
+< aac
+< bdd
+---
+> aab
+> cce
+> bca
+6841,6850c7741,7742
+< ede
+< bbc
+< bae
+< bde
+< aca
+< adc
+< bbb
+< dcd
+< ddb
+< dde
+---
+> bed
+> bcb
+6852,6857c7744,7749
+< cdb
+< bae
+< dce
+< dcb
+< bbd
+< cee
+---
+> dec
+> aea
+> adb
+> edc
+> bcc
+> dab
+6858a7751,7757
+> cdc
+> aeb
+> bdc
+> ddd
+> eae
+> aed
+> cad
+6859a7759,7766
+> caa
+> cdb
+> cbb
+> aea
+> bce
+> bba
+> cab
+> bda
+6861,6865c7768,7769
+< ceb
+< edc
+< ecb
+< bbe
+< aee
+---
+> dec
+> bde
+6867,6871c7771,7773
+< bcb
+< dcd
+< edd
+< aed
+< add
+---
+> bbd
+> dac
+> beb
+6873,6874c7775
+< bdb
+< eca
+---
+> ead
+6876,6878c7777,7785
+< dce
+< baa
+< edd
+---
+> aee
+> ebb
+> cad
+> abd
+> abe
+> aba
+> bae
+> eaa
+> ddc
+6880,6895c7787,7793
+< dec
+< acd
+< ebc
+< cbb
+< cab
+< bed
+< bdb
+< ddb
+< aaa
+< abd
+< ddd
+< eed
+< ddb
+< bee
+< dba
+< cbd
+---
+> daa
+> eca
+> aac
+> ddc
+> abe
+> eab
+> dcb
+6897,6900c7795
+< deb
+< daa
+< edb
+< bcb
+---
+> cbe
+6902,6905d7796
+< eba
+< ecc
+< bcb
+< ece
+6906a7798,7799
+> ede
+> caa
+6907a7801,7805
+> ccd
+> cce
+> ebc
+> eec
+> cbe
+6909,6911c7807,7815
+< eab
+< cec
+< ece
+---
+> acd
+> aad
+> ccb
+> bda
+> dae
+> bdd
+> bcb
+> dea
+> cde
+6913,6914c7817,7818
+< dcb
+< bee
+---
+> bcc
+> bea
+6916,6917c7820,7830
+< ace
+< caa
+---
+> cac
+> eaa
+> adb
+> aee
+> ebd
+> beb
+> dab
+> cae
+> cbb
+> eae
+> deb
+6919,6932c7832,7837
+< dec
+< eec
+< bdb
+< aca
+< bbe
+< ada
+< ced
+< cdb
+< bce
+< aed
+< ceb
+< bbd
+< cca
+< deb
+---
+> bcb
+> bcb
+> cdc
+> cec
+> bbc
+> baa
+6933a7839,7840
+> ebb
+> ccb
+6935,6937d7841
+< abc
+< ada
+< dec
+6940,6949c7844,7847
+< adb
+< acc
+< bbb
+< cca
+< ccc
+< dcb
+< bbb
+< dca
+< acc
+< caa
+---
+> aeb
+> bea
+> eca
+> abe
+6951,6952d7848
+< cda
+< eee
+6953a7850,7855
+> ccd
+> cdd
+> bed
+> acd
+> eae
+> aaa
+6954a7857,7858
+> cec
+> bde
+6956,6962d7859
+< bae
+< ced
+< cae
+< ada
+< bca
+< ecd
+< ceb
+6964,6972c7861,7866
+< ede
+< bab
+< dac
+< dce
+< dad
+< aba
+< cad
+< dac
+< aaa
+---
+> bbe
+> dbc
+> bee
+> cca
+> cbb
+> adb
+6973a7868
+> cbb
+6974a7870,7877
+> aaa
+> bcc
+> bee
+> ccb
+> aad
+> aac
+> bdd
+> eaa
+6976,6981d7878
+< cba
+< ebd
+< ccc
+< bdd
+< cda
+< dab
+6983,6998c7880,7883
+< ccd
+< bbc
+< ece
+< bce
+< ded
+< eeb
+< cbc
+< cde
+< beb
+< bce
+< abb
+< dec
+< dac
+< dac
+< ebd
+< dba
+---
+> dce
+> aba
+> bac
+> bab
+7000,7001d7884
+< dda
+< dca
+7003,7021c7886,7888
+< dca
+< beb
+< ccd
+< ced
+< cde
+< adb
+< bdc
+< bdc
+< aca
+< bea
+< ceb
+< dbc
+< dec
+< adc
+< cea
+< aee
+< ddc
+< cea
+< ada
+---
+> bca
+> ccb
+> aac
+7023,7030c7890,7891
+< bdb
+< dbe
+< eed
+< cab
+< dbc
+< ddd
+< aed
+< acd
+---
+> cbb
+> ead
+7032,7034d7892
+< aaa
+< caa
+< bad
+7035a7894,7898
+> cdb
+> cbb
+> dac
+> bcc
+> abe
+7037,7050c7900,7902
+< eeb
+< dee
+< eda
+< ebe
+< bad
+< cdd
+< eed
+< eae
+< adb
+< bcb
+< ceb
+< dee
+< aad
+< cba
+---
+> bce
+> eea
+> bbb
+7052,7085d7903
+< add
+< ddd
+< add
+< cab
+< dca
+< cad
+< ecc
+< dea
+< bbd
+< edc
+< dae
+< dbd
+< bde
+< dbe
+< cbc
+< ccc
+< cbe
+< bdb
+< bbe
+< eec
+< ade
+< ece
+< dda
+< eeb
+< ada
+< aee
+< ccb
+< cbc
+< edd
+< abd
+< bbb
+< ead
+< ecd
+< cda
+7086a7905,7912
+> bac
+> bda
+> ede
+> deb
+> bed
+> abe
+> ede
+> dac
+7088,7108c7914,7915
+< dbb
+< cbc
+< dcb
+< ced
+< bca
+< cab
+< cdc
+< ddc
+< bbb
+< abe
+< bdd
+< bca
+< edd
+< dea
+< aec
+< dea
+< bec
+< bde
+< eac
+< cae
+< dcd
+---
+> aed
+> cce
+7110,7114c7917,7922
+< dad
+< dce
+< dcb
+< ebd
+< ecc
+---
+> eca
+> dcc
+> aee
+> bcd
+> bbd
+> dbe
+7116c7924,7934
+< dab
+---
+> bda
+> dcd
+> cce
+> cad
+> bec
+> bba
+> acb
+> cce
+> dac
+> cce
+> baa
+7118,7122d7935
+< beb
+< abb
+< ded
+< cbb
+< bbd
+7124,7132c7937
+< eec
+< eea
+< beb
+< ecb
+< cbb
+< acc
+< cce
+< aba
+< cee
+---
+> dda
+7134,7139d7938
+< acd
+< dbb
+< cac
+< bad
+< cea
+< dac
+7141,7147c7940
+< dad
+< aea
+< bac
+< bca
+< aba
+< ded
+< cde
+---
+> ebd
+7148a7942,7960
+> aae
+> cee
+> dba
+> aee
+> dde
+> bdb
+> aab
+> eac
+> bed
+> aec
+> dcd
+> edc
+> ced
+> cad
+> ead
+> aaa
+> ecc
+> bcb
+> dbe
+7150,7154c7962,7965
+< deb
+< dcb
+< ccd
+< beb
+< eca
+---
+> dcc
+> cbd
+> adc
+> bae
+7156,7158c7967,7968
+< eee
+< bed
+< eec
+---
+> daa
+> bad
+7160,7171c7970,7972
+< dab
+< bcc
+< ace
+< caa
+< ceb
+< ecd
+< cec
+< bda
+< bcd
+< bca
+< aca
+< cdb
+---
+> dbd
+> ddc
+> ebd
+7173,7181c7974
+< cdd
+< dde
+< dce
+< bca
+< cae
+< add
+< bbc
+< bba
+< dab
+---
+> bad
+7182a7976,7978
+> bcb
+> bbd
+> dac
+7184c7980,7981
+< eda
+---
+> adb
+> aba
+7186,7195c7983,7985
+< ede
+< ead
+< ded
+< ead
+< aab
+< cbd
+< dea
+< cbc
+< bce
+< eab
+---
+> bed
+> bdd
+> cae
+7197,7198c7987,7988
+< bbb
+< dbe
+---
+> eeb
+> bac
+7200,7205d7989
+< daa
+< aaa
+< ecb
+< ace
+< bce
+< dbe
+7207c7991,8028
+< ada
+---
+> cad
+> bed
+> bdd
+> ccd
+> eee
+> dda
+> ede
+> caa
+> aba
+> dde
+> aee
+> cdd
+> cce
+> ccd
+> eba
+> dcc
+> add
+> ddb
+> eda
+> dec
+> deb
+> ddd
+> aac
+> cab
+> eae
+> bcd
+> bea
+> aee
+> eda
+> eea
+> aed
+> beb
+> beb
+> deb
+> cbc
+> bdd
+> dae
+> dbd
+7209,7215c8030
+< ccc
+< aed
+< ecb
+< ded
+< bec
+< bda
+< bbd
+---
+> ebb
+7217,7226d8031
+< dcd
+< ece
+< eea
+< bad
+< bee
+< bdc
+< bdb
+< ada
+< ebb
+< bce
+7227a8033,8034
+> dad
+> eaa
+7229c8036,8050
+< ded
+---
+> cbd
+> eaa
+> dea
+> cdb
+> acb
+> cdc
+> dec
+> abb
+> eac
+> eeb
+> ecc
+> bca
+> ebe
+> acc
+> cbe
+7231,7232d8051
+< cdc
+< eba
+7233a8053,8065
+> dbb
+> dab
+> cce
+> bce
+> ebc
+> edd
+> ebd
+> ecc
+> cbd
+> aee
+> add
+> edc
+> bde
+7235,7244c8067,8068
+< cdc
+< ebc
+< ecb
+< ead
+< eeb
+< cdc
+< aed
+< bbd
+< deb
+< dcd
+---
+> cec
+> cad
+7246,7248c8070,8073
+< dab
+< cbe
+< eac
+---
+> aae
+> bbb
+> aae
+> dad
+7250,7257c8075
+< bad
+< bae
+< ced
+< eea
+< ace
+< ccd
+< abd
+< ada
+---
+> aeb
+7259,7264c8077,8078
+< ada
+< bad
+< ada
+< bce
+< adb
+< ceb
+---
+> eae
+> dce
+7266d8079
+< aed
+7268,7271c8081,8083
+< deb
+< aca
+< bad
+< eaa
+---
+> adc
+> ecb
+> caa
+7272a8085,8093
+> cdc
+> cba
+> adc
+> dbc
+> bab
+> edd
+> bdd
+> aad
+> adc
+7274,7275c8095,8096
+< cdc
+< dca
+---
+> dcc
+> cdb
+7277,7278c8098
+< cbd
+< edb
+---
+> aed
+7280c8100,8102
+< dbe
+---
+> aab
+> cbe
+> cac
+7282c8104,8115
+< add
+---
+> ccb
+> bdb
+> dbd
+> dea
+> bce
+> bdc
+> ced
+> dee
+> dca
+> cde
+> ebc
+> baa
+7284,7289c8117,8135
+< acb
+< baa
+< cca
+< dbb
+< bbd
+< ede
+---
+> bce
+> abe
+> abe
+> bde
+> bde
+> dec
+> acc
+> edb
+> cab
+> dee
+> bdc
+> ebd
+> ddd
+> dbc
+> bce
+> aed
+> dab
+> ddb
+> dcd
+7291,7301c8137,8141
+< eec
+< dcd
+< cbc
+< adc
+< cad
+< ebe
+< bed
+< cbc
+< aed
+< bad
+< ebd
+---
+> beb
+> eea
+> bba
+> aab
+> eed
+7303,7311c8143,8147
+< dda
+< cbc
+< dea
+< bde
+< bad
+< eda
+< ecd
+< ccb
+< baa
+---
+> dbd
+> eaa
+> eeb
+> acd
+> aaa
+7313,7319c8149,8160
+< cee
+< dac
+< ebe
+< ebc
+< dbe
+< abd
+< bbe
+---
+> aae
+> bcc
+> cda
+> cca
+> ddc
+> bec
+> daa
+> ead
+> cde
+> aad
+> dde
+> ded
+7321,7326c8162,8165
+< dbb
+< aea
+< ecb
+< ccb
+< aaa
+< cda
+---
+> bde
+> cea
+> eed
+> acd
+7328,7336c8167,8168
+< bba
+< bdd
+< dbc
+< ebd
+< ccc
+< ceb
+< adb
+< dcb
+< bce
+---
+> acb
+> eaa
+7338,7347d8169
+< ace
+< bcb
+< ded
+< eae
+< cbb
+< acc
+< acc
+< dcd
+< dba
+< aed
+7349c8171,8185
+< cab
+---
+> bab
+> bdb
+> ebb
+> bea
+> bde
+> dbb
+> bcd
+> cac
+> bcc
+> ccb
+> ddc
+> ade
+> ecd
+> cbc
+> ebb
+7351c8187,8190
+< dca
+---
+> dad
+> dcd
+> bba
+> ecd
+7353,7356c8192,8193
+< bbd
+< bee
+< ccc
+< edc
+---
+> ecd
+> cba
+7358,7371c8195,8198
+< bbc
+< ded
+< bee
+< ebe
+< cbe
+< dcb
+< dbb
+< bbc
+< dac
+< ecc
+< dcb
+< ccc
+< bdb
+< dbb
+---
+> eae
+> dae
+> edd
+> eec
+7373,7383c8200
+< bad
+< ced
+< edd
+< ece
+< aac
+< ebb
+< aeb
+< ecb
+< ced
+< cea
+< acc
+---
+> bca
+7384a8202,8207
+> ddd
+> cdb
+> eea
+> bdc
+> aed
+> bca
+7386,7388d8208
+< cba
+< bdc
+< dac
+7390,7394c8210,8216
+< cec
+< cea
+< bbb
+< eba
+< dce
+---
+> acd
+> bdb
+> eae
+> eeb
+> dde
+> aed
+> aee
+7396,7400c8218,8220
+< bdc
+< aab
+< caa
+< bbb
+< ebd
+---
+> ebe
+> dcc
+> bdd
+7402,7410c8222,8223
+< ecd
+< acd
+< dbb
+< ddc
+< cdd
+< aec
+< cec
+< bae
+< ccb
+---
+> dcb
+> dbd
+7412,7425d8224
+< bce
+< abb
+< ade
+< caa
+< ccd
+< eab
+< aea
+< cab
+< aac
+< ecc
+< bcc
+< daa
+< cdb
+< dae
+7427,7428c8226,8229
+< cbc
+< cac
+---
+> eec
+> bdc
+> eba
+> aec
+7430,7433c8231,8240
+< edb
+< dad
+< dcb
+< eec
+---
+> dee
+> bbe
+> aea
+> bde
+> bbc
+> eae
+> acc
+> eaa
+> bba
+> abe
+7435,7441d8241
+< cdd
+< ddb
+< bec
+< edc
+< cbd
+< dbe
+< aee
+7443,7456c8243,8252
+< cbb
+< ace
+< bec
+< bed
+< eee
+< dde
+< dda
+< aec
+< dea
+< bab
+< cdd
+< acb
+< cca
+< aae
+---
+> bbe
+> adb
+> eae
+> cba
+> aca
+> eba
+> aed
+> bdb
+> dec
+> dca
+7458,7466c8254
+< aee
+< edd
+< bdd
+< edd
+< acc
+< cca
+< dda
+< eec
+< cea
+---
+> ceb
+7468,7484c8256,8266
+< ced
+< bdd
+< caa
+< eda
+< caa
+< dcd
+< ecb
+< cee
+< ced
+< ebc
+< dce
+< bab
+< ebc
+< acb
+< ecb
+< bab
+< bdd
+---
+> ace
+> ceb
+> ece
+> bbd
+> dec
+> bbe
+> cbe
+> bea
+> bbc
+> dad
+> aab
+7485a8268,8276
+> eac
+> dbd
+> aea
+> eac
+> ddb
+> acc
+> cad
+> edd
+> bbd
+7487,7488c8278,8283
+< ceb
+< dbb
+---
+> abb
+> abc
+> eba
+> dde
+> dab
+> bdb
+7490,7493c8285,8289
+< eba
+< ecc
+< ceb
+< cda
+---
+> bcd
+> bed
+> dac
+> caa
+> abe
+7495,7496c8291,8307
+< ddd
+< adc
+---
+> eac
+> cea
+> acd
+> ced
+> beb
+> bda
+> baa
+> bbe
+> ead
+> cdd
+> add
+> dee
+> eac
+> cce
+> edb
+> cae
+> dba
+7497a8309,8319
+> abc
+> bed
+> ecc
+> bca
+> edb
+> baa
+> dab
+> bab
+> dda
+> ebe
+> cba
+7499,7509c8321,8323
+< ccd
+< cae
+< eee
+< ebd
+< abd
+< aee
+< bdc
+< ebe
+< eec
+< ada
+< bbd
+---
+> cdd
+> aaa
+> edb
+7511,7512c8325,8329
+< eaa
+< ade
+---
+> aae
+> bce
+> bba
+> edd
+> eac
+7513a8331
+> ced
+7515,7527d8332
+< eda
+< ebb
+< bdd
+< eaa
+< caa
+< adb
+< aab
+< ccd
+< ebd
+< abd
+< dbc
+< edc
+< ccb
+7529,7542c8334,8335
+< abd
+< ced
+< eee
+< eca
+< adc
+< bbc
+< add
+< aeb
+< cdc
+< bda
+< aad
+< bca
+< cda
+< cec
+---
+> dad
+> dbb
+7545,7548c8338,8340
+< ade
+< dce
+< ced
+< ccc
+---
+> aea
+> cab
+> eab
+7550,7551c8342,8343
+< dcd
+< aca
+---
+> ebc
+> baa
+7553,7556c8345,8354
+< dab
+< dca
+< ccd
+< dea
+---
+> ceb
+> dbc
+> acb
+> bae
+> cad
+> abc
+> dad
+> ecc
+> bce
+> ceb
+7558c8356
+< ced
+---
+> acb
+7560,7562c8358,8360
+< aca
+< bcd
+< cab
+---
+> dbd
+> ade
+> aad
+7563a8362,8366
+> ede
+> cec
+> dbc
+> baa
+> ecb
+7565,7572c8368,8374
+< aad
+< edd
+< ddb
+< ddd
+< caa
+< cee
+< aad
+< abb
+---
+> dca
+> adb
+> adb
+> deb
+> cda
+> abe
+> acd
+7574,7581c8376,8379
+< eae
+< ecc
+< ddd
+< bbd
+< aed
+< eed
+< cdd
+< bce
+---
+> aac
+> cad
+> bcb
+> acc
+7582a8381,8385
+> ece
+> cbc
+> baa
+> bac
+> cbe
+7584,7590c8387
+< acd
+< cac
+< eac
+< dce
+< cdd
+< eab
+< cda
+---
+> aee
+7592,7599c8389,8393
+< cdd
+< bdb
+< cda
+< dec
+< dde
+< cba
+< dec
+< aea
+---
+> eed
+> dba
+> dad
+> dba
+> ece
+7600a8395,8417
+> ecd
+> eec
+> dac
+> ebe
+> ced
+> cab
+> edd
+> bcc
+> caa
+> bed
+> aed
+> aad
+> dbd
+> bcb
+> cdb
+> eae
+> edd
+> ede
+> eaa
+> dad
+> bda
+> ddb
+> deb
+7602,7603c8419,8426
+< cbc
+< aad
+---
+> bae
+> bcc
+> cab
+> cdc
+> abe
+> eab
+> acc
+> ecc
+7605c8428,8435
+< bab
+---
+> ebe
+> cee
+> cab
+> dca
+> bcc
+> bee
+> aea
+> cdb
+7606a8437,8440
+> aec
+> dcb
+> ccb
+> aac
+7608,7616c8442,8452
+< ebd
+< ccd
+< dae
+< aca
+< bda
+< adc
+< eee
+< cdd
+< cee
+---
+> eac
+> cea
+> ccb
+> bbd
+> aaa
+> cda
+> bdb
+> add
+> eda
+> ada
+> caa
+7618,7619c8454,8461
+< ade
+< ceb
+---
+> bde
+> caa
+> bcc
+> eab
+> ccb
+> eac
+> dad
+> eab
+7621c8463,8467
+< bda
+---
+> abe
+> ddb
+> eea
+> adb
+> daa
+7623,7626c8469
+< dea
+< ada
+< dbb
+< cae
+---
+> bed
+7628,7633c8471
+< aae
+< bdc
+< abb
+< bde
+< bab
+< ead
+---
+> bea
+7634a8473,8478
+> dbd
+> cdb
+> ccd
+> dee
+> dae
+> ced
+7636,7644d8479
+< acb
+< aba
+< dbc
+< cac
+< ebe
+< eae
+< aab
+< ebc
+< dde
+7646,7648c8481,8482
+< cae
+< acc
+< cac
+---
+> dab
+> aee
+7650,7652c8484,8489
+< cdc
+< cca
+< ebd
+---
+> dcb
+> adc
+> caa
+> aed
+> aac
+> aae
+7654c8491,8494
+< deb
+---
+> abd
+> dba
+> ede
+> ced
+7656,7661c8496,8507
+< aab
+< bea
+< adb
+< bcd
+< daa
+< eed
+---
+> aba
+> aac
+> dbb
+> dca
+> bce
+> eac
+> cba
+> ede
+> bcc
+> eae
+> ecd
+> aec
+7663,7677c8509,8513
+< dbe
+< ece
+< cdd
+< dcb
+< ded
+< bbb
+< ccb
+< bae
+< eae
+< ddc
+< cce
+< bad
+< eba
+< cdd
+< bca
+---
+> ade
+> cbc
+> bdc
+> dad
+> dee
+7679d8514
+< dba
+7680a8516,8517
+> ebb
+> ccc
+7682,7685c8519,8527
+< caa
+< bad
+< cab
+< dbe
+---
+> dce
+> bcc
+> ead
+> aaa
+> eaa
+> dec
+> ecb
+> bbc
+> ebe
+7687,7698c8529,8532
+< bbb
+< dba
+< ead
+< bad
+< cec
+< bdd
+< eda
+< dae
+< cec
+< dcb
+< bdc
+< dbb
+---
+> cde
+> dcc
+> ecb
+> eaa
+7700,7701c8534,8542
+< ecb
+< bcd
+---
+> aae
+> beb
+> cde
+> bda
+> cad
+> eac
+> bde
+> aec
+> daa
+7703,7717c8544,8552
+< eed
+< cec
+< aed
+< daa
+< cdb
+< ece
+< eca
+< dec
+< eaa
+< bdb
+< dad
+< cda
+< dbd
+< aac
+< aaa
+---
+> ced
+> ade
+> ebd
+> eda
+> ade
+> edd
+> edb
+> aca
+> edb
+7719d8553
+< ede
+7720a8555,8567
+> ebe
+> ebc
+> bab
+> dbc
+> cea
+> bdd
+> dcc
+> bca
+> dbc
+> bdd
+> daa
+> ceb
+> bdd
+7722c8569,8577
+< eba
+---
+> eab
+> edc
+> beb
+> bca
+> cbe
+> aad
+> dcd
+> ccb
+> bbb
+7724,7734d8578
+< eac
+< bba
+< ebd
+< bae
+< bae
+< bac
+< eeb
+< dca
+< cda
+< add
+< cda
+7737,7740c8581,8586
+< dbb
+< bce
+< bea
+< bec
+---
+> ddc
+> bdb
+> caa
+> bdd
+> eba
+> acd
+7742,7745c8588,8592
+< ecc
+< cbb
+< aec
+< add
+---
+> dbe
+> acc
+> bcc
+> dcc
+> ace
+7747,7761c8594,8597
+< bbc
+< dde
+< ace
+< cec
+< eee
+< acb
+< aac
+< ddd
+< cda
+< aac
+< cba
+< bcb
+< cdc
+< cdb
+< abc
+---
+> bec
+> ddb
+> dbb
+> cab
+7763c8599,8601
+< dab
+---
+> daa
+> ebe
+> eeb
+7765,7775c8603,8606
+< cca
+< aad
+< eed
+< cbe
+< adb
+< cae
+< beb
+< bca
+< edc
+< aed
+< dac
+---
+> eca
+> ece
+> ecb
+> ace
+7777,7779c8608,8609
+< bcb
+< eec
+< dce
+---
+> dcb
+> cbc
+7781,7783d8610
+< acb
+< dea
+< abd
+7785,7789c8612,8613
+< bca
+< abb
+< cba
+< aae
+< cda
+---
+> cdd
+> deb
+7791,7796d8614
+< dae
+< abc
+< eae
+< baa
+< ccb
+< ceb
+7798c8616,8623
+< eac
+---
+> beb
+> bac
+> dec
+> aba
+> ede
+> aeb
+> dcd
+> bea
+7800c8625,8647
+< dbc
+---
+> ade
+> cbb
+> bba
+> dcd
+> acd
+> ccb
+> eaa
+> ade
+> abb
+> ece
+> dba
+> edc
+> cae
+> daa
+> acd
+> acd
+> edc
+> cbe
+> dac
+> bee
+> cdb
+> dab
+> aee
+7802c8649,8650
+< cbb
+---
+> dab
+> bbe
+7804,7808c8652,8659
+< bed
+< dba
+< cab
+< bcb
+< dca
+---
+> dce
+> eab
+> bce
+> dcb
+> aba
+> bcd
+> aeb
+> eab
+7810,7812c8661,8665
+< add
+< beb
+< ceb
+---
+> eab
+> ede
+> aec
+> bcc
+> eea
+7814c8667,8669
+< ede
+---
+> bee
+> cec
+> cda
+7816c8671,8677
+< ebe
+---
+> bed
+> ecd
+> aac
+> ebd
+> bca
+> aaa
+> cba
+7817a8679,8693
+> cba
+> dee
+> bce
+> ccd
+> aed
+> bab
+> cbd
+> ded
+> eae
+> abd
+> aae
+> acb
+> cba
+> eae
+> dae
+7819,7820d8694
+< ecb
+< bad
+7822,7848c8696
+< daa
+< add
+< bdd
+< cdd
+< cda
+< bec
+< aec
+< ade
+< cea
+< aad
+< ede
+< daa
+< bab
+< caa
+< ddc
+< eab
+< edb
+< aec
+< ecb
+< abd
+< edc
+< cdb
+< ece
+< ebc
+< dab
+< aea
+< ebb
+---
+> eae
+7850,7851d8697
+< ebe
+< dcc
+7853,7854c8699,8700
+< ccc
+< acc
+---
+> ccd
+> eec
+7856,7857d8701
+< cdb
+< cba
+7859a8704,8709
+> dec
+> adb
+> ace
+> bac
+> acc
+> ccd
+7862d8711
+< dde
+7864,7869c8713,8741
+< add
+< dbc
+< dbb
+< dca
+< cbb
+< dea
+---
+> aec
+> cad
+> bdd
+> ebb
+> ddc
+> ccd
+> ece
+> dcb
+> cad
+> cce
+> bea
+> dab
+> abb
+> bab
+> aad
+> aad
+> eee
+> ede
+> aec
+> eea
+> ead
+> bbd
+> eac
+> aca
+> cdd
+> ace
+> cbe
+> cba
+> ace
+7871,7872c8743,8755
+< dbb
+< abc
+---
+> ebb
+> deb
+> eec
+> ade
+> aeb
+> aaa
+> eeb
+> bcc
+> cda
+> cac
+> dad
+> ecb
+> cae
+7874,7879c8757,8758
+< ebc
+< cdc
+< cdd
+< ede
+< edb
+< bdc
+---
+> ebb
+> daa
+7881,7882c8760,8761
+< acb
+< edc
+---
+> eee
+> aac
+7883a8763,8764
+> eac
+> bbb
+7885,7894c8766
+< cbe
+< bce
+< aca
+< dbe
+< cda
+< dbb
+< cce
+< cba
+< bca
+< ebb
+---
+> dac
+7896,7913c8768,8769
+< bec
+< cbb
+< bbe
+< dda
+< bae
+< dcd
+< ade
+< cae
+< aad
+< bbd
+< bad
+< bce
+< aba
+< bcd
+< ddc
+< eba
+< bac
+< adb
+---
+> bbc
+> ece
+7915c8771,8773
+< ecb
+---
+> bea
+> eed
+> cee
+7917,7920c8775,8778
+< cbd
+< cbd
+< dbd
+< cce
+---
+> eda
+> eee
+> aac
+> abc
+7922,7926d8779
+< cdd
+< aab
+< adc
+< dec
+< dae
+7928,7930c8781,8783
+< cdc
+< dbe
+< ebc
+---
+> eae
+> aee
+> aee
+7932,7952c8785
+< edb
+< cbd
+< cde
+< dce
+< dad
+< bec
+< cbb
+< dcc
+< aba
+< adb
+< cee
+< ecd
+< cad
+< dde
+< edb
+< bae
+< bcd
+< cdc
+< dbe
+< dbc
+< eba
+---
+> eaa
+7954,7965d8786
+< aac
+< acd
+< bad
+< dbe
+< ccb
+< bcd
+< eba
+< cca
+< cab
+< ceb
+< cae
+< bdb
+7967,7987c8788,8790
+< cab
+< eaa
+< bbe
+< cee
+< aeb
+< bae
+< ebe
+< ece
+< cbc
+< cbe
+< beb
+< aac
+< ddd
+< bbd
+< cea
+< ddb
+< ccb
+< ddc
+< ceb
+< cbe
+< ade
+---
+> dab
+> eda
+> aec
+7989,7991c8792,8793
+< bbc
+< aeb
+< ecb
+---
+> ace
+> ded
+7992a8795,8797
+> acc
+> edc
+> eba
+7993a8799
+> ddc
+7995,8002c8801,8804
+< bac
+< cbc
+< cec
+< ded
+< ebc
+< dea
+< ead
+< cbb
+---
+> ecb
+> dda
+> aab
+> eee
+8003a8806,8807
+> add
+> ddb
+8005,8015c8809,8818
+< eae
+< dcc
+< bad
+< add
+< cbb
+< dca
+< bea
+< eaa
+< ccc
+< dcc
+< caa
+---
+> edc
+> aaa
+> eba
+> ecb
+> eab
+> bab
+> dbc
+> ecc
+> bec
+> bcc
+8017,8018c8820,8825
+< bac
+< eae
+---
+> ceb
+> eec
+> dcb
+> cbc
+> ddd
+> beb
+8020,8022c8827
+< aac
+< baa
+< ddc
+---
+> bbe
+8023a8829,8835
+> bcc
+> cec
+> bee
+> dea
+> aee
+> acb
+> cee
+8024a8837,8842
+> ede
+> dea
+> dca
+> eee
+> dba
+> cbb
+8026,8035c8844,8850
+< dcb
+< dcc
+< bbe
+< eba
+< ebc
+< cdb
+< bac
+< ead
+< bec
+< baa
+---
+> ddd
+> acb
+> cab
+> add
+> dae
+> dde
+> ace
+8037,8039c8852,8855
+< caa
+< aec
+< edb
+---
+> ebb
+> cac
+> dbd
+> dee
+8041,8049c8857,8858
+< cdc
+< eeb
+< ccd
+< eba
+< eba
+< dcc
+< adb
+< ecd
+< eda
+---
+> ccb
+> acc
+8050a8860,8867
+> edd
+> cab
+> bdc
+> dcb
+> bdc
+> ddd
+> adc
+> cca
+8052,8062c8869,8870
+< dbc
+< bab
+< ecb
+< bba
+< dbb
+< bec
+< cda
+< ecd
+< ebc
+< adc
+< ceb
+---
+> dab
+> aca
+8064,8075d8871
+< abd
+< bdb
+< dcc
+< adb
+< eee
+< ccb
+< aed
+< eed
+< dab
+< eaa
+< aab
+< bcb
+8077,8081d8872
+< cdd
+< aee
+< eec
+< abd
+< cea
+8083,8089c8874,8878
+< ded
+< cac
+< dca
+< edc
+< daa
+< abb
+< bbd
+---
+> acc
+> cce
+> ada
+> dab
+> bbc
+8091,8099c8880,8881
+< cbe
+< eba
+< eed
+< eed
+< ada
+< bee
+< cad
+< eed
+< eee
+---
+> dda
+> aec
+8101,8106c8883
+< beb
+< cae
+< dab
+< ebd
+< dad
+< bdb
+---
+> aec
+8108,8109d8884
+< ead
+< eab
+8111,8126d8885
+< ecb
+< cbd
+< dee
+< cde
+< ace
+< eaa
+< cdc
+< eec
+< ccc
+< dbb
+< aba
+< dbb
+< edd
+< cdd
+< dcc
+< bea
+8128,8134c8887,8895
+< eae
+< ece
+< dcb
+< eca
+< eae
+< dcd
+< aba
+---
+> dda
+> aad
+> cab
+> bdc
+> ced
+> dca
+> aed
+> ebc
+> cee
+8136,8137d8896
+< dde
+< ccc
+8139,8143c8898,8910
+< bdd
+< add
+< dad
+< edd
+< bea
+---
+> ded
+> aae
+> ddc
+> cbb
+> ddd
+> bda
+> bad
+> abc
+> bdc
+> bec
+> beb
+> eab
+> bca
+8145,8149c8912,8914
+< aca
+< bad
+< cdd
+< add
+< ced
+---
+> ceb
+> ecd
+> dde
+8151,8158d8915
+< dea
+< cdd
+< edd
+< eed
+< acc
+< bcc
+< cdc
+< bbc
+8160c8917,8930
+< abb
+---
+> eae
+> ebb
+> cee
+> cdb
+> acb
+> bba
+> bad
+> ddb
+> eeb
+> cac
+> eae
+> bed
+> ebb
+> deb
+8162,8165d8931
+< beb
+< dba
+< eec
+< bcc
+8166a8933,8943
+> bab
+> acc
+> bda
+> bec
+> eda
+> ebb
+> deb
+> bcd
+> cbe
+> bbc
+> edc
+8168,8176c8945,8953
+< dda
+< bda
+< edb
+< abd
+< bed
+< edd
+< dce
+< eea
+< bda
+---
+> aea
+> abc
+> eda
+> ccc
+> ccb
+> ebe
+> eda
+> ebe
+> ace
+8178,8185c8955,8964
+< dbe
+< bca
+< eab
+< bba
+< bce
+< ebc
+< aab
+< cdd
+---
+> aee
+> bad
+> ddc
+> beb
+> aee
+> aea
+> dee
+> ded
+> ede
+> aca
+8187,8191c8966
+< edb
+< dec
+< cce
+< dbb
+< dbc
+---
+> cdb
+8193,8197c8968
+< eca
+< dbc
+< bce
+< ecc
+< eeb
+---
+> ebd
+8198a8970
+> ddb
+8200,8213c8972,8980
+< bbb
+< ecd
+< edb
+< aca
+< dcd
+< ede
+< bda
+< acc
+< aae
+< aec
+< bde
+< bcb
+< dda
+< dce
+---
+> ded
+> bdc
+> dbe
+> abb
+> bee
+> cad
+> cdc
+> add
+> ebd
+8215,8217c8982,8983
+< caa
+< cdb
+< aab
+---
+> aee
+> ccc
+8219,8221c8985,8990
+< bcc
+< bba
+< ebc
+---
+> abb
+> dea
+> cde
+> bee
+> cbe
+> cdc
+8223,8228d8991
+< dad
+< ebd
+< abc
+< acb
+< ecc
+< dcd
+8230,8236d8992
+< eea
+< eeb
+< ebc
+< dad
+< ead
+< dde
+< cab
+8238,8243c8994,8995
+< ecd
+< dae
+< bbd
+< dea
+< bdd
+< dcc
+---
+> ddc
+> ebb
+8245,8247d8996
+< aea
+< ebe
+< bbe
+8249,8253c8998,9007
+< cae
+< eec
+< bae
+< dee
+< bbc
+---
+> bac
+> cba
+> bcb
+> aee
+> ebc
+> bcd
+> acd
+> dba
+> bce
+> eba
+8255,8260c9009
+< dce
+< eab
+< bca
+< abd
+< aec
+< edc
+---
+> bdb
+8261a9011,9018
+> ded
+> aea
+> eaa
+> bed
+> aeb
+> eba
+> ede
+> bee
+8263c9020,9030
+< aba
+---
+> abc
+> ced
+> bdc
+> ccb
+> eae
+> bbe
+> cdc
+> acb
+> edd
+> eac
+> bad
+8265,8268c9032,9044
+< aba
+< dbd
+< ead
+< eee
+---
+> eaa
+> ade
+> dbe
+> bcb
+> bac
+> cac
+> cac
+> cda
+> bbb
+> dbb
+> ede
+> edd
+> aed
+8270,8276c9046,9047
+< dbe
+< bad
+< deb
+< ebe
+< eae
+< ebd
+< bda
+---
+> dea
+> eba
+8278,8288d9048
+< acb
+< bcd
+< ebc
+< ebc
+< cbc
+< aec
+< aca
+< bda
+< eec
+< cdd
+< ada
+8290,8303c9050,9054
+< acd
+< aac
+< baa
+< dec
+< baa
+< aaa
+< deb
+< bce
+< deb
+< bac
+< dbd
+< ebc
+< ada
+< ddb
+---
+> adb
+> bba
+> dcc
+> ecd
+> aae
+8305,8306c9056,9058
+< caa
+< bae
+---
+> abe
+> aba
+> aee
+8308,8310c9060
+< adc
+< cbc
+< eed
+---
+> dbe
+8312,8315c9062,9071
+< dbb
+< aac
+< dbb
+< cce
+---
+> ddd
+> eaa
+> edb
+> ebd
+> edb
+> ede
+> bcc
+> aad
+> bcc
+> dde
+8317,8318c9073,9078
+< cbe
+< cae
+---
+> dee
+> dae
+> dea
+> dda
+> bcb
+> eba
+8320,8333c9080,9086
+< cbb
+< bcb
+< bcc
+< eda
+< dda
+< baa
+< ead
+< ddd
+< dda
+< cba
+< dba
+< cea
+< dec
+< cdb
+---
+> dad
+> bbe
+> aaa
+> eae
+> beb
+> bba
+> eed
+8334a9088,9095
+> eca
+> daa
+> cdc
+> cbe
+> bba
+> cda
+> ecb
+> eba
+8336,8344c9097,9100
+< ceb
+< ace
+< eaa
+< ead
+< ade
+< dee
+< adb
+< dac
+< bbd
+---
+> eac
+> caa
+> eac
+> edd
+8345a9102,9108
+> cdb
+> aca
+> caa
+> cec
+> eae
+> cae
+> aac
+8347,8350c9110,9115
+< dea
+< adc
+< acd
+< bae
+---
+> ccb
+> ede
+> dbe
+> ede
+> dbb
+> deb
+8352c9117,9118
+< abe
+---
+> dcb
+> aac
+8354,8356c9120,9132
+< cec
+< eee
+< bad
+---
+> eea
+> cbc
+> dac
+> dde
+> dac
+> edb
+> bac
+> acd
+> cda
+> ebe
+> cdd
+> bda
+> dad
+8358,8359c9134,9149
+< acc
+< dbb
+---
+> dcc
+> ccb
+> aca
+> cdc
+> eaa
+> cad
+> dbc
+> bba
+> bab
+> bba
+> eca
+> bed
+> dca
+> eda
+> ecc
+> dcd
+8361c9151
+< cce
+---
+> dae
+8363,8369c9153
+< bda
+< ddc
+< cbd
+< bcd
+< ecd
+< dcd
+< add
+---
+> ddb
+8371,8374c9155,9159
+< ddb
+< cbb
+< aea
+< bda
+---
+> cdc
+> daa
+> bee
+> edc
+> dae
+8375a9161,9163
+> aeb
+> dbb
+> ebb
+8377,8380c9165,9167
+< ced
+< eca
+< ced
+< acc
+---
+> bce
+> ecb
+> aea
+8382,8384c9169,9173
+< ead
+< dca
+< eab
+---
+> ddb
+> cae
+> eba
+> ade
+> dbb
+8386,8396c9175
+< dad
+< bea
+< abc
+< dda
+< dab
+< abc
+< bcb
+< dae
+< caa
+< adb
+< aac
+---
+> eac
+8398,8401c9177,9179
+< dac
+< dad
+< bee
+< dcd
+---
+> ebc
+> aba
+> edd
+8403,8411c9181
+< dec
+< bae
+< ebb
+< abb
+< eae
+< dec
+< eae
+< aca
+< cbd
+---
+> ead
+8413,8417c9183,9185
+< eee
+< dab
+< cca
+< eac
+< baa
+---
+> cde
+> ada
+> acb
+8418a9187,9193
+> dea
+> eeb
+> edc
+> dce
+> bbc
+> cbd
+> cbd
+8420,8426c9195,9196
+< acd
+< bdc
+< cba
+< dde
+< aee
+< ecb
+< ade
+---
+> eea
+> cea
+8428,8438c9198,9204
+< aee
+< bbe
+< edd
+< ddc
+< aee
+< ead
+< edd
+< ead
+< aec
+< eba
+< cee
+---
+> eeb
+> bdd
+> cab
+> bea
+> aea
+> aaa
+> dda
+8440,8442c9206,9214
+< cdc
+< bbd
+< aac
+---
+> ceb
+> deb
+> daa
+> dad
+> cab
+> dad
+> edb
+> bdb
+> add
+8444,8448c9216,9226
+< cde
+< acd
+< aed
+< aee
+< bda
+---
+> eca
+> ddb
+> dbc
+> dad
+> dab
+> adc
+> eab
+> aeb
+> eda
+> ecd
+> edc
+8450c9228,9232
+< ada
+---
+> aba
+> aeb
+> dce
+> ecc
+> cca
+8452c9234,9241
+< dda
+---
+> dcd
+> cce
+> aae
+> eed
+> aec
+> caa
+> aad
+> dba
+8454,8455c9243,9248
+< eeb
+< bbe
+---
+> aae
+> cbb
+> aae
+> eae
+> abb
+> bbb
+8457c9250,9255
+< eca
+---
+> bac
+> dcd
+> cbd
+> bed
+> ccb
+> dbb
+8459,8469c9257
+< eeb
+< ddb
+< ceb
+< ece
+< bcc
+< cae
+< add
+< edd
+< cce
+< dda
+< adc
+---
+> cbe
+8471,8472c9259,9262
+< bed
+< ebe
+---
+> bab
+> aea
+> bbd
+> cdb
+8474c9264,9268
+< dcc
+---
+> deb
+> bde
+> aab
+> eec
+> ccc
+8476,8479c9270,9274
+< baa
+< acd
+< ebc
+< dcc
+---
+> ccb
+> ebd
+> eee
+> add
+> eba
+8481,8492c9276,9280
+< abc
+< abc
+< abb
+< bdc
+< dce
+< cae
+< dbc
+< aea
+< cbd
+< ada
+< ede
+< bbe
+---
+> eda
+> eea
+> dcb
+> bde
+> caa
+8493a9282,9291
+> bad
+> aec
+> dac
+> cdb
+> add
+> bbb
+> cce
+> ceb
+> edd
+> bbd
+8495,8498c9293,9297
+< ace
+< beb
+< ecc
+< dde
+---
+> aab
+> edd
+> abb
+> bbd
+> adc
+8500,8505c9299,9301
+< baa
+< aaa
+< ecc
+< ebc
+< bce
+< dea
+---
+> aba
+> daa
+> dbb
+8507c9303,9304
+< deb
+---
+> bdd
+> cad
+8509,8512c9306,9314
+< eac
+< eea
+< dca
+< edc
+---
+> aaa
+> ecb
+> ede
+> ddd
+> dda
+> dbe
+> cdb
+> bbc
+> ccc
+8514,8515c9316,9322
+< aac
+< daa
+---
+> cda
+> dee
+> dea
+> aaa
+> ecb
+> ade
+> eda
+8517,8526c9324,9325
+< deb
+< aeb
+< aab
+< dae
+< bbc
+< bec
+< abe
+< cca
+< cab
+< aca
+---
+> ded
+> dca
+8528,8545c9327,9329
+< dbd
+< dea
+< eed
+< bec
+< dbe
+< aed
+< bdb
+< cea
+< ebd
+< cae
+< bbb
+< aab
+< bbe
+< eca
+< dea
+< cea
+< cbe
+< dec
+---
+> caa
+> ade
+> dcb
+8547,8555c9331,9334
+< aae
+< eae
+< bab
+< bae
+< ccb
+< adb
+< dae
+< cdd
+< daa
+---
+> dce
+> bbc
+> ceb
+> dee
+8557,8573c9336,9337
+< ccd
+< eee
+< eaa
+< bca
+< dcb
+< acb
+< eda
+< bac
+< aab
+< bba
+< eba
+< eec
+< aea
+< eda
+< bca
+< eee
+< cbc
+---
+> abb
+> cde
+8574a9339,9344
+> eca
+> cec
+> ccc
+> aca
+> ace
+> edb
+8576,8585c9346
+< eae
+< cbc
+< eeb
+< ede
+< dde
+< dce
+< cda
+< aee
+< bac
+< bbb
+---
+> dbe
+8587,8596d9347
+< bcc
+< ddd
+< aad
+< bcd
+< edc
+< bed
+< dda
+< dad
+< aab
+< cdc
+8598c9349,9362
+< deb
+---
+> dae
+> aac
+> bea
+> bbb
+> dab
+> bdb
+> adc
+> cdb
+> abc
+> eab
+> aba
+> cbc
+> bdc
+> daa
+8600,8612d9363
+< bda
+< dcd
+< dee
+< bca
+< ace
+< caa
+< baa
+< bcc
+< eeb
+< dcc
+< aaa
+< bcc
+< acb
+8614,8615c9365
+< ddc
+< dec
+---
+> edc
+8617,8618d9366
+< dad
+< dad
+8620,8625c9368,9377
+< dbb
+< bdc
+< ced
+< aad
+< dcd
+< aba
+---
+> dcb
+> ada
+> bab
+> dce
+> ecd
+> cca
+> bed
+> aab
+> ade
+> bbd
+8627c9379,9383
+< cce
+---
+> dce
+> dde
+> cdb
+> cbc
+> dde
+8629,8634c9385,9396
+< bbc
+< aec
+< eae
+< bec
+< dec
+< cbb
+---
+> bdd
+> aba
+> abd
+> bae
+> bad
+> cda
+> add
+> dce
+> dac
+> baa
+> dae
+> dda
+8636d9397
+< ded
+8638,8656d9398
+< aca
+< abe
+< cdc
+< eeb
+< ebc
+< aad
+< aab
+< bde
+< dee
+< caa
+< edd
+< eca
+< ebc
+< bbc
+< aec
+< ada
+< cac
+< beb
+< ece
+8657a9400,9408
+> eee
+> eac
+> aae
+> bbe
+> eac
+> cea
+> adb
+> aed
+> bca
+8659,8662c9410,9413
+< dee
+< cdc
+< bad
+< cbe
+---
+> aba
+> acd
+> ebe
+> cec
+8664,8673c9415,9418
+< edb
+< bee
+< abc
+< dbb
+< ecd
+< bcc
+< eab
+< ccc
+< dbe
+< abc
+---
+> add
+> ddc
+> dbc
+> cec
+8675,8680c9420,9435
+< ece
+< bdd
+< ecd
+< ece
+< ddb
+< ece
+---
+> abd
+> abb
+> ddd
+> dba
+> aac
+> bbe
+> dea
+> bbd
+> dcc
+> dcd
+> ade
+> eeb
+> abe
+> ace
+> daa
+> aab
+8682,8689c9437,9438
+< daa
+< dde
+< eca
+< ccc
+< eec
+< ecc
+< add
+< ecc
+---
+> aee
+> ade
+8691,8696c9440
+< bbc
+< acc
+< cba
+< bea
+< ccd
+< beb
+---
+> dbd
+8698,8700c9442
+< cab
+< eaa
+< ecd
+---
+> aab
+8702,8709c9444,9447
+< deb
+< acc
+< eba
+< bbd
+< aab
+< abe
+< eec
+< dea
+---
+> aae
+> ccb
+> eed
+> ace
+8711,8712c9449,9452
+< bca
+< eac
+---
+> dec
+> dad
+> ccd
+> dcc
+8714,8738c9454,9463
+< edb
+< bae
+< cac
+< dcc
+< dbe
+< acc
+< ccb
+< adc
+< cab
+< bbc
+< eaa
+< ece
+< dcb
+< daa
+< cdc
+< bad
+< eea
+< bba
+< eae
+< abb
+< deb
+< eaa
+< cab
+< dca
+< bbd
+---
+> ecd
+> aac
+> aec
+> eee
+> ebd
+> dae
+> bcb
+> cbd
+> ccd
+> eec
+8740,8752c9465,9467
+< bde
+< beb
+< ced
+< aac
+< bcd
+< dde
+< dca
+< abc
+< eab
+< dbd
+< cdc
+< eed
+< ced
+---
+> edd
+> bac
+> dda
+8754,8756d9468
+< bbe
+< aee
+< bcb
+8758,8759c9470,9474
+< ade
+< dbd
+---
+> cdc
+> cbe
+> aae
+> eac
+> ecc
+8761c9476,9477
+< dbb
+---
+> cee
+> cae
+8763,8764c9479,9484
+< bdd
+< cda
+---
+> dac
+> ead
+> ccc
+> eeb
+> ceb
+> edc
+8766a9487,9495
+> aab
+> bac
+> eba
+> eea
+> dab
+> aaa
+> cbd
+> edc
+> cac
+8768,8772c9497,9516
+< cdd
+< bcd
+< bae
+< adc
+< cdb
+---
+> aad
+> ccd
+> eab
+> dee
+> ace
+> caa
+> aca
+> dda
+> daa
+> acc
+> bdc
+> eab
+> aca
+> dda
+> dac
+> bdc
+> aac
+> add
+> eed
+> ddb
+8773a9518,9519
+> ade
+> dbd
+8775,8789c9521,9524
+< bcc
+< baa
+< bcd
+< ebb
+< cca
+< eba
+< ede
+< dda
+< ebe
+< dad
+< abc
+< beb
+< cab
+< ada
+< dab
+---
+> acd
+> bdc
+> bbd
+> aec
+8791,8804c9526,9529
+< bec
+< cca
+< dcb
+< cab
+< bce
+< bdb
+< cad
+< adc
+< dda
+< bae
+< eae
+< acb
+< bdd
+< bab
+---
+> edb
+> cec
+> bbe
+> bbd
+8806,8808c9531,9532
+< eec
+< dcc
+< ecb
+---
+> aae
+> cee
+8810,8815d9533
+< bce
+< add
+< daa
+< aaa
+< eeb
+< ede
+8817,8819c9535
+< ead
+< abc
+< acb
+---
+> edd
+8821,8835c9537,9547
+< ebc
+< eea
+< aab
+< ade
+< ccb
+< cda
+< eba
+< aac
+< ebc
+< eec
+< bba
+< dcb
+< dda
+< edd
+< dae
+---
+> bab
+> dcd
+> ada
+> cad
+> dee
+> cbc
+> bed
+> aaa
+> edb
+> dde
+> ccc
+8837,8842c9549,9556
+< bbc
+< cba
+< eca
+< dde
+< bae
+< add
+---
+> bbd
+> bad
+> aec
+> bcd
+> bbe
+> eda
+> ebd
+> ece
+8843a9558,9561
+> dbd
+> ebb
+> ade
+> cbb
+8845,8850c9563,9565
+< bad
+< dcd
+< acb
+< ddb
+< cac
+< aae
+---
+> abd
+> aeb
+> cab
+8852,8861c9567,9578
+< bed
+< dab
+< ccd
+< add
+< dcb
+< adc
+< eca
+< cbe
+< bad
+< ddd
+---
+> eea
+> cad
+> dae
+> ecc
+> eae
+> aec
+> bac
+> cbc
+> bcd
+> beb
+> dbb
+> ccb
+8863,8865d9579
+< cdd
+< ccb
+< daa
+8867,8868c9581,9585
+< ada
+< abe
+---
+> dea
+> aad
+> ccd
+> dbc
+> bdb
+8870,8884c9587
+< dbb
+< ebe
+< acb
+< cca
+< aaa
+< bee
+< bce
+< eec
+< ecd
+< bad
+< edd
+< bab
+< abd
+< bbe
+< aec
+---
+> eed
+8886,8888d9588
+< daa
+< dca
+< aec
+8890,8907c9590
+< eab
+< cbd
+< ecb
+< cda
+< dce
+< ebd
+< ccb
+< bde
+< eda
+< dcb
+< ceb
+< edc
+< ece
+< eec
+< abc
+< dab
+< dce
+< dba
+---
+> dcc
+8909,8911c9592,9595
+< ebe
+< bae
+< dad
+---
+> eeb
+> aac
+> bad
+> ddd
+8913,8933c9597,9602
+< ced
+< ecd
+< bab
+< cee
+< cdd
+< ebe
+< bba
+< bcc
+< bac
+< ace
+< ddb
+< ddd
+< bdb
+< dcb
+< eea
+< dab
+< ece
+< dbb
+< dec
+< bea
+< dca
+---
+> bec
+> cbd
+> acb
+> bdd
+> dbe
+> bed
+8935,8948c9604,9607
+< cba
+< dcb
+< dec
+< dcd
+< caa
+< ebd
+< caa
+< dbd
+< beb
+< bac
+< ada
+< abe
+< bad
+< dcd
+---
+> abb
+> dcc
+> dba
+> cbb
+8950c9609,9611
+< eae
+---
+> abb
+> cae
+> ace
+8952,8958c9613,9616
+< bdd
+< dcc
+< eca
+< eda
+< acc
+< ecc
+< eeb
+---
+> cea
+> ddd
+> cdd
+> cdb
+8960,8964d9617
+< eeb
+< eaa
+< ade
+< bee
+< ddb
+8966,8999d9618
+< aee
+< eda
+< ccc
+< ded
+< ecc
+< eba
+< bca
+< dda
+< bce
+< cce
+< ead
+< dcd
+< ade
+< bbb
+< cba
+< cca
+< dce
+< cdc
+< ebc
+< adc
+< aae
+< bbc
+< dcb
+< aae
+< dac
+< dcc
+< ead
+< bbb
+< bcd
+< abc
+< acd
+< bcd
+< caa
+< bdc
+9001,9011d9619
+< baa
+< abe
+< dad
+< bdd
+< add
+< bcb
+< deb
+< cee
+< cca
+< bba
+< eeb
+9013,9014c9621
+< bad
+< ace
+---
+> eca
+9016,9019c9623,9624
+< caa
+< acd
+< eac
+< ddc
+---
+> cce
+> abe
+9021,9028c9626,9629
+< cda
+< bba
+< ccc
+< cdc
+< bda
+< bed
+< cca
+< bbe
+---
+> aea
+> dbc
+> bac
+> bcb
+9030,9034c9631
+< cde
+< dae
+< ece
+< eca
+< abe
+---
+> ccd
+9036,9037c9633,9636
+< cad
+< cec
+---
+> dea
+> abd
+> eec
+> ddc
+9039c9638
+< cdc
+---
+> acd
+9040a9640,9645
+> eac
+> aaa
+> bea
+> dcb
+> dce
+> bab
+9042,9061c9647
+< ece
+< aab
+< bdb
+< bee
+< cac
+< ecc
+< bda
+< bbe
+< cad
+< adb
+< bad
+< beb
+< ece
+< cbe
+< bcc
+< ead
+< aca
+< ede
+< eae
+< eba
+---
+> ade
+9063d9648
+< dbb
+9065,9075c9650,9654
+< aed
+< bcb
+< cdb
+< ecb
+< ccd
+< cab
+< bcc
+< ade
+< cbd
+< ded
+< deb
+---
+> cbe
+> cdc
+> cde
+> ccb
+> cad
+9076a9656,9658
+> bae
+> cea
+> aec
+9078,9086c9660,9668
+< eab
+< dae
+< ace
+< eda
+< ebc
+< bce
+< cac
+< eca
+< dad
+---
+> cbe
+> dbd
+> ebe
+> abb
+> aad
+> caa
+> cdc
+> cbc
+> abe
+9088c9670,9680
+< dca
+---
+> dbc
+> dee
+> cec
+> dab
+> eaa
+> aee
+> ccc
+> aba
+> cba
+> eee
+> ccd
+9091,9102d9682
+< cda
+< aad
+< ded
+< cea
+< aac
+< aed
+< bea
+< bde
+< eab
+< dbe
+< eed
+< cee
+9104,9109d9683
+< abd
+< abd
+< ead
+< aca
+< bdc
+< cca
+9111,9112c9685,9686
+< cbd
+< cdd
+---
+> acd
+> ecd
+9114,9116d9687
+< aaa
+< dbb
+< dac
+9118,9125c9689,9698
+< bed
+< cee
+< ddb
+< dbb
+< baa
+< dce
+< aae
+< eda
+---
+> cbe
+> bdc
+> bda
+> ace
+> eeb
+> aea
+> acb
+> cde
+> cea
+> aed
+9127,9129c9700,9714
+< bce
+< bac
+< bde
+---
+> deb
+> aad
+> cdd
+> ecb
+> ebc
+> dec
+> bdd
+> dad
+> bab
+> bdb
+> cbb
+> cbe
+> add
+> cdd
+> ceb
+9131,9133d9715
+< bbb
+< cdc
+< dee
+9135,9147c9717
+< bec
+< ead
+< eee
+< aaa
+< ccb
+< edd
+< bad
+< ada
+< eab
+< edc
+< ace
+< cab
+< dec
+---
+> bcc
+9149,9166c9719,9721
+< beb
+< bad
+< cad
+< bcb
+< cee
+< beb
+< cea
+< abe
+< aad
+< deb
+< eee
+< bab
+< dda
+< abd
+< cdb
+< ede
+< eec
+< adc
+---
+> dca
+> acb
+> ecc
+9168,9170c9723,9724
+< bde
+< ede
+< eeb
+---
+> abb
+> bcd
+9172,9182c9726
+< bab
+< dab
+< cca
+< adc
+< cab
+< dce
+< eec
+< ddb
+< bba
+< aec
+< cdd
+---
+> aab
+9184c9728,9731
+< dda
+---
+> aee
+> bbb
+> cbc
+> cea
+9187c9734,9736
+< aeb
+---
+> dce
+> edd
+> aec
+9189,9193c9738,9740
+< cbc
+< dca
+< edd
+< abc
+< edc
+---
+> aed
+> cba
+> cbe
+9195,9202c9742,9750
+< cde
+< edd
+< bcc
+< abb
+< cec
+< eed
+< eae
+< ade
+---
+> abe
+> eac
+> ccd
+> cda
+> dea
+> cda
+> bea
+> ebe
+> ded
+9204c9752
+< dea
+---
+> dad
+9206,9213c9754,9761
+< bbc
+< dcd
+< bee
+< daa
+< cbe
+< cdc
+< dde
+< add
+---
+> bae
+> aca
+> bec
+> bec
+> cba
+> ecd
+> ccb
+> aba
+9215c9763
+< cee
+---
+> bce
+9217,9232c9765,9767
+< eac
+< bec
+< cbb
+< dde
+< bda
+< ecb
+< bcd
+< bba
+< eae
+< cbb
+< aea
+< cbc
+< eae
+< bad
+< dea
+< eba
+---
+> eeb
+> bca
+> bbd
+9233a9769,9773
+> ece
+> aed
+> aec
+> bbe
+> aab
+9235,9249d9774
+< bbe
+< cac
+< aaa
+< dae
+< ada
+< ddb
+< eda
+< dab
+< bab
+< deb
+< bdb
+< bda
+< dca
+< ecd
+< dae
+9250a9776,9777
+> cce
+> abb
+9252,9257d9778
+< dcb
+< dcc
+< dbe
+< baa
+< eae
+< ddb
+9259,9280c9780
+< cca
+< cab
+< eac
+< dda
+< cdc
+< cde
+< bea
+< cbd
+< bec
+< cbb
+< bdc
+< dda
+< beb
+< ade
+< ddb
+< bda
+< aba
+< cdc
+< adc
+< adc
+< dca
+< bcc
+---
+> ddd
+9282,9299c9782,9791
+< cca
+< ebb
+< abd
+< cde
+< aba
+< cdb
+< acd
+< acd
+< dba
+< ebc
+< dee
+< beb
+< cab
+< caa
+< dcb
+< cdb
+< eca
+< dca
+---
+> aec
+> ebe
+> ecd
+> cbc
+> abc
+> dbc
+> dad
+> eab
+> bad
+> abc
+9301,9310d9792
+< baa
+< dea
+< dab
+< aaa
+< eae
+< eba
+< ddc
+< add
+< abe
+< cec
+9312,9326c9794,9796
+< dcb
+< dda
+< ecc
+< bab
+< ebe
+< eeb
+< cbe
+< ddc
+< ccb
+< bea
+< cee
+< cdd
+< bac
+< bbc
+< aeb
+---
+> dbb
+> cba
+> adb
+9328,9349d9797
+< cad
+< aba
+< aaa
+< acc
+< bac
+< eee
+< cce
+< eeb
+< bdc
+< bea
+< ebc
+< bbd
+< bae
+< daa
+< eee
+< eae
+< aab
+< dce
+< ccd
+< aea
+< dbc
+< cdc
+9351,9359c9799
+< cec
+< ebd
+< dab
+< aad
+< bde
+< dcd
+< ceb
+< bae
+< aea
+---
+> ddb
+9361,9368d9800
+< cab
+< bdc
+< bab
+< ccd
+< ebc
+< cae
+< bcd
+< eaa
+9370,9374c9802
+< ebd
+< deb
+< baa
+< cec
+< dcb
+---
+> adc
+9376,9377c9804,9812
+< eea
+< cce
+---
+> dee
+> dac
+> aae
+> eeb
+> abe
+> ecd
+> ecc
+> adb
+> cae
+9379,9380c9814,9816
+< eae
+< eea
+---
+> edb
+> ddc
+> bda
+9382,9400c9818,9819
+< dea
+< add
+< bac
+< ddb
+< ccb
+< bda
+< cdd
+< ddd
+< dde
+< ada
+< eaa
+< dba
+< edd
+< eaa
+< acc
+< acd
+< bed
+< dcd
+< dcc
+---
+> bdb
+> ecc
+9403,9406c9822,9828
+< aea
+< dab
+< ccd
+< eec
+---
+> ccc
+> bdc
+> bde
+> aba
+> aae
+> ceb
+> dca
+9408,9422c9830,9832
+< ecd
+< dde
+< adc
+< dac
+< bdd
+< cea
+< bbc
+< ace
+< eed
+< ccc
+< eac
+< cda
+< dac
+< dba
+< baa
+---
+> cde
+> ead
+> aeb
+9424,9431c9834
+< dda
+< dce
+< cca
+< bea
+< ced
+< ccb
+< cce
+< cab
+---
+> ebe
+9433,9438c9836
+< ccb
+< eab
+< cbb
+< aed
+< caa
+< edd
+---
+> eea
+9439a9838
+> bbd
+9441,9442c9840,9844
+< ecb
+< eae
+---
+> eda
+> dbc
+> bdc
+> dae
+> eaa
+9444,9450c9846,9849
+< bcb
+< eba
+< aac
+< ece
+< add
+< bce
+< dca
+---
+> bda
+> cde
+> baa
+> ada
+9452,9456d9850
+< cec
+< eea
+< cdb
+< ebd
+< ebb
+9457a9852,9854
+> abb
+> dda
+> aee
+9459,9460c9856,9859
+< cae
+< bec
+---
+> deb
+> acc
+> dcc
+> acc
+9462,9467c9861
+< bac
+< beb
+< eed
+< cad
+< dcb
+< cab
+---
+> aab
+9469,9471d9862
+< cbc
+< cee
+< bea
+9473c9864,9865
+< ced
+---
+> bad
+> aee
+9475,9479c9867,9868
+< dad
+< bea
+< eab
+< dbb
+< bdb
+---
+> aed
+> ecc
+9481,9486c9870,9874
+< dde
+< acc
+< abe
+< bcb
+< edb
+< ccd
+---
+> abd
+> aad
+> bec
+> bce
+> ecc
+9487a9876,9879
+> ddd
+> cde
+> bab
+> bad
+9489,9503c9881,9886
+< acd
+< dba
+< bcc
+< cab
+< aec
+< ebe
+< ead
+< bbb
+< ece
+< bbe
+< daa
+< cdd
+< ccb
+< cce
+< cda
+---
+> bca
+> ddc
+> cde
+> dab
+> ddb
+> baa
+9505c9888,9891
+< eab
+---
+> eac
+> caa
+> aaa
+> adb
+9507,9519d9892
+< dbe
+< ebb
+< cee
+< ece
+< cab
+< cab
+< ebb
+< ded
+< aea
+< bcb
+< cdb
+< ecd
+< dcc
+9521,9522c9894,9899
+< dce
+< ace
+---
+> dea
+> cde
+> aee
+> aab
+> ebc
+> eca
+9524,9546c9901,9904
+< cbb
+< cea
+< eeb
+< abb
+< bbe
+< eab
+< dde
+< dac
+< bcd
+< edc
+< acc
+< dea
+< bda
+< cda
+< dec
+< eda
+< cea
+< bae
+< dce
+< bbd
+< cab
+< dde
+< bcc
+---
+> cec
+> aaa
+> cba
+> acb
+9548,9550d9905
+< abe
+< ddc
+< aba
+9552,9570c9907
+< bce
+< edb
+< eeb
+< dca
+< ced
+< bcc
+< ebc
+< adc
+< bad
+< aba
+< eeb
+< ade
+< deb
+< eee
+< cca
+< ecc
+< aba
+< eea
+< cec
+---
+> ccd
+9572,9587c9909
+< bbe
+< bdc
+< cdd
+< aae
+< bde
+< deb
+< dbe
+< cac
+< dad
+< ecc
+< abd
+< dbc
+< bcc
+< cbe
+< cbb
+< ade
+---
+> dce
+9589,9591c9911
+< bba
+< dee
+< cec
+---
+> dba
+9593,9598c9913
+< dab
+< acb
+< eda
+< bcb
+< daa
+< cdc
+---
+> dda
+9600,9607d9914
+< add
+< dca
+< bcd
+< acb
+< dea
+< dde
+< cba
+< dad
+9609,9621c9916,9918
+< eec
+< ddc
+< ade
+< ada
+< aea
+< ecb
+< eda
+< cee
+< aed
+< bad
+< ebb
+< cbc
+< add
+---
+> ebe
+> bee
+> dce
+9623c9920,9923
+< bab
+---
+> acc
+> bbb
+> abe
+> bba
+9625,9646d9924
+< bab
+< bdd
+< abe
+< cde
+< ccc
+< cdd
+< bcd
+< ebd
+< bed
+< bae
+< eac
+< cca
+< dcb
+< ccb
+< bee
+< aea
+< bde
+< caa
+< adc
+< cae
+< bda
+< aca
+9648,9666d9925
+< aaa
+< ddd
+< dec
+< acc
+< cca
+< edb
+< eab
+< cbb
+< aae
+< ceb
+< ded
+< cbb
+< acd
+< aec
+< bda
+< aed
+< edb
+< ebb
+< ade
+9668,9670d9926
+< bcc
+< bbb
+< ecb
+9671a9928,9930
+> bea
+> ade
+> abd
+9673,9678c9932,9936
+< dbe
+< acd
+< aae
+< cad
+< ecb
+< bec
+---
+> adb
+> abe
+> caa
+> eae
+> edd
+9680,9708c9938,9943
+< bbb
+< ede
+< dcd
+< cab
+< ead
+< eca
+< ace
+< aae
+< bbd
+< cdd
+< aad
+< ead
+< dae
+< dac
+< bcb
+< eae
+< baa
+< dde
+< dac
+< dbd
+< eae
+< cce
+< ceb
+< aeb
+< daa
+< dbb
+< eab
+< bce
+< aea
+---
+> cdc
+> cde
+> bda
+> ebb
+> beb
+> bca
+9710,9735c9945,9946
+< dad
+< acd
+< ced
+< acb
+< ced
+< bce
+< daa
+< eaa
+< bab
+< dec
+< deb
+< acd
+< ecc
+< bbb
+< edb
+< cbc
+< bdc
+< ccd
+< ddb
+< dbd
+< eed
+< edc
+< bcb
+< bcb
+< ddd
+< adc
+---
+> ccc
+> ecd
+9737,9739d9947
+< acc
+< ace
+< eed
+9741,9745d9948
+< dec
+< cee
+< bea
+< cbe
+< cab
+9747,9750c9950,9957
+< bcc
+< abe
+< edd
+< aaa
+---
+> bda
+> ddc
+> bcb
+> ded
+> cec
+> bdc
+> eac
+> ade
+9751a9959
+> cba
+9753,9789d9960
+< dec
+< cab
+< dcb
+< abb
+< ece
+< aca
+< dbd
+< aaa
+< ebc
+< cdb
+< ddd
+< bed
+< aba
+< ddb
+< eda
+< dea
+< dcb
+< dba
+< bcd
+< dbb
+< eda
+< cad
+< eca
+< cea
+< adb
+< ddb
+< aac
+< dec
+< bcd
+< cee
+< cca
+< dde
+< ccb
+< ccd
+< ade
+< bbd
+< bab
+9791,9810c9962,9963
+< adc
+< eaa
+< aeb
+< cba
+< dbe
+< ebd
+< bde
+< dcd
+< bab
+< bac
+< eab
+< bba
+< eda
+< ead
+< ccd
+< baa
+< cdb
+< bda
+< bae
+< bde
+---
+> bdd
+> ecc
+9812,9814c9965
+< baa
+< dad
+< dca
+---
+> eac
+9816,9827c9967,9970
+< bbe
+< dac
+< ddd
+< eeb
+< cba
+< edb
+< dbb
+< bbb
+< cbb
+< ddd
+< dde
+< ccb
+---
+> edd
+> bed
+> bca
+> ebc
+9829,9879c9972,9976
+< daa
+< adb
+< adb
+< abc
+< eea
+< cce
+< ccd
+< edb
+< dae
+< cdc
+< edc
+< bdd
+< aab
+< bdc
+< eab
+< ebd
+< aad
+< ebb
+< cdb
+< cdd
+< eeb
+< aeb
+< adb
+< aed
+< cac
+< ceb
+< ccb
+< cda
+< dce
+< aba
+< caa
+< ddb
+< ebd
+< ded
+< ddb
+< edd
+< cdd
+< eab
+< cbe
+< dda
+< eec
+< bad
+< cbb
+< eea
+< dcb
+< dad
+< dbb
+< ddc
+< edd
+< aba
+< aeb
+---
+> bae
+> dab
+> aca
+> cea
+> acc
+9881,9883d9977
+< bcd
+< cce
+< cbd
+9885,9916d9978
+< beb
+< cac
+< aba
+< cbd
+< aaa
+< cba
+< ace
+< dba
+< dac
+< edb
+< aed
+< cca
+< dcb
+< eee
+< ede
+< bbb
+< bcd
+< ebe
+< dac
+< dbc
+< acd
+< ebe
+< eba
+< cde
+< cce
+< dce
+< cad
+< ccd
+< dac
+< bdc
+< edc
+< dae
+9918,9929c9980,9981
+< cbb
+< dcb
+< dad
+< dee
+< eec
+< edb
+< bbb
+< ced
+< bbe
+< cda
+< dca
+< eba
+---
+> add
+> baa
+9931,9944c9983
+< cbe
+< cdc
+< ddb
+< aaa
+< dad
+< cde
+< bde
+< ddd
+< dce
+< eea
+< bea
+< aed
+< ede
+< bec
+---
+> eca
+9946,9955d9984
+< acc
+< ebb
+< ecb
+< daa
+< bdb
+< aed
+< dae
+< bea
+< dcd
+< dce
+9956a9986,9989
+> eed
+> ddc
+> ecd
+> dbc
+9958,9962c9991,9992
+< ace
+< daa
+< bda
+< abc
+< abb
+---
+> dab
+> edc
+9964,9966c9994,9997
+< cab
+< cbb
+< eeb
+---
+> aeb
+> aca
+> cdc
+> dbb
+9968,9988d9998
+< cac
+< bac
+< edb
+< adc
+< ead
+< caa
+< bbe
+< edb
+< ada
+< edd
+< bcc
+< aee
+< dcc
+< aed
+< ece
+< ace
+< edb
+< acc
+< cac
+< ced
+< edb
+9990,10000c10000
+< bac
+< bab
+< cea
+< cec
+< bca
+< cdb
+< eaa
+< eab
+< bbd
+< bca
+< dee
+---
+> ebc

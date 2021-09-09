@@ -133,14 +133,11 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
         }
         i = j
         if (add == 0) {
-            result.add("${it1 + 1},${it1 + remove},d,0,0")
-//            result.add("${outputRange(it1 + 1, it1 + remove)}d")
+            result.add("${it1 + 1},${it1 + remove},d,${it2},${it2}")
         } else if (remove == 0) {
             result.add("${it1},${it1},a,${it2 + 1},${it2 + add}")
-//            result.add("${it1}a${outputRange(it2 + 1, it2 + add)}")
         } else {
             result.add("${it1 + 1},${it1 + remove},c,${it2 + 1},${it2 + add}")
-//            result.add("${outputRange(it1 + 1, it1 + remove)}c${outputRange(it2 + 1, it2 + add)}")
         }
         it1 += remove
         it2 += add
@@ -156,16 +153,29 @@ fun outputPair(leftBorder : Int, rightBorder : Int) : String {
 }
 
 // Output range as "l,r" if l != r and "l" otherwise
-fun outputRange(l1 : Int, r1 : Int, cmd : Char, l2 : Int, r2 : Int) {
-    if (cmd != 'd') {
-        println("${outputPair(l1, r1)}$cmd${outputPair(l2, r2)}")
-    } else {
-        println("${outputPair(l1, r1)}$cmd")
-    }
+fun outputRange(l1 : Int, r1 : Int, cmd : Char, l2 : Int, r2 : Int) : String {
+//    if (cmd != 'd') {
+        return "${outputPair(l1, r1)}$cmd${outputPair(l2, r2)}"
+//    }
+//    return "${outputPair(l1, r1)}$cmd"
 }
 
-fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) {
+fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) : ArrayList<String> {
     val diff = outCommands(text1, text2)
+    val answerDiff = ArrayList<String>()
+    if (OPTIONS["brief"] == true || OPTIONS["q"] == true) {
+        if (diff.isEmpty()) {
+            return answerDiff
+        }
+        answerDiff.add("Files $fileName1 and $fileName2 differ")
+        return answerDiff
+    }
+    if (OPTIONS["report-identical-files"] == true || OPTIONS["s"] == true) {
+        if (diff.isEmpty()) {
+            answerDiff.add("Files $fileName1 and $fileName2 are identical")
+            return answerDiff
+        }
+    }
     for (i in diff) {
         val parts : List<String> = i.split(',')
         val l1 = parts[0].toInt()
@@ -173,19 +183,27 @@ fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) {
         val l2 = parts[3].toInt()
         val r2 = parts[4].toInt()
         val cmd = parts[2][0]
-        outputRange(l1, r1, cmd, l2, r2)
+        answerDiff.add(outputRange(l1, r1, cmd, l2, r2))
         if (cmd == 'd' || cmd == 'c') {
             for (it in l1..r1) {
-                println("< ${text1[it - 1]}")
+                answerDiff.add("< ${text1[it - 1]}")
             }
         }
         if (cmd == 'c') {
-            println("---")
+            answerDiff.add("---")
         }
         if (cmd == 'a' || cmd == 'c') {
             for (it in l2..r2) {
-                println("> ${text2[it - 1]}")
+                answerDiff.add("> ${text2[it - 1]}")
             }
         }
+    }
+    return answerDiff
+}
+
+fun printAnswerDiff(text1: Array<String>, text2: Array<String>) {
+    val answerDiff = outputResultOfDiff(text1, text2)
+    for (i in answerDiff) {
+        println(i)
     }
 }

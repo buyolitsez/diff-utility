@@ -1,6 +1,6 @@
 import kotlin.test.*
 
-internal class testGetCommands {
+internal class TestGetCommands {
     @Test
     fun testGroup1() {
         assertContentEquals(listOf('-', '+', '=', '-', '=', '=', '-', '=', '+'), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
@@ -16,7 +16,7 @@ internal class testGetCommands {
     }
 }
 
-internal class testLCS {
+internal class TestLCS {
     @Test
     fun testGroup1() {
         assertContentEquals(arrayOf("a", "b"), lcs(arrayOf("a", "b"), arrayOf("a", "b")))
@@ -49,9 +49,25 @@ internal class testLCS {
     }
 }
 
-internal class testDiff {
+internal class TestDiff {
     @Test
     fun test1() {
-        TODO()
+        assertContentEquals(listOf("1,3c1,3", "< dog", "< mv", "< CP", "---", "> DOG", "> cp", "> diff"),
+            outputResultOfDiff(arrayOf("dog", "mv", "CP", "comm"),
+                               arrayOf("DOG", "cp", "diff", "comm")))
+    }
+
+    @Test
+    fun test2() {
+        assertContentEquals(listOf("0a1", "> Kubuntu", "1a3", "> Debian", "3,4c5", "< Debian", "< CentOS", "---", "> Centos"),
+            outputResultOfDiff(arrayOf("Ubuntu", "Arch Linux", "Debian", "CentOS", "Fedora"),
+                               arrayOf("Kubuntu", "Ubuntu", "Debian", "Arch Linux", "Centos", "Fedora")),
+        )
+    }
+
+    @Test
+    fun test3() {
+        assertContentEquals(listOf("0a1,2", "> e", "> d", "2c4", "< a", "---", "> c", "4,5d5", "< d", "< a"),
+        outputResultOfDiff(arrayOf("c", "a", "e", "d", "a"), arrayOf("e", "d", "c", "c", "e")))
     }
 }

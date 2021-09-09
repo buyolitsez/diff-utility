@@ -1,7 +1,12 @@
 import java.io.File
 import java.io.InputStream
+import java.util.*
 
-val OPTIONS = mutableMapOf("fake" to false)
+val OPTIONS = mutableMapOf("brief" to false, "q" to false,
+                           "report-identical-files" to false, "s" to false,
+                           "ignore-case" to false, "i" to false)
+var fileName1 = "src/files/text1.txt"
+var fileName2 = "src/files/text2.txt"
 
 // Read text from file with name "$fileName"
 fun readText(fileName : String): Array<String> {
@@ -9,14 +14,17 @@ fun readText(fileName : String): Array<String> {
 
     val text = mutableListOf<String>()
     inputStream.bufferedReader().forEachLine { text.add(it) }
+    if (OPTIONS["ignore-case"] == true || OPTIONS["i"] == true) {
+        for (i in text.indices) {
+            text[i] = text[i].lowercase(Locale.getDefault())
+        }
+    }
     return text.toTypedArray()
 }
 
 // Read text from build args
 
 fun readFromArgs(args: Array<String>): Pair<String, String> {
-    var fileName1 = "src/text1.txt"
-    var fileName2 = "src/text2.txt"
     var changedName1 = false
     var changedName2 = false
     for (i in args) {
@@ -24,7 +32,7 @@ fun readFromArgs(args: Array<String>): Pair<String, String> {
             if (!OPTIONS.containsKey(i.substring(1 until i.count()))) {
                 throw Exception("Unknown option $i")
             }
-            OPTIONS.set(i.substring(1 until i.count()), true)
+            OPTIONS[i.substring(1 until i.count())] = true
         } else {
             if (!changedName1) {
                 fileName1 = i
