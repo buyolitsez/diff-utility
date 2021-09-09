@@ -15,8 +15,8 @@ fun readText(fileName : String): Array<String> {
     val text = mutableListOf<String>()
     inputStream.bufferedReader().forEachLine { text.add(it) }
     if (OPTIONS["ignore-case"] == true || OPTIONS["i"] == true) {
-        for (i in text.indices) {
-            text[i] = text[i].lowercase(Locale.getDefault())
+        for (it in text.indices) {
+            text[it] = text[it].lowercase(Locale.getDefault())
         }
     }
     return text.toTypedArray()
@@ -27,18 +27,18 @@ fun readText(fileName : String): Array<String> {
 fun readFromArgs(args: Array<String>): Pair<String, String> {
     var changedName1 = false
     var changedName2 = false
-    for (i in args) {
-        if (i[0] == '-') {
-            if (!OPTIONS.containsKey(i.substring(1 until i.count()))) {
-                throw Exception("Unknown option $i")
+    for (arg in args) {
+        if (arg[0] == '-') {
+            if (!OPTIONS.containsKey(arg.substring(1 until arg.count()))) {
+                throw Exception("Unknown option $arg")
             }
-            OPTIONS[i.substring(1 until i.count())] = true
+            OPTIONS[arg.substring(1 until arg.count())] = true
         } else {
             if (!changedName1) {
-                fileName1 = i
+                fileName1 = arg
                 changedName1 = true
             } else if (!changedName2) {
-                fileName2 = i
+                fileName2 = arg
                 changedName2 = true
             } else {
                 throw Exception("Too many files to diff")

@@ -8,18 +8,18 @@ fun lcs(text1: Array<String>, text2: Array<String>): Array<String> {
     val m = text2.size
     val lcsOnPrefixes = Array(n + 1) { Array(m + 1) { 0 } }
     val directionOnMatrix = Array(n + 1){Array(m + 1) { 0 }} //needs to return the answer array of strings (0 for left + up, -1 for left, 1 for up)
-    for (i in 1..n) {
-        for (j in 1..m) {
-            if (text1[i - 1] == text2[j - 1]) {
-                lcsOnPrefixes[i][j] = lcsOnPrefixes[i - 1][j - 1] + 1
-                directionOnMatrix[i][j] = 0
+    for (len1 in 1..n) {
+        for (len2 in 1..m) {
+            if (text1[len1 - 1] == text2[len2 - 1]) {
+                lcsOnPrefixes[len1][len2] = lcsOnPrefixes[len1 - 1][len2 - 1] + 1
+                directionOnMatrix[len1][len2] = 0
             } else {
-                if (lcsOnPrefixes[i - 1][j] >= lcsOnPrefixes[i][j - 1]) {
-                    lcsOnPrefixes[i][j] = lcsOnPrefixes[i - 1][j]
-                    directionOnMatrix[i][j] = -1
+                if (lcsOnPrefixes[len1 - 1][len2] >= lcsOnPrefixes[len1][len2 - 1]) {
+                    lcsOnPrefixes[len1][len2] = lcsOnPrefixes[len1 - 1][len2]
+                    directionOnMatrix[len1][len2] = -1
                 } else {
-                    lcsOnPrefixes[i][j] = lcsOnPrefixes[i][j - 1]
-                    directionOnMatrix[i][j] = 1
+                    lcsOnPrefixes[len1][len2] = lcsOnPrefixes[len1][len2 - 1]
+                    directionOnMatrix[len1][len2] = 1
                 }
             }
         }
@@ -83,10 +83,10 @@ fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<Char> {
             it1++
         }
     }
-    for (i in it1 until text1.size) {
+    for (it in it1 until text1.size) {
         commands.add('-')
     }
-    for (i in it2 until text2.size) {
+    for (it in it2 until text2.size) {
         commands.add('+')
     }
     return commands
@@ -111,18 +111,18 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
     val commandsPairs = compressToPairs(commands)
     var it1 = 0
     var it2 = 0
-    var i = 0
+    var it = 0
     val result = ArrayList<String>()
-    while (i < commandsPairs.size) {
-        if (commandsPairs[i].second == '=') {
-            it1 += commandsPairs[i].first
-            it2 += commandsPairs[i].first
-            ++i
+    while (it < commandsPairs.size) {
+        if (commandsPairs[it].second == '=') {
+            it1 += commandsPairs[it].first
+            it2 += commandsPairs[it].first
+            ++it
             continue
         }
         var add = 0
         var remove = 0
-        var j = i
+        var j = it
         while(j < commandsPairs.size && commandsPairs[j].second != '=') {
             if (commandsPairs[j].second == '-') {
                 remove += commandsPairs[j].first
@@ -131,7 +131,7 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
             }
             ++j
         }
-        i = j
+        it = j
         if (add == 0) {
             result.add("${it1 + 1},${it1 + remove},d,${it2},${it2}")
         } else if (remove == 0) {
@@ -176,8 +176,8 @@ fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) : ArrayList<S
             return answerDiff
         }
     }
-    for (i in diff) {
-        val parts : List<String> = i.split(',')
+    for (str in diff) {
+        val parts : List<String> = str.split(',')
         val l1 = parts[0].toInt()
         val r1 = parts[1].toInt()
         val l2 = parts[3].toInt()
@@ -203,7 +203,7 @@ fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) : ArrayList<S
 
 fun printAnswerDiff(text1: Array<String>, text2: Array<String>) {
     val answerDiff = outputResultOfDiff(text1, text2)
-    for (i in answerDiff) {
-        println(i)
+    for (str in answerDiff) {
+        println(str)
     }
 }
