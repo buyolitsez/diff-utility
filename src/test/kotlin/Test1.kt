@@ -3,14 +3,16 @@ import kotlin.test.*
 internal class testGetCommands {
     @Test
     fun testGroup1() {
-        assertContentEquals(listOf(-1, 1, -3, -6, 6), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
-        assertContentEquals(listOf(5, -7, 8, -9, 10, 11, 12, 13), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
-        assertContentEquals(listOf(), getCommands(arrayOf("a", "b", "c", "d", "e"), arrayOf("a", "b", "c", "d", "e")))
+        assertContentEquals(listOf('-', '+', '=', '-', '=', '=', '-', '=', '+'), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
+        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
+        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
+        assertContentEquals(listOf('=', '=', '=', '=', '='), getCommands(arrayOf("a", "b", "c", "d", "e"), arrayOf("a", "b", "c", "d", "e")))
     }
 
     @Test
     fun testGroup2() {
-        assertContentEquals(listOf(1, -2, -3, 3, -5, 5), getCommands(arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"), arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")))
+        assertContentEquals(listOf('+', '=', '-', '-', '+', '=', '-', '+'), getCommands(arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"), arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")))
+        assertContentEquals(listOf('-', '=', '+'), getCommands(arrayOf("a", "b"), arrayOf("b", "c")))
     }
 }
 
@@ -44,5 +46,12 @@ internal class testLCS {
         assertContentEquals(arrayOf(), lcs(arrayOf(), arrayOf("abc", "asd")))
         assertContentEquals(arrayOf(), lcs(arrayOf("1", "2"), arrayOf()))
         assertContentEquals(arrayOf(), lcs(arrayOf(), arrayOf()))
+    }
+}
+
+internal class testDiff {
+    @Test
+    fun test1() {
+        TODO()
     }
 }
