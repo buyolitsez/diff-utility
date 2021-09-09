@@ -136,11 +136,14 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
         }
         i = j
         if (add == 0) {
-            result.add("${outputRange(it1 + 1, it1 + remove)}d")
+            result.add("${it1 + 1},${it1 + remove},d,0,0")
+//            result.add("${outputRange(it1 + 1, it1 + remove)}d")
         } else if (remove == 0) {
-            result.add("${it1}a${outputRange(it2 + 1, it2 + add)}")
+            result.add("${it1},${it1},a,${it2 + 1},${it2 + add}")
+//            result.add("${it1}a${outputRange(it2 + 1, it2 + add)}")
         } else {
-            result.add("${outputRange(it1 + 1, it1 + remove)}c${outputRange(it2 + 1, it2 + add)}")
+            result.add("${it1 + 1},${it1 + remove},c,${it2 + 1},${it2 + add}")
+//            result.add("${outputRange(it1 + 1, it1 + remove)}c${outputRange(it2 + 1, it2 + add)}")
         }
         it1 += remove
         it2 += add
@@ -148,18 +151,45 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
     return result
 }
 
-// Output range as "l,r" if l != r and "l" otherwise
-fun outputRange(leftBorder : Int, rightBorder : Int) : String {
+fun outputPair(leftBorder : Int, rightBorder : Int) : String {
     if (leftBorder == rightBorder) {
-        return leftBorder.toString()
+        return "$leftBorder"
     }
     return "$leftBorder,$rightBorder"
+}
+
+// Output range as "l,r" if l != r and "l" otherwise
+fun outputRange(l1 : Int, r1 : Int, cmd : Char, l2 : Int, r2 : Int) {
+    if (cmd != 'd') {
+        println("${outputPair(l1, r1)}$cmd${outputPair(l2, r2)}")
+    } else {
+        println("${outputPair(l1, r1)}$cmd")
+    }
 }
 
 fun outputResultOfDiff(text1: Array<String>, text2: Array<String>) {
     val diff = outCommands(text1, text2)
     for (i in diff) {
-        println(i)
+        val parts : List<String> = i.split(',')
+        val l1 = parts[0].toInt()
+        val r1 = parts[1].toInt()
+        val l2 = parts[3].toInt()
+        val r2 = parts[4].toInt()
+        val cmd = parts[2][0]
+        outputRange(l1, r1, cmd, l2, r2)
+        if (cmd == 'd' || cmd == 'c') {
+            for (it in l1..r1) {
+                println("< ${text1[it - 1]}")
+            }
+        }
+        if (cmd == 'c') {
+            println("---")
+        }
+        if (cmd == 'a' || cmd == 'c') {
+            for (it in l2..r2) {
+                println("> ${text2[it - 1]}")
+            }
+        }
     }
 }
 
