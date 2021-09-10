@@ -1,0 +1,25 @@
+1,3d0
+< cc
+< ba
+< ba
+4a2,5
+> ac
+> ca
+> ca
+> cb
+6,7c7,8
+< cc
+< ba
+---
+> bc
+> aa
+8a10
+> ba
+12,15c14,15
+< bb
+< aa
+< ba
+< ac
+---
+> ca
+> cb

@@ -1,21 +1,5 @@
 import kotlin.test.*
 
-internal class TestGetCommands {
-    @Test
-    fun testGroup1() {
-        assertContentEquals(listOf('-', '+', '=', '-', '=', '=', '-', '=', '+'), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
-        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
-        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
-        assertContentEquals(listOf('=', '=', '=', '=', '='), getCommands(arrayOf("a", "b", "c", "d", "e"), arrayOf("a", "b", "c", "d", "e")))
-    }
-
-    @Test
-    fun testGroup2() {
-        assertContentEquals(listOf('+', '=', '-', '-', '+', '=', '-', '+'), getCommands(arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"), arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")))
-        assertContentEquals(listOf('-', '=', '+'), getCommands(arrayOf("a", "b"), arrayOf("b", "c")))
-    }
-}
-
 internal class TestLCS {
     @Test
     fun testGroup1() {
@@ -46,6 +30,32 @@ internal class TestLCS {
         assertContentEquals(arrayOf(), lcs(arrayOf(), arrayOf("abc", "asd")))
         assertContentEquals(arrayOf(), lcs(arrayOf("1", "2"), arrayOf()))
         assertContentEquals(arrayOf(), lcs(arrayOf(), arrayOf()))
+    }
+}
+
+internal class TestGetCommands {
+    @Test
+    fun testGroup1() {
+        assertContentEquals(listOf('-', '+', '=', '-', '=', '=', '-', '=', '+'), getCommands(arrayOf("A", "B", "C", "A", "B", "B", "A"), arrayOf("C", "B", "A", "B", "A", "C")))
+        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
+        assertContentEquals(listOf('=', '=', '=', '=', '+', '=', '=', '-', '+', '=', '-', '+', '+', '+', '+', '='), getCommands(arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"), arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")))
+        assertContentEquals(listOf('=', '=', '=', '=', '='), getCommands(arrayOf("a", "b", "c", "d", "e"), arrayOf("a", "b", "c", "d", "e")))
+    }
+
+    @Test
+    fun testGroup2() {
+        assertContentEquals(listOf('+', '=', '-', '-', '+', '=', '-', '+'), getCommands(arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"), arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")))
+        assertContentEquals(listOf('-', '=', '+'), getCommands(arrayOf("a", "b"), arrayOf("b", "c")))
+    }
+}
+
+internal class TestCompressToPairs {
+    @Test
+    fun test1() {
+        assertContentEquals(listOf(), compressToPairs(listOf()))
+        assertContentEquals(listOf(Command(2, '-'), Command(3, '+'), Command(2, '-')), compressToPairs(listOf('-', '-', '+', '+', '+', '-', '-')))
+        assertContentEquals(listOf(Command(1, '+'), Command(2, '-'), Command(1, '+'), Command(1, '-'), Command(1, '+')),
+            compressToPairs(listOf('+', '-', '-', '+', '-', '+')))
     }
 }
 

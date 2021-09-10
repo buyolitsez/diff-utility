@@ -97,7 +97,7 @@ data class Command(var count: Int, val cmd: Char)
 // Compress commands to a short form
 // Example: {'+', '+', '-', '+', '-', '-', '-'}
 // returns {{2, '+'}, {1, '-'}, {1, '+'}, {3, '-'}}
-fun compressToPairs(commands : ArrayList<Char>) : ArrayList<Command> {
+fun compressToPairs(commands : Collection<Char>) : ArrayList<Command> {
     val commandsPairs = ArrayList<Command>()
     for (ch in commands) {
         if (commandsPairs.isNotEmpty() && commandsPairs.last().cmd == ch) {
