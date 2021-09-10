@@ -1,38 +1,32 @@
-import java.io.File
-import java.io.InputStream
-import java.util.*
 
-val OPTIONS = mutableMapOf("brief" to false, "q" to false,
-                           "report-identical-files" to false, "s" to false,
-                           "ignore-case" to false, "i" to false)
-var fileName1 = "src/files/text1.txt"
-var fileName2 = "src/files/text2.txt"
-
-// Read text from file with name "$fileName"
-fun readText(fileName : String): Array<String> {
-    val inputStream: InputStream = File(fileName).inputStream()
-
-    val text = mutableListOf<String>()
-    inputStream.bufferedReader().forEachLine { text.add(it) }
-    if (OPTIONS["ignore-case"] == true || OPTIONS["i"] == true) {
-        for (it in text.indices) {
-            text[it] = text[it].lowercase(Locale.getDefault())
+// Count len of the char(ch) on prefix in the string(str)
+fun countOnPrefix(str: String, ch: Char) :Int {
+    var count = 0
+    for (i in str) {
+        if (i == ch) {
+            ++count
+        } else {
+            break
         }
     }
-    return text.toTypedArray()
+    return count
 }
 
-// Read text from build args
+// Deletes the '-' from the beginning of the file
+fun convertOptionToString(option: String): String {
+    return option.substring(countOnPrefix(option, '-') until option.length)
+}
 
-fun readFromArgs(args: Array<String>): Pair<String, String> {
+// Read text from run args
+fun readArgs(args: Array<String>): Pair<String, String> {
     var changedName1 = false
     var changedName2 = false
     for (arg in args) {
         if (arg[0] == '-') {
-            if (!OPTIONS.containsKey(arg.substring(1 until arg.count()))) {
+            if (!OPTIONS.containsKey(convertOptionToString(arg))) {
                 throw Exception("Unknown option $arg")
             }
-            OPTIONS[arg.substring(1 until arg.count())] = true
+            OPTIONS[convertOptionToString(arg)] = true
         } else {
             if (!changedName1) {
                 fileName1 = arg

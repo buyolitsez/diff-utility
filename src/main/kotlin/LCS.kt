@@ -92,14 +92,18 @@ fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<Char> {
     return commands
 }
 
+data class Command(var count: Int, val cmd: Char)
+
 // Compress commands to a short form
-fun compressToPairs(commands : ArrayList<Char>) : ArrayList<Pair<Int, Char>> {
-    val commandsPairs = ArrayList<Pair<Int, Char>>()
+// Example: {'+', '+', '-', '+', '-', '-', '-'}
+// returns {{2, '+'}, {1, '-'}, {1, '+'}, {3, '-'}}
+fun compressToPairs(commands : ArrayList<Char>) : ArrayList<Command> {
+    val commandsPairs = ArrayList<Command>()
     for (ch in commands) {
-        if (commandsPairs.isNotEmpty() && commandsPairs.last().second == ch) {
-            commandsPairs[commandsPairs.size - 1] = Pair(commandsPairs.last().first + 1, ch)
+        if (commandsPairs.isNotEmpty() && commandsPairs.last().cmd == ch) {
+            commandsPairs[commandsPairs.size - 1].count++
         } else {
-            commandsPairs.add(Pair(1, ch))
+            commandsPairs.add(Command(1, ch))
         }
     }
     return commandsPairs
@@ -114,20 +118,20 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
     var it = 0
     val result = ArrayList<String>()
     while (it < commandsPairs.size) {
-        if (commandsPairs[it].second == '=') {
-            it1 += commandsPairs[it].first
-            it2 += commandsPairs[it].first
+        if (commandsPairs[it].cmd == '=') {
+            it1 += commandsPairs[it].count
+            it2 += commandsPairs[it].count
             ++it
             continue
         }
         var add = 0
         var remove = 0
         var j = it
-        while(j < commandsPairs.size && commandsPairs[j].second != '=') {
-            if (commandsPairs[j].second == '-') {
-                remove += commandsPairs[j].first
+        while(j < commandsPairs.size && commandsPairs[j].cmd != '=') {
+            if (commandsPairs[j].cmd == '-') {
+                remove += commandsPairs[j].count
             } else {
-                add += commandsPairs[j].first
+                add += commandsPairs[j].count
             }
             ++j
         }
