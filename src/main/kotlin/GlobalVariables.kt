@@ -1,5 +1,5 @@
 
-// Map of exist options
+/** Map of exists options */
 val OPTIONS = mutableMapOf("brief" to false, "q" to false,
     "report-identical-files" to false, "s" to false,
     "ignore-case" to false, "i" to false,
