@@ -4,6 +4,10 @@ import SingleOperation.*
 
 internal class TestCompressToCommands {
     @Test
+    fun testAllEmpty() = assertContentEquals(listOf(),
+        compressToCommands(listOf()))
+
+    @Test
     fun testOneAddCommand() = assertContentEquals(listOf(Command(1, ADD)),
                                compressToCommands(listOf(ADD)))
 

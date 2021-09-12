@@ -2,6 +2,16 @@ import kotlin.test.*
 
 internal class TestLCS {
     @Test
+    fun testAllEmpty() = assertContentEquals(arrayOf(),
+        lcs(arrayOf(),
+            arrayOf()))
+
+    @Test
+    fun testDifferentCases() = assertContentEquals(arrayOf(),
+        lcs(arrayOf("x", "m", "J", "Y", "A", "U", "Z"),
+            arrayOf("X", "M", "j", "a", "a", "t", "z")))
+
+    @Test
     fun testRandom1() = assertContentEquals(arrayOf(),
                                         lcs(arrayOf("aqwe", "bzx"),
                                             arrayOf("abasd", "bdqwd")))
@@ -66,14 +76,4 @@ internal class TestLCS {
     fun testRandom14() = assertContentEquals(arrayOf(),
                                          lcs(arrayOf(),
                                              arrayOf("abc", "asd")))
-
-    @Test
-    fun testAllEmpty() = assertContentEquals(arrayOf(),
-                                         lcs(arrayOf(),
-                                             arrayOf()))
-
-    @Test
-    fun testDifferentCases() = assertContentEquals(arrayOf(),
-                                               lcs(arrayOf("x", "m", "J", "Y", "A", "U", "Z"),
-                                                   arrayOf("X", "M", "j", "a", "a", "t", "z")))
 }

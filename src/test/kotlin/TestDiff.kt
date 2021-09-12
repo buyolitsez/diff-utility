@@ -3,6 +3,11 @@ import kotlin.test.*
 
 internal class TestDiff {
     @Test
+    fun testAllEmpty() = assertContentEquals(listOf(),
+                              getDiffResult(arrayOf(),
+                                            arrayOf()))
+
+    @Test
     fun testRandom1() = assertContentEquals(listOf("1,3c1,3", "< dog", "< mv", "< CP", "---", "> DOG", "> cp", "> diff"),
                              getDiffResult(arrayOf("dog", "mv", "CP", "comm"),
                                            arrayOf("DOG", "cp", "diff", "comm")))

@@ -3,6 +3,11 @@ import SingleOperation.*
 
 internal class TestGetCommands {
     @Test
+    fun testAllEmpty() = assertContentEquals(listOf(),
+                                getCommands(arrayOf(),
+                                            arrayOf()))
+
+    @Test
     fun testRandom1() = assertContentEquals(listOf(REMOVE, KEEP, ADD),
                                getCommands(arrayOf("a", "b"),
                                            arrayOf("b", "c")))
