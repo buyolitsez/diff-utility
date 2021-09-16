@@ -10,7 +10,7 @@ fun readText(fileName: String): Array<String> {
             OPTIONS["unidirectional-new"] = false
             return arrayOf()
         } else {
-            throw java.io.FileNotFoundException("$fileName (No such file or directory)")
+            throwError("$fileName (No such file or directory)")
         }
     }
     val inputStream: InputStream = File(fileName).inputStream()
@@ -33,7 +33,7 @@ fun readArgs(args: Array<String>): Pair<String, String> {
     for (arg in args) {
         if (arg[0] == '-') {
             if (!OPTIONS.containsKey(convertOptionToString(arg))) {
-                throw Exception("Unknown option $arg")
+                throwError("Unknown option $arg")
             }
             OPTIONS[convertOptionToString(arg)] = true
         } else {
@@ -44,12 +44,13 @@ fun readArgs(args: Array<String>): Pair<String, String> {
                 fileName2 = arg
                 changedName2 = true
             } else {
-                throw Exception("Too many files to diff")
+
+                throwError("Too many files to diff")
             }
         }
     }
     if (changedName1.xor(changedName2)) {
-        throw Exception("Missing file name")
+        throwError("Missing file name")
     }
     return Pair(fileName1, fileName2)
 }
