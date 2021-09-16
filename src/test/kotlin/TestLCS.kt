@@ -45,22 +45,22 @@ internal class TestLCS {
     )
 
     @Test
-    fun testEqualStrings() {
-        assertContentEquals(
+    fun testEqualStrings() = assertContentEquals(
+        arrayOf("a", "b"),
+        lcs(
             arrayOf("a", "b"),
-            lcs(
-                arrayOf("a", "b"),
-                arrayOf("a", "b")
-            )
+            arrayOf("a", "b")
         )
-        assertContentEquals(
+    )
+
+    @Test
+    fun testEqualStringsSpecialSymbols() = assertContentEquals(
+        arrayOf("ANcb-%3q23"),
+        lcs(
             arrayOf("ANcb-%3q23"),
-            lcs(
-                arrayOf("ANcb-%3q23"),
-                arrayOf("ANcb-%3q23")
-            )
+            arrayOf("ANcb-%3q23")
         )
-    }
+    )
 
     @Test
     fun testEqualSuffix() = assertContentEquals(
@@ -99,7 +99,7 @@ internal class TestLCS {
     )
 
     @Test
-    fun testExamples1() = assertContentEquals(
+    fun testNumbers() = assertContentEquals(
         arrayOf("0", "2", "56"),
         lcs(
             arrayOf("0", "1", "2", "3", "4", "56"),
@@ -108,7 +108,7 @@ internal class TestLCS {
     )
 
     @Test
-    fun testExamples2() = assertContentEquals(
+    fun testLowerCaseSmall() = assertContentEquals(
         arrayOf("a", "c", "a"),
         lcs(
             arrayOf("a", "b", "c", "a"),
@@ -117,7 +117,7 @@ internal class TestLCS {
     )
 
     @Test
-    fun testExamples3() = assertContentEquals(
+    fun testWords() = assertContentEquals(
         arrayOf("aqwe", "sadasd"),
         lcs(
             arrayOf("aqwe", "bzx", "sadasd", "bzx"),
@@ -126,7 +126,7 @@ internal class TestLCS {
     )
 
     @Test
-    fun testExamples4() = assertContentEquals(
+    fun testUpperCase() = assertContentEquals(
         arrayOf("X", "M", "J", "A", "Z"),
         lcs(
             arrayOf("X", "M", "J", "Y", "A", "U", "Z"),

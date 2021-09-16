@@ -10,13 +10,13 @@ internal class TestBriefOption {
     private val stream = ByteArrayOutputStream()
 
     @BeforeTest
-    fun TurnOnOption() = run {
+    fun turnOnOption() = run {
         OPTIONS["brief"] = true
         OPTIONS["no-color"] = true
     }
 
     @AfterTest
-    fun TurnOffOption() = run {
+    fun turnOffOption() = run {
         OPTIONS["brief"] = false
         OPTIONS["no-color"] = false
     }

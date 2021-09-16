@@ -12,6 +12,33 @@ internal class TestGetCommands {
     )
 
     @Test
+    fun testOneAdd() = assertContentEquals(
+        listOf(ADD),
+        getCommands(
+            arrayOf(),
+            arrayOf("a")
+        )
+    )
+
+    @Test
+    fun testOneRemove() = assertContentEquals(
+        listOf(REMOVE),
+        getCommands(
+            arrayOf("a"),
+            arrayOf()
+        )
+    )
+
+    @Test
+    fun testOneKeep() = assertContentEquals(
+        listOf(KEEP),
+        getCommands(
+            arrayOf("a"),
+            arrayOf("a")
+        )
+    )
+
+    @Test
     fun testEqualSuffix() = assertContentEquals(
         listOf(REMOVE, KEEP, ADD),
         getCommands(
@@ -30,7 +57,16 @@ internal class TestGetCommands {
     )
 
     @Test
-    fun testExamples1() = assertContentEquals(
+    fun testWords() = assertContentEquals(
+        listOf(ADD, KEEP, REMOVE, REMOVE, ADD, KEEP, REMOVE, ADD),
+        getCommands(
+            arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"),
+            arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")
+        )
+    )
+
+    @Test
+    fun testUpperCaseBig() = assertContentEquals(
         listOf(REMOVE, ADD, KEEP, REMOVE, KEEP, KEEP, REMOVE, KEEP, ADD),
         getCommands(
             arrayOf("A", "B", "C", "A", "B", "B", "A"),
@@ -39,29 +75,11 @@ internal class TestGetCommands {
     )
 
     @Test
-    fun testExamples2() = assertContentEquals(
+    fun testLowerCaseBig() = assertContentEquals(
         listOf(KEEP, KEEP, KEEP, KEEP, ADD, KEEP, KEEP, REMOVE, ADD, KEEP, REMOVE, ADD, ADD, ADD, ADD, KEEP),
         getCommands(
             arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"),
             arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")
-        )
-    )
-
-    @Test
-    fun testExampeles3() = assertContentEquals(
-        listOf(KEEP, KEEP, KEEP, KEEP, ADD, KEEP, KEEP, REMOVE, ADD, KEEP, REMOVE, ADD, ADD, ADD, ADD, KEEP),
-        getCommands(
-            arrayOf("a", "b", "c", "d", "f", "g", "h", "j", "q", "z"),
-            arrayOf("a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "r", "x", "y", "z")
-        )
-    )
-
-    @Test
-    fun testExamples4() = assertContentEquals(
-        listOf(ADD, KEEP, REMOVE, REMOVE, ADD, KEEP, REMOVE, ADD),
-        getCommands(
-            arrayOf("Gujarat", "Uttar Pradesh", "Kolkata", "Bihar", "Jammu and Kashmir"),
-            arrayOf("Tamil Nadu", "Gujarat", "Andhra Pradesh", "Bihar", "Uttar pradesh")
         )
     )
 }

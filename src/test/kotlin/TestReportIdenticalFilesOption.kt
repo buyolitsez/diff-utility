@@ -10,13 +10,13 @@ internal class TestReportIdenticalFilesOption {
     private val stream = ByteArrayOutputStream()
 
     @BeforeTest
-    fun TurnOnOption() = run {
+    fun turnOnOption() = run {
         OPTIONS["report-identical-files"] = true
         OPTIONS["no-color"] = true
     }
 
     @AfterTest
-    fun TurnOffOption() = run {
+    fun turnOffOption() = run {
         OPTIONS["report-identical-files"] = false
         OPTIONS["no-color"] = false
     }
@@ -35,20 +35,24 @@ internal class TestReportIdenticalFilesOption {
     @Test
     fun testAbsoluteDifferent() {
         printDiffResult(arrayOf("a", "b"), arrayOf("c, d"))
-        assertEquals("1,2c1\n" +
-                "< a\n" +
-                "< b\n" +
-                "---\n" +
-                "> c, d", stream.toString().trim())
+        assertEquals(
+            "1,2c1\n" +
+                    "< a\n" +
+                    "< b\n" +
+                    "---\n" +
+                    "> c, d", stream.toString().trim()
+        )
     }
 
     @Test
     fun testDifferent() {
         printDiffResult(arrayOf("a", "b", "c"), arrayOf("a", "c", "b"))
-        assertEquals("1a2\n" +
-                "> c\n" +
-                "3d3\n" +
-                "< c", stream.toString().trim())
+        assertEquals(
+            "1a2\n" +
+                    "> c\n" +
+                    "3d3\n" +
+                    "< c", stream.toString().trim()
+        )
     }
 
     @Test

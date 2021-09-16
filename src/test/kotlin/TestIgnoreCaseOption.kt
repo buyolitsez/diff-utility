@@ -2,13 +2,13 @@ import kotlin.test.*
 
 internal class TestIgnoreCaseOption {
     @BeforeTest
-    fun TurnOnOption() = run {
+    fun turnOnOption() = run {
         OPTIONS["ignore-case"] = true
         OPTIONS["no-color"] = true
     }
 
     @AfterTest
-    fun TurnOffOption() = run {
+    fun turnOffOption() = run {
         OPTIONS["ignore-case"] = false
         OPTIONS["no-color"] = false
     }
@@ -23,7 +23,7 @@ internal class TestIgnoreCaseOption {
     )
 
     @Test
-    fun testExamples1() = assertContentEquals(
+    fun testDeleteAdd() = assertContentEquals(
         listOf(
             "2d1",
             "< mv",
@@ -37,7 +37,7 @@ internal class TestIgnoreCaseOption {
     )
 
     @Test
-    fun testExamples2() = assertContentEquals(
+    fun testAddDelete() = assertContentEquals(
         listOf(
             "0a1",
             "> Kubuntu",
@@ -53,7 +53,7 @@ internal class TestIgnoreCaseOption {
     )
 
     @Test
-    fun testExamples3() = assertContentEquals(
+    fun testAddChangeDelete() = assertContentEquals(
         listOf(
             "0a1,2",
             "> e",
