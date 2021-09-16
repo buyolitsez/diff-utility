@@ -53,10 +53,27 @@ fun getDiffResult(text1: Array<String>, text2: Array<String>): ArrayList<String>
     return answerDiff
 }
 
+
 /** Print the diff of two texts */
 fun printDiffResult(text1: Array<String>, text2: Array<String>) {
     val answerDiff = getDiffResult(text1, text2)
     for (str in answerDiff) {
-        println(str)
+        if (str.first() == '>') {
+            outputStringWithColor(ANSI_GREEN, str)
+        } else if (str.first() == '<') {
+            outputStringWithColor(ANSI_RED, str)
+        } else if (str.first() == '-'){
+            outputStringWithColor(ANSI_YELLOW, str)
+        } else {
+            outputStringWithColor(ANSI_PURPLE, str)
+        }
+    }
+}
+
+fun outputStringWithColor(color: String, string: String) {
+    if (OPTIONS["no-color"] == true || OPTIONS["c"] == true) {
+        println(string)
+    } else {
+        println(color + string + ANSI_RESET)
     }
 }

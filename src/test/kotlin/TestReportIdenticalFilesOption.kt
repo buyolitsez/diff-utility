@@ -10,10 +10,16 @@ internal class TestReportIdenticalFilesOption {
     private val stream = ByteArrayOutputStream()
 
     @BeforeTest
-    fun TurnOnOption() = run { OPTIONS["report-identical-files"] = true }
+    fun TurnOnOption() = run {
+        OPTIONS["report-identical-files"] = true
+        OPTIONS["no-color"] = true
+    }
 
     @AfterTest
-    fun TurnOffOption() = run { OPTIONS["report-identical-files"] = false}
+    fun TurnOffOption() = run {
+        OPTIONS["report-identical-files"] = false
+        OPTIONS["no-color"] = false
+    }
 
     @BeforeTest
     fun setUp() {

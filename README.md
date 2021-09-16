@@ -45,6 +45,7 @@ The segments represent the number of lines in the first file and in the second f
 + ```-s, --report-identical-files``` report when two files are the same
 + ```-i, --ignore-case``` ignore case differences in file contents
 + ```--unidirectional-new``` treat absent first files as empty
++ ```-c, --no-color``` output diff result with no color
 ---
 ## Clarification
 
