@@ -26,6 +26,8 @@ Compare FILES line by line.
 
 Sometimes my diff program returns not the same as the diff utility, because they find different LCS.
 
+I'm totally recommend you to use the utility with option --unified
+
 ---
 
 ## Output
@@ -46,6 +48,7 @@ The segments represent the number of lines in the first file and in the second f
 + ```-i, --ignore-case``` ignore case differences in file contents
 + ```--unidirectional-new``` treat absent first files as empty
 + ```-c, --no-color``` output diff result with no color
++ ```-u, --unified``` output diff result with unified form.
 ---
 ## Clarification
 

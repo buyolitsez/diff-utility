@@ -4,7 +4,8 @@ val OPTIONS = mutableMapOf(
     "report-identical-files" to false, "s" to false,
     "ignore-case" to false, "i" to false,
     "unidirectional-new" to false,
-    "no-color" to false, "c" to false
+    "no-color" to false, "c" to false,
+    "unified" to false, "u" to false
 )
 
 var fileName1 = "src/files/text1.txt"
