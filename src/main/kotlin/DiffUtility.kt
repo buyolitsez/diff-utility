@@ -6,7 +6,7 @@ enum class SingleOperation {
 
 /**
  * Getting sequence of commands to convert text1 into text2
- * Return array of [SingleOperations]
+ * Return array of SingleOperations
  * Example
  * answer for text1 = {"a", "b"} and text2 = {"b", "c"}
  * is {REMOVE, KEEP, ADD}
@@ -19,7 +19,7 @@ fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<SingleOpe
     var it1 = 0 // iterator on the first text
     var it2 = 0 // iterator on the second text
     var common = 0 //iterator on the LCS
-    while((it1 < text1.size || it2 < text2.size) && common < lcs.size) {
+    while ((it1 < text1.size || it2 < text2.size) && common < lcs.size) {
         if (it1 < text1.size && it2 < text2.size && text1[it1] == text2[it2]) {
             commands.add(SingleOperation.KEEP)
             ++it1
@@ -48,11 +48,11 @@ fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<SingleOpe
 data class Command(var count: Int, val cmd: SingleOperation)
 
 /**
- * Compress [SingleOperations] to a short form [Commands]
+ * Compress SingleOperations to a short form Commands
  * Example: {ADD, ADD, REMOVE, ADD, REMOVE, REMOVE, REMOVE}
  * return {{2, ADD}, {1, REMOVE}, {1, ADD}, {3, REMOVE}}
  */
-fun compressToCommands(commands : Collection<SingleOperation>) : ArrayList<Command> {
+fun compressToCommands(commands: Collection<SingleOperation>): ArrayList<Command> {
     val commandsPairs = ArrayList<Command>()
     for (ch in commands) {
         if (commandsPairs.isNotEmpty() && commandsPairs.last().cmd == ch) {
@@ -65,7 +65,7 @@ fun compressToCommands(commands : Collection<SingleOperation>) : ArrayList<Comma
 }
 
 /** Return the diff function results */
-fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> {
+fun outCommands(text1: Array<String>, text2: Array<String>): ArrayList<String> {
     val commands = getCommands(text1, text2)
     val commandsPairs = compressToCommands(commands)
     var it1 = 0
@@ -82,7 +82,7 @@ fun outCommands(text1: Array<String>, text2: Array<String>) : ArrayList<String> 
         var add = 0
         var remove = 0
         var j = it
-        while(j < commandsPairs.size && commandsPairs[j].cmd != SingleOperation.KEEP) {
+        while (j < commandsPairs.size && commandsPairs[j].cmd != SingleOperation.KEEP) {
             if (commandsPairs[j].cmd == SingleOperation.REMOVE) {
                 remove += commandsPairs[j].count
             } else {

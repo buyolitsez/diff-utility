@@ -1,6 +1,5 @@
-
 /** Return segment as "l,r" if l != r and "l" otherwise */
-fun getPairAsString(leftBorder : Int, rightBorder : Int) : String {
+fun getPairAsString(leftBorder: Int, rightBorder: Int): String {
     if (leftBorder == rightBorder) {
         return "$leftBorder"
     }
@@ -8,12 +7,12 @@ fun getPairAsString(leftBorder : Int, rightBorder : Int) : String {
 }
 
 /** Return the whole command */
-fun getRangeAsString(l1 : Int, r1 : Int, cmd : Char, l2 : Int, r2 : Int) : String {
+fun getRangeAsString(l1: Int, r1: Int, cmd: Char, l2: Int, r2: Int): String {
     return "${getPairAsString(l1, r1)}$cmd${getPairAsString(l2, r2)}"
 }
 
 /** Return diff result [ArrayList] in correct format */
-fun getDiffResult(text1: Array<String>, text2: Array<String>) : ArrayList<String> {
+fun getDiffResult(text1: Array<String>, text2: Array<String>): ArrayList<String> {
     val diff = outCommands(text1, text2)
     val answerDiff = ArrayList<String>()
     if (OPTIONS["brief"] == true || OPTIONS["q"] == true) {
@@ -30,7 +29,7 @@ fun getDiffResult(text1: Array<String>, text2: Array<String>) : ArrayList<String
         }
     }
     for (str in diff) {
-        val parts : List<String> = str.split(',')
+        val parts: List<String> = str.split(',')
         val l1 = parts[0].toInt()
         val r1 = parts[1].toInt()
         val l2 = parts[3].toInt()

@@ -4,7 +4,7 @@ import java.util.*
 
 
 /** Read text from file [fileName] */
-fun readText(fileName : String): Array<String> {
+fun readText(fileName: String): Array<String> {
     if (!File(fileName).exists()) {
         if (OPTIONS["unidirectional-new"] == true) {
             OPTIONS["unidirectional-new"] = false
@@ -55,7 +55,7 @@ fun readArgs(args: Array<String>): Pair<String, String> {
 }
 
 /** Count len of the char [ch] on prefix in the string [str] */
-fun countOnPrefix(str: String, ch: Char) :Int {
+fun countOnPrefix(str: String, ch: Char): Int {
     var count = 0
     for (i in str) {
         if (i == ch) {

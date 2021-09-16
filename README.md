@@ -17,6 +17,7 @@ You can run the program with the command <br>
 <br> For example ```./gradlew run --args="-q src/files/text1.txt src/files/text2.txt"```
 All options should start with at least one '-', otherwise it's the name of the file. <br>
 If you don't write any file names, it would be "/src/text1.txt" and "/src/text2.txt" by default.
+
 ---
 
 ## DESCRIPTION
