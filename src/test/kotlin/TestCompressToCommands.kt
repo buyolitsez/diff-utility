@@ -28,6 +28,12 @@ internal class TestCompressToCommands {
     )
 
     @Test
+    fun testFiveAddCommand() = assertContentEquals(
+        listOf(Command(5, ADD)),
+        compressToCommands(listOf(ADD, ADD, ADD, ADD, ADD))
+    )
+
+    @Test
     fun testEachCommandOnce() = assertContentEquals(
         listOf(Command(1, ADD), Command(1, KEEP), Command(1, REMOVE)),
         compressToCommands(listOf(ADD, KEEP, REMOVE))
