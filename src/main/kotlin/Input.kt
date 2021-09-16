@@ -17,11 +17,6 @@ fun readText(fileName: String): Array<String> {
 
     val text = mutableListOf<String>()
     inputStream.bufferedReader().forEachLine { text.add(it) }
-    if (OPTIONS["ignore-case"] == true || OPTIONS["i"] == true) {
-        for (it in text.indices) {
-            text[it] = text[it].lowercase(Locale.getDefault())
-        }
-    }
     return text.toTypedArray()
 }
 

@@ -20,14 +20,14 @@ fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<SingleOpe
     var it2 = 0 // iterator on the second text
     var common = 0 //iterator on the LCS
     while ((it1 < text1.size || it2 < text2.size) && common < lcs.size) {
-        if (it1 < text1.size && it2 < text2.size && text1[it1] == text2[it2]) {
+        if (it1 < text1.size && it2 < text2.size && isStringsEqual(text1[it1], text2[it2])) {
             commands.add(SingleOperation.KEEP)
             ++it1
             ++it2
             ++common
             continue
         }
-        if (it1 == text1.size || text1[it1] == lcs[common]) {
+        if (it1 == text1.size || isStringsEqual(text1[it1], lcs[common])) {
             commands.add(SingleOperation.ADD)
             it2++
         } else {

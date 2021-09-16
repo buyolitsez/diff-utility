@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * Implementation of LCS(https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
  * Takes two arrays text1, text2 of strings and returns their longest common subsequence
@@ -8,10 +10,17 @@ enum class Direction {
     LEFT_UP, LEFT, UP
 }
 
+/** Compare two strings, case-sensitive or not(depending on option) */
+fun isStringsEqual(str1: String, str2: String): Boolean {
+    if (OPTIONS["ignore-case"] == true || OPTIONS["i"] == true) {
+        return str1.lowercase(Locale.getDefault()) == str2.lowercase(Locale.getDefault())
+    }
+    return str1 == str2
+}
+
 /** Return the largest common subsequence of two texts [text1] [text2] */
 
 fun lcs(text1: Array<String>, text2: Array<String>): Array<String> {
-
     val text1Size = text1.size
     val text2Size = text2.size
     val lcsOnPrefixes = Array(text1Size + 1) { Array(text2Size + 1) { 0 } }
@@ -19,7 +28,7 @@ fun lcs(text1: Array<String>, text2: Array<String>): Array<String> {
         Array(text1Size + 1) { Array(text2Size + 1) { Direction.LEFT_UP } } //needs to return the answer array of strings (0 for left + up, -1 for left, 1 for up)
     for (len1 in 1..text1Size) {
         for (len2 in 1..text2Size) {
-            if (text1[len1 - 1] == text2[len2 - 1]) {
+            if (isStringsEqual(text1[len1 - 1], text2[len2 - 1])) {
                 lcsOnPrefixes[len1][len2] = lcsOnPrefixes[len1 - 1][len2 - 1] + 1
                 directionOnMatrix[len1][len2] = Direction.LEFT_UP
             } else {
