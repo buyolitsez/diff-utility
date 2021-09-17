@@ -1,6 +1,5 @@
 import java.io.File
 import java.io.InputStream
-import java.util.*
 
 
 /** Read text from file [fileName] */
