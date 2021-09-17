@@ -50,6 +50,9 @@ The segments represent the number of lines in the first file and in the second f
 + ```-c, --no-color``` output diff result with no color
 + ```-u[=N], -U[=N], --unified[=N]``` output NUM (default 3) lines of unified context
 + ```--no-info``` do not output path of files and timestamp(only with option ```--unified```)
+
+You can change default value of options in file [settings](src/settings)
+
 ---
 ## Clarification
 

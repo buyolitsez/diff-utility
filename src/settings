@@ -1,0 +1,12 @@
+brief = 0
+report-identical-files = 0
+ignore-case = 0
+unidirectional-new = 0
+no-color = 0
+unified = 0
+no-info = 0
+
+unified_num = 3
+
+file-name1 = src/files/text1.txt
+file-name2 = src/files/text2.txt
