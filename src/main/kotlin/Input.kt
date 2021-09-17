@@ -27,7 +27,7 @@ fun changeUnifiedConstant(arg : String) : Boolean {
         OPTIONS["unified"] = true
         val n = arg.substringAfter('=').toIntOrNull()
         if (n == null) {
-            throwError("Unkwon number $n in $arg")
+            throwError("Unknown number $n in $arg")
         } else {
             UNIFIED_N = n
             return true
@@ -40,7 +40,7 @@ fun changeUnifiedConstant(arg : String) : Boolean {
 fun readArgs(args: Array<String>): Pair<String, String> {
     var changedName1 = false
     var changedName2 = false
-    for (arg in args) {
+    args.forEach { arg ->
         if (arg[0] == '-') {
             if (!changeUnifiedConstant(arg)) {
                 if (!OPTIONS.containsKey(convertOptionToString(arg))) {
@@ -69,8 +69,8 @@ fun readArgs(args: Array<String>): Pair<String, String> {
 /** Count len of the char [ch] on prefix in the string [str] */
 fun countOnPrefix(str: String, ch: Char): Int {
     var count = 0
-    for (i in str) {
-        if (i == ch) {
+    for (it in str) {
+        if (it == ch) {
             ++count
         } else {
             break

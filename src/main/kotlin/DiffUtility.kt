@@ -54,7 +54,7 @@ data class Command(var count: Int, val cmd: SingleOperation)
  */
 fun compressToCommands(commands: Collection<SingleOperation>): ArrayList<Command> {
     val commandsPairs = ArrayList<Command>()
-    for (ch in commands) {
+    commands.forEach { ch ->
         if (commandsPairs.isNotEmpty() && commandsPairs.last().cmd == ch) {
             commandsPairs[commandsPairs.size - 1].count++
         } else {

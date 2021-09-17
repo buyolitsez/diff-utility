@@ -32,7 +32,7 @@ fun getDiffResult(text1: Array<String>, text2: Array<String>): ArrayList<String>
             return answerDiff
         }
     }
-    for (str in diff) {
+    diff.forEach { str ->
         val parts: List<String> = str.split(',')
         val l1 = parts[0].toInt()
         val r1 = parts[1].toInt()
@@ -65,7 +65,7 @@ fun printDiffResult(text1: Array<String>, text2: Array<String>) {
         return
     }
     val answerDiff = getDiffResult(text1, text2)
-    for (str in answerDiff) {
+    answerDiff.forEach { str ->
         if (str.first() == '>') {
             outputStringWithColor(ANSI_GREEN, str)
         } else if (str.first() == '<') {
