@@ -27,7 +27,7 @@ fun changeUnifiedConstant(arg : String) : Boolean {
         OPTIONS["unified"] = true
         val n = arg.substringAfter('=').toIntOrNull()
         if (n == null) {
-            throwError("Unkwon number $n in $arg")
+            throwError("Unknown number $n in $arg")
         } else {
             UNIFIED_N = n
             return true
