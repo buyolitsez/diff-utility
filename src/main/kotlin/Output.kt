@@ -80,7 +80,7 @@ fun printDiffResult(text1: Array<String>, text2: Array<String>) {
 
 fun isAllKeepOnSegment(l : Int, r : Int, diff : Array<SingleOperation>) : Boolean {
     for (i in l..r) {
-        if (r < diff.size && diff[i] != SingleOperation.KEEP) {
+        if (i < diff.size && diff[i] != SingleOperation.KEEP) {
             return false
         }
     }
