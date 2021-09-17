@@ -20,6 +20,22 @@ fun readText(fileName: String): Array<String> {
     return text.toTypedArray()
 }
 
+fun changeUnifiedConstant(arg : String) : Boolean {
+    if (convertOptionToString(arg).startsWith("U=") ||
+        convertOptionToString(arg).startsWith("u=") ||
+        convertOptionToString(arg).startsWith("unified=")) {
+
+        OPTIONS["unified"] = true
+        val n = arg.substringAfter('=').toIntOrNull()
+        if (n == null) {
+            throwError("Unkwon number $n in $arg")
+        } else {
+            UNIFIED_N = n
+            return true
+        }
+    }
+    return false
+}
 
 /** Read text from run args [args] */
 fun readArgs(args: Array<String>): Pair<String, String> {
@@ -27,10 +43,12 @@ fun readArgs(args: Array<String>): Pair<String, String> {
     var changedName2 = false
     for (arg in args) {
         if (arg[0] == '-') {
-            if (!OPTIONS.containsKey(convertOptionToString(arg))) {
-                throwError("Unknown option $arg")
+            if (!changeUnifiedConstant(arg)) {
+                if (!OPTIONS.containsKey(convertOptionToString(arg))) {
+                    throwError("Unknown option $arg")
+                }
+                OPTIONS[convertOptionToString(arg)] = true
             }
-            OPTIONS[convertOptionToString(arg)] = true
         } else {
             if (!changedName1) {
                 fileName1 = arg
@@ -39,7 +57,6 @@ fun readArgs(args: Array<String>): Pair<String, String> {
                 fileName2 = arg
                 changedName2 = true
             } else {
-
                 throwError("Too many files to diff")
             }
         }

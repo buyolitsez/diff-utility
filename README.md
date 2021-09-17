@@ -48,7 +48,7 @@ The segments represent the number of lines in the first file and in the second f
 + ```-i, --ignore-case``` ignore case differences in file contents
 + ```--unidirectional-new``` treat absent first files as empty
 + ```-c, --no-color``` output diff result with no color
-+ ```-u, --unified``` output diff result with unified form.
++ ```-u[=N], -U[=N], --unified[=N]``` output NUM (default 3) lines of unified context
 ---
 ## Clarification
 

@@ -8,6 +8,7 @@ val OPTIONS = mutableMapOf(
     "unified" to false, "u" to false
 )
 
+var UNIFIED_N = 3
 var fileName1 = "src/files/text1.txt"
 var fileName2 = "src/files/text2.txt"
 

@@ -78,23 +78,75 @@ fun printDiffResult(text1: Array<String>, text2: Array<String>) {
     }
 }
 
+fun isAllKeepOnSegment(l : Int, r : Int, diff : Array<SingleOperation>) : Boolean {
+    for (i in l..r) {
+        if (r < diff.size && diff[i] != SingleOperation.KEEP) {
+            return false
+        }
+    }
+    return true
+}
+
 /** Print the diff of two texts with unified format */
 fun printDiffResultUnified(text1: Array<String>, text2: Array<String>) {
     outputStringWithColor(ANSI_RED, "--- $fileName1 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
     outputStringWithColor(ANSI_GREEN, "+++ $fileName2 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
-    val diff = getCommands(text1, text2)
+    val diff = getCommands(text1, text2).toTypedArray()
     var it1 = 0 // iterator on first text
     var it2 = 0 // iterator on second text
-    for (cmd in diff) {
-        when (cmd) {
-            SingleOperation.ADD -> outputStringWithColor(ANSI_GREEN, "+" + text2[it2++])
-            SingleOperation.REMOVE -> outputStringWithColor(ANSI_RED, "-" + text1[it1++])
-            else -> {
-                println(" " + text1[it1])
-                it1++
-                it2++
+    var it3 = 0 // iterator on commands in diff
+    while(it3 < diff.size) {
+        //значит команды только KEEP, иду дальше
+        if (isAllKeepOnSegment(it3, it3 + UNIFIED_N, diff)) {
+            ++it1
+            ++it2
+            it3++
+            continue
+        }
+        var countRemove = 0
+        var countKeep = 0
+        var countAdd = 0
+        // вывожу начиная с it3
+        var r = it3 // до куда, включительно
+        //ищу префикс длины <=UNIFIED_N не измененных строк
+        while(diff[r] == SingleOperation.KEEP) {
+            ++countKeep
+            r++
+        }
+        var countKeepRow = 0
+        while(r < diff.size) {
+            if (diff[r] == SingleOperation.KEEP) {
+                if (countKeepRow == UNIFIED_N && isAllKeepOnSegment(r, r + UNIFIED_N - 1, diff)) {
+                    --r
+                    break
+                }
+                ++countKeep
+                ++countKeepRow
+            } else {
+                when(diff[r]) {
+                    SingleOperation.ADD -> countAdd++
+                    else -> countRemove++
+                }
+                countKeepRow = 0
+            }
+            ++r
+        }
+        if (r == diff.size) {
+            --r
+        }
+        outputStringWithColor(ANSI_PURPLE, "@@ -${it1 + 1},${countKeep + countRemove} +${it2 + 1},${countKeep + countAdd} @@")
+        for (iterator in it3..r) {
+            when (diff[iterator]) {
+                SingleOperation.ADD -> outputStringWithColor(ANSI_GREEN, "+" + text2[it2++])
+                SingleOperation.REMOVE -> outputStringWithColor(ANSI_RED, "-" + text1[it1++])
+                else -> {
+                    println(" " + text1[it1])
+                    it1++
+                    it2++
+                }
             }
         }
+        it3 = r + 1
     }
 }
 
