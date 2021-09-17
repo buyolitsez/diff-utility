@@ -89,8 +89,10 @@ fun isAllKeepOnSegment(l : Int, r : Int, diff : Array<SingleOperation>) : Boolea
 
 /** Print the diff of two texts with unified format */
 fun printDiffResultUnified(text1: Array<String>, text2: Array<String>) {
-    outputStringWithColor(ANSI_RED, "--- $fileName1 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
-    outputStringWithColor(ANSI_GREEN, "+++ $fileName2 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
+    if (OPTIONS["no-info"] == false) {
+        outputStringWithColor(ANSI_RED, "--- $fileName1 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
+        outputStringWithColor(ANSI_GREEN, "+++ $fileName2 " + SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date()))
+    }
     val diff = getCommands(text1, text2).toTypedArray()
     var it1 = 0 // iterator on first text
     var it2 = 0 // iterator on second text

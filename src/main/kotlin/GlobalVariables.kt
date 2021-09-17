@@ -5,7 +5,8 @@ val OPTIONS = mutableMapOf(
     "ignore-case" to false, "i" to false,
     "unidirectional-new" to false,
     "no-color" to false, "c" to false,
-    "unified" to false, "u" to false
+    "unified" to false, "u" to false,
+    "no-info" to false
 )
 
 var UNIFIED_N = 3
