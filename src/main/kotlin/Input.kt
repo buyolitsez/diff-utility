@@ -19,10 +19,11 @@ fun readText(fileName: String): Array<String> {
     return text.toTypedArray()
 }
 
-fun changeUnifiedConstant(arg : String) : Boolean {
+fun changeUnifiedConstant(arg: String): Boolean {
     if (convertOptionToString(arg).startsWith("U=") ||
         convertOptionToString(arg).startsWith("u=") ||
-        convertOptionToString(arg).startsWith("unified=")) {
+        convertOptionToString(arg).startsWith("unified=")
+    ) {
 
         OPTIONS["unified"] = true
         val n = arg.substringAfter('=').toIntOrNull()
@@ -68,15 +69,7 @@ fun readArgs(args: Array<String>): Pair<String, String> {
 
 /** Count len of the char [ch] on prefix in the string [str] */
 fun countOnPrefix(str: String, ch: Char): Int {
-    var count = 0
-    for (it in str) {
-        if (it == ch) {
-            ++count
-        } else {
-            break
-        }
-    }
-    return count
+    return str.takeWhile { it == ch }.length
 }
 
 /** Delete the symbol '-' from the beginning of the string [option] */
