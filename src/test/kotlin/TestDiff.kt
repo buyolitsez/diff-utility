@@ -67,10 +67,10 @@ internal class TestDiff {
 
     @Test
     fun testBigText() = assertContentEquals(
-        readText("src/files/smallTest15/myDiff.txt").toList(),
+        readText("files/smallTest15/myDiff.txt").toList(),
         getDiffResult(
-            readText("src/files/smallTest15/smallText1.txt"),
-            readText("src/files/smallTest15/smallText2.txt")
+            readText("files/smallTest15/smallText1.txt"),
+            readText("files/smallTest15/smallText2.txt")
         )
     )
 

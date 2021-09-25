@@ -5,12 +5,16 @@ enum class SingleOperation {
 }
 
 /**
- * Getting sequence of commands to convert text1 into text2
- * Return array of SingleOperations
+ * Getting sequence of commands to convert one text to another
+ *
  * Example
+ *
  * answer for text1 = {"a", "b"} and text2 = {"b", "c"}
  * is {REMOVE, KEEP, ADD}
- */
+ * @param[text1] -- source, text to convert from
+ * @param[text2] -- dist, text to convert to
+ * @return list of SingleOperation
+ * */
 
 fun getCommands(text1: Array<String>, text2: Array<String>): ArrayList<SingleOperation> {
     val lcs = lcs(text1, text2)

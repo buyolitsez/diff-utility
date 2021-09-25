@@ -8,5 +8,5 @@ no-info = 0
 
 unified_num = 3
 
-file-name1 = src/files/text1.txt
-file-name2 = src/files/text2.txt
+file-name1 = files/text1.txt
+file-name2 = files/text2.txt
