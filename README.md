@@ -14,7 +14,7 @@ You can run the program with the command <br>
 ./gradlew run --args="[OPTIONS] FILES"
 ```
 
-For example ```./gradlew run --args="-q src/files/text1.txt src/files/text2.txt"```
+For example ```./gradlew run --args="-q files/text1.txt files/text2.txt"```
 All options should start with at least one '-', otherwise it's the name of the file. <br>
 If you don't write any file names, it would be "/src/text1.txt" and "/src/text2.txt" by default.
 
@@ -66,8 +66,8 @@ But the count of line in each file equals to 10^4 is still working. But with cou
 
 ## Testing
 
-There is some testcases in ```src/test/kotlin.Test.kt``` for some functions. 
+There is some testcases [here](src/test/kotlin) for some functions. 
 
-And there is some testcases in ```src/test/files``` to check the whole program.
+And there is some testcases [here](files) to check the whole program.
 
 ---
